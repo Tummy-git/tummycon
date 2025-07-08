@@ -88,6 +88,7 @@ ClientSimStorage/
 /Assets/Cybernetic Weapons/*
 
 # Bakery
+/[Bb]akery/
 /bakery-compiled.zip
 /bakery-compiled-dver.txt
 /bakery-csharp.zip
