@@ -12,9 +12,6 @@
     "com.vrcstuff.controls": {
       "version": "0.2.4"
     },
-    "com.z3y.shaders": {
-      "version": "3.3.14"
-    },
     "one.razgriz.rats": {
       "version": "1.2.3"
     },
@@ -29,6 +26,12 @@
     },
     "dev.architech.protv": {
       "version": "3.0.0-beta.28"
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0"
+    },
+    "com.z3y.graphlit": {
+      "version": "2.2.3"
     }
   },
   "locked": {
@@ -63,10 +66,6 @@
         "com.vrchat.worlds": "^3.7.5"
       }
     },
-    "com.z3y.shaders": {
-      "version": "3.3.14",
-      "dependencies": {}
-    },
     "one.razgriz.rats": {
       "version": "1.2.3",
       "dependencies": {
@@ -99,6 +98,14 @@
       "dependencies": {
         "com.vrchat.worlds": "^3.4"
       }
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0",
+      "dependencies": {}
+    },
+    "com.z3y.graphlit": {
+      "version": "2.2.3",
+      "dependencies": {}
     }
   }
 }
