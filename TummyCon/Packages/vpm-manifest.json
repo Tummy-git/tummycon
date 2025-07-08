@@ -1,0 +1,88 @@
+{
+  "dependencies": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.8.2"
+    },
+    "red.sim.lightvolumes": {
+      "version": "2.0.0-dev.7"
+    },
+    "com.vrcstuff.controls": {
+      "version": "0.2.4"
+    },
+    "com.z3y.shaders": {
+      "version": "3.3.14"
+    },
+    "one.razgriz.rats": {
+      "version": "1.2.3"
+    },
+    "com.varneon.asset-move-prompt": {
+      "version": "0.1.2"
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "3.2.1"
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.3.8"
+    }
+  },
+  "locked": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.8.2",
+      "dependencies": {
+        "com.vrchat.base": "3.8.2"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.8.2",
+      "dependencies": {}
+    },
+    "red.sim.lightvolumes": {
+      "version": "2.0.0-dev.7",
+      "dependencies": {}
+    },
+    "com.vrcstuff.controls": {
+      "version": "0.2.4",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.7.5",
+        "com.vrcstuff.common": "0.2.4"
+      }
+    },
+    "com.vrcstuff.common": {
+      "version": "0.2.4",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.7.5"
+      }
+    },
+    "com.z3y.shaders": {
+      "version": "3.3.14",
+      "dependencies": {}
+    },
+    "one.razgriz.rats": {
+      "version": "1.2.3",
+      "dependencies": {
+        "com.vrchat.base": "^3.4.0"
+      }
+    },
+    "com.varneon.asset-move-prompt": {
+      "version": "0.1.2",
+      "dependencies": {}
+    },
+    "dev.onevr.vrworldtoolkit": {
+      "version": "3.2.1",
+      "dependencies": {}
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.3.8",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.5.0"
+      }
+    }
+  }
+}

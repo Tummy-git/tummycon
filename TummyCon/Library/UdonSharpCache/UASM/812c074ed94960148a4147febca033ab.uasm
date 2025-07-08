@@ -1,0 +1,2303 @@
+.data_start
+    .export wheel
+    .export grabTarget
+    .export grabResetTarget
+    .export audioSourceVolume
+    .export crankAudioClip
+    .export myAudioSource
+    .export sharedAudioSource
+    .export lowestPitch
+    .export highestPitch
+    .export soundVolume
+    .export clampRotation
+    .export defaultRotation
+    .export minimumRotation
+    .export maximumRotation
+    .export wheelAxis
+    .export desktopLeftButton
+    .export desktopRightButton
+    .export desktopSpeed
+    .export udonBehaviourToUpdate
+    .export udonBehaviourAngleVariableName
+    .export udonBehaviourFloatVariableName
+    .export udonBehaviourOnDropEventName
+    .export udonBehaviourOnCrankEventName
+    .export actAsLever
+    .export returnToDefaultPositionOnDrop
+    .export wheelLeverAnimationCurve
+    .export wheelLeverSnapAudioClip
+    .export udonBehaviourLeverIntVariableName
+    .export udonBehaviourLeverBoolVariableName
+    .export handleIsGrabbed
+    .export _currentWheelAngle
+    .sync _currentWheelAngle, none
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    wheel: %UnityEngineGameObject, null
+    grabTarget: %UnityEngineGameObject, null
+    grabResetTarget: %UnityEngineGameObject, null
+    audioSourceVolume: %SystemSingle, null
+    crankAudioClip: %UnityEngineAudioClip, null
+    myAudioSource: %UnityEngineAudioSource, null
+    sharedAudioSource: %UnityEngineAudioSource, null
+    lowestPitch: %SystemSingle, null
+    highestPitch: %SystemSingle, null
+    soundVolume: %SystemSingle, null
+    clampRotation: %SystemBoolean, null
+    defaultRotation: %SystemSingle, null
+    minimumRotation: %SystemSingle, null
+    maximumRotation: %SystemSingle, null
+    wheelAxis: %SystemInt32, null
+    desktopLeftButton: %UnityEngineKeyCode, null
+    desktopRightButton: %UnityEngineKeyCode, null
+    desktopSpeed: %SystemSingle, null
+    udonBehaviourToUpdate: %VRCUdonUdonBehaviour, null
+    udonBehaviourAngleVariableName: %SystemString, null
+    udonBehaviourFloatVariableName: %SystemString, null
+    udonBehaviourOnDropEventName: %SystemString, null
+    udonBehaviourOnCrankEventName: %SystemString, null
+    actAsLever: %SystemBoolean, null
+    returnToDefaultPositionOnDrop: %SystemBoolean, null
+    wheelLeverAnimationCurve: %UnityEngineAnimationCurve, null
+    wheelLeverSnapAudioClip: %UnityEngineAudioClip, null
+    udonBehaviourLeverIntVariableName: %SystemString, null
+    udonBehaviourLeverBoolVariableName: %SystemString, null
+    handleIsGrabbed: %SystemBoolean, null
+    hasLastWheelHandleDir: %SystemBoolean, null
+    _currentWheelAngle: %SystemSingle, null
+    lastWheelDir: %SystemSingle, null
+    lastClickTime: %SystemSingle, null
+    currentHand: %VRCSDKBaseVRC_PickupPickupHand, null
+    puttSync: %VRCUdonUdonBehaviour, null
+    wheelAnimationTime: %SystemSingle, null
+    wheelAnimationStartRotation: %UnityEngineQuaternion, null
+    wheelAnimationEndRotation: %UnityEngineQuaternion, null
+    wheelIsCurrentlyFollowingSync: %SystemBoolean, null
+    grabTargetRB: %UnityEngineRigidbody, null
+    __0_get_WheelIsAnimating__ret: %SystemBoolean, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __0_isSnapping__param: %SystemBoolean, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0__intnlparam: %VRCUdonUdonBehaviour, null
+    __1__intnlparam: %UnityEngineComponent, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemInt32_4: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __const_UnityEngineVector3_0: %UnityEngineVector3, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_SystemSingle_3: %SystemSingle, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __const_SystemSingle_4: %SystemSingle, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemSingle_5: %SystemSingle, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_VRCUdonCommonInterfacesNetworkEventTarget_0: %VRCUdonCommonInterfacesNetworkEventTarget, null
+    __const_SystemString_1: %SystemString, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemString_2: %SystemString, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __0___0_AngleDiff__ret: %SystemSingle, null
+    __0_angle__param: %SystemSingle, null
+    __const_SystemSingle_6: %SystemSingle, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __2__intnlparam: %SystemBoolean, null
+    __const_SystemSingle_7: %SystemSingle, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_4: %VRCUdonUdonBehaviour, this
+    __const_SystemString_6: %SystemString, null
+    __this_VRCUdonUdonBehaviour_5: %VRCUdonUdonBehaviour, this
+    __const_SystemString_7: %SystemString, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __const_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __const_SystemSingle_8: %SystemSingle, null
+    __this_VRCUdonUdonBehaviour_6: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __3__intnlparam: %VRCUdonUdonBehaviour, null
+    __4__intnlparam: %SystemString, null
+    __5__intnlparam: %SystemString, null
+    __this_VRCUdonUdonBehaviour_7: %VRCUdonUdonBehaviour, this
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __6__intnlparam: %VRCSDKBaseVRCPlayerApi, null
+    __7__intnlparam: %UnityEngineGameObject, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __const_VRCSDKBaseVRC_PickupPickupHand_0: %VRCSDKBaseVRC_PickupPickupHand, null
+    __const_VRCSDKBaseVRC_PickupPickupHand_1: %VRCSDKBaseVRC_PickupPickupHand, null
+    __const_VRCSDKBaseVRC_PickupPickupHand_2: %VRCSDKBaseVRC_PickupPickupHand, null
+    __this_VRCUdonUdonBehaviour_8: %VRCUdonUdonBehaviour, this
+    __const_SystemString_10: %SystemString, null
+    __this_VRCUdonUdonBehaviour_9: %VRCUdonUdonBehaviour, this
+    __this_VRCUdonUdonBehaviour_10: %VRCUdonUdonBehaviour, this
+    __const_SystemString_11: %SystemString, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_11: %VRCUdonUdonBehaviour, this
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __8__intnlparam: %UnityEngineAudioSource, null
+    __9__intnlparam: %UnityEngineAudioClip, null
+    __10__intnlparam: %UnityEngineVector3, null
+    __11__intnlparam: %SystemSingle, null
+    __12__intnlparam: %SystemSingle, null
+    __gintnl_SystemUInt32_20: %SystemUInt32, null
+    __gintnl_SystemUInt32_21: %SystemUInt32, null
+    __13__intnlparam: %VRCSDK3ComponentsVRCPickup, null
+    __14__intnlparam: %UnityEngineComponent, null
+    __gintnl_SystemUInt32_22: %SystemUInt32, null
+    __gintnl_SystemUInt32_23: %SystemUInt32, null
+    __gintnl_SystemUInt32_24: %SystemUInt32, null
+    __gintnl_SystemUInt32_25: %SystemUInt32, null
+    __const_SystemSingle_9: %SystemSingle, null
+    __const_SystemSingle_10: %SystemSingle, null
+    __gintnl_SystemUInt32_26: %SystemUInt32, null
+    __gintnl_SystemUInt32_27: %SystemUInt32, null
+    __const_SystemType_1: %SystemType, null
+    __const_SystemInt64_0: %SystemInt64, null
+    __const_SystemString_12: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __gintnl_SystemObjectArray_0: %SystemObjectArray, null
+    __const_SystemInt32_5: %SystemInt32, null
+    __gintnl_SystemUInt32_28: %SystemUInt32, null
+    __15__intnlparam: %SystemString, null
+    __16__intnlparam: %VRCUdonUdonBehaviour, null
+    __const_SystemInt32_6: %SystemInt32, null
+    __const_SystemString_14: %SystemString, null
+    __gintnl_SystemUInt32_29: %SystemUInt32, null
+    __gintnl_SystemUInt32_30: %SystemUInt32, null
+    __17__intnlparam: %SystemString, null
+    __18__intnlparam: %SystemString, null
+    __19__intnlparam: %SystemString, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemType_2: %SystemType, null
+    __const_SystemString_16: %SystemString, null
+    __const_SystemString_17: %SystemString, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_UnityEngineTransform_0: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemString_5: %SystemString, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemString_6: %SystemString, null
+    __intnl_UnityEngineTransform_1: %UnityEngineTransform, null
+    __lcl_wheelMidpoint_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_UnityEngineTransform_2: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_UnityEngineTransform_3: %UnityEngineTransform, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_UnityEngineQuaternion_1: %UnityEngineQuaternion, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_UnityEngineTransform_4: %UnityEngineTransform, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_UnityEngineQuaternion_2: %UnityEngineQuaternion, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_UnityEngineTransform_5: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_6: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_7: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_8: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_3: %UnityEngineQuaternion, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __lcl_lerpProgress_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_7: %SystemSingle, null
+    __intnl_SystemSingle_8: %SystemSingle, null
+    __intnl_UnityEngineTransform_9: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_4: %UnityEngineQuaternion, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __lcl_oldReelAngle_SystemSingle_0: %SystemSingle, null
+    __lcl_deltaAngle_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __lcl_inverseRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineQuaternion_5: %UnityEngineQuaternion, null
+    __lcl_wheelHandleDelta_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_10: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_2: %UnityEngineVector3, null
+    __intnl_UnityEngineTransform_11: %UnityEngineTransform, null
+    __intnl_UnityEngineVector3_3: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_4: %UnityEngineVector3, null
+    __lcl_wheelHandleDir_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_9: %SystemSingle, null
+    __intnl_SystemSingle_10: %SystemSingle, null
+    __intnl_SystemSingle_11: %SystemSingle, null
+    __intnl_SystemSingle_12: %SystemSingle, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __intnl_SystemSingle_13: %SystemSingle, null
+    __intnl_SystemSingle_14: %SystemSingle, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemSingle_15: %SystemSingle, null
+    __intnl_SystemSingle_16: %SystemSingle, null
+    __lcl_hapticsInterval_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_UnityEngineObject_4: %UnityEngineObject, null
+    __intnl_UnityEngineObject_5: %UnityEngineObject, null
+    __lcl_now_SystemSingle_0: %SystemSingle, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __intnl_SystemString_7: %SystemString, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __intnl_SystemString_8: %SystemString, null
+    __intnl_UnityEngineQuaternion_6: %UnityEngineQuaternion, null
+    __intnl_UnityEngineTransform_12: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_7: %UnityEngineQuaternion, null
+    __lcl_targetRotation_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __lcl_newRotation_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineTransform_13: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_8: %UnityEngineQuaternion, null
+    __intnl_SystemSingle_17: %SystemSingle, null
+    __intnl_SystemSingle_18: %SystemSingle, null
+    __intnl_SystemSingle_19: %SystemSingle, null
+    __intnl_UnityEngineTransform_14: %UnityEngineTransform, null
+    __intnl_UnityEngineQuaternion_9: %UnityEngineQuaternion, null
+    __intnl_SystemSingle_20: %SystemSingle, null
+    __intnl_SystemBoolean_23: %SystemBoolean, null
+    __intnl_SystemBoolean_24: %SystemBoolean, null
+    __intnl_SystemBoolean_25: %SystemBoolean, null
+    __intnl_UnityEngineTransform_15: %UnityEngineTransform, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineObject_6: %UnityEngineObject, null
+    __intnl_UnityEngineObject_7: %UnityEngineObject, null
+    __intnl_SystemBoolean_26: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_2: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __lcl_leftPickup_VRCSDK3ComponentsVRCPickup_0: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_VRCSDKBaseVRCPlayerApi_3: %VRCSDKBaseVRCPlayerApi, null
+    __lcl_rightPickup_VRCSDK3ComponentsVRCPickup_0: %VRCSDK3ComponentsVRCPickup, null
+    __intnl_VRCSDKBaseVRCPlayerApi_4: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_27: %SystemBoolean, null
+    __intnl_UnityEngineObject_8: %UnityEngineObject, null
+    __intnl_UnityEngineObject_9: %UnityEngineObject, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_UnityEngineObject_10: %UnityEngineObject, null
+    __intnl_UnityEngineObject_11: %UnityEngineObject, null
+    __intnl_SystemBoolean_28: %SystemBoolean, null
+    __intnl_UnityEngineObject_12: %UnityEngineObject, null
+    __intnl_UnityEngineObject_13: %UnityEngineObject, null
+    __intnl_UnityEngineGameObject_2: %UnityEngineGameObject, null
+    __intnl_UnityEngineObject_14: %UnityEngineObject, null
+    __intnl_UnityEngineObject_15: %UnityEngineObject, null
+    __intnl_VRCSDKBaseVRCPlayerApi_5: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_29: %SystemBoolean, null
+    __lcl_wheelMidpoint_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_21: %SystemSingle, null
+    __intnl_UnityEngineTransform_16: %UnityEngineTransform, null
+    __intnl_SystemBoolean_30: %SystemBoolean, null
+    __intnl_SystemSingle_22: %SystemSingle, null
+    __intnl_SystemBoolean_31: %SystemBoolean, null
+    __intnl_SystemSingle_23: %SystemSingle, null
+    __intnl_SystemBoolean_32: %SystemBoolean, null
+    __intnl_SystemSingle_24: %SystemSingle, null
+    __intnl_UnityEngineObject_16: %UnityEngineObject, null
+    __intnl_UnityEngineObject_17: %UnityEngineObject, null
+    __intnl_SystemBoolean_33: %SystemBoolean, null
+    __intnl_UnityEngineVector3_5: %UnityEngineVector3, null
+    __intnl_UnityEngineObject_18: %UnityEngineObject, null
+    __intnl_UnityEngineObject_19: %UnityEngineObject, null
+    __intnl_SystemBoolean_34: %SystemBoolean, null
+    __intnl_SystemBoolean_35: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_6: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_VRCSDKBaseVRCPlayerApi_7: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_36: %SystemBoolean, null
+    __intnl_UnityEngineTransform_17: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_18: %UnityEngineTransform, null
+    __intnl_UnityEngineTransform_19: %UnityEngineTransform, null
+    __intnl_SystemBoolean_37: %SystemBoolean, null
+    __intnl_SystemSingle_25: %SystemSingle, null
+    __intnl_SystemSingle_26: %SystemSingle, null
+    __intnl_SystemSingle_27: %SystemSingle, null
+    __intnl_SystemSingle_28: %SystemSingle, null
+    __intnl_UnityEngineObject_20: %UnityEngineObject, null
+    __intnl_UnityEngineObject_21: %UnityEngineObject, null
+    __intnl_SystemBoolean_38: %SystemBoolean, null
+    __intnl_UnityEngineObject_22: %UnityEngineObject, null
+    __intnl_UnityEngineObject_23: %UnityEngineObject, null
+    __intnl_SystemBoolean_39: %SystemBoolean, null
+    __intnl_UnityEngineObject_24: %UnityEngineObject, null
+    __intnl_UnityEngineObject_25: %UnityEngineObject, null
+    __intnl_SystemBoolean_40: %SystemBoolean, null
+    __intnl_UnityEngineVector3_6: %UnityEngineVector3, null
+    __intnl_UnityEngineObject_26: %UnityEngineObject, null
+    __intnl_UnityEngineObject_27: %UnityEngineObject, null
+    __intnl_SystemBoolean_41: %SystemBoolean, null
+    __lcl_udonBehaviours_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __lcl_targetID_SystemInt64_0: %SystemInt64, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemBoolean_42: %SystemBoolean, null
+    __lcl_behaviour_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemType_0: %SystemType, null
+    __intnl_SystemType_1: %SystemType, null
+    __intnl_SystemBoolean_43: %SystemBoolean, null
+    __lcl_idValue_SystemObject_0: %SystemObject, null
+    __intnl_SystemBoolean_44: %SystemBoolean, null
+    __intnl_SystemInt64_0: %SystemInt64, null
+    __intnl_UnityEngineComponent_0: %UnityEngineComponent, null
+    __intnl_VRCSDKBaseVRCPlayerApi_8: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineObject_28: %UnityEngineObject, null
+    __intnl_UnityEngineObject_29: %UnityEngineObject, null
+    __intnl_SystemBoolean_45: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_3: %UnityEngineGameObject, null
+    __intnl_SystemString_9: %SystemString, null
+    __intnl_SystemString_10: %SystemString, null
+    __intnl_UnityEngineGameObject_4: %UnityEngineGameObject, null
+    __intnl_UnityEngineObject_30: %UnityEngineObject, null
+    __intnl_SystemBoolean_46: %SystemBoolean, null
+    __intnl_SystemBoolean_47: %SystemBoolean, null
+    __intnl_UnityEngineObject_31: %UnityEngineObject, null
+    __intnl_UnityEngineObject_32: %UnityEngineObject, null
+    __intnl_SystemBoolean_48: %SystemBoolean, null
+    __intnl_UnityEngineObject_33: %UnityEngineObject, null
+    __intnl_UnityEngineObject_34: %UnityEngineObject, null
+    __intnl_SystemBoolean_49: %SystemBoolean, null
+    __intnl_SystemBoolean_50: %SystemBoolean, null
+    __intnl_UnityEngineTransform_20: %UnityEngineTransform, null
+    __intnl_UnityEngineGameObject_5: %UnityEngineGameObject, null
+    __intnl_SystemString_11: %SystemString, null
+    __intnl_SystemSingle_29: %SystemSingle, null
+    __intnl_UnityEngineComponent_1: %UnityEngineComponent, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_SystemString_12: %SystemString, null
+.data_end
+.code_start
+    .export get_WheelIsAnimating
+    get_WheelIsAnimating:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.WheelIsAnimating.get
+# 
+        PUSH, wheelAnimationTime
+        PUSH, __const_SystemSingle_0
+        PUSH, __0_get_WheelIsAnimating__ret
+        EXTERN, "SystemSingle.__op_GreaterThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.UpdateUdonBehaviour(bool)
+# 
+        PUSH, udonBehaviourToUpdate
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000005d4
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_0
+        COPY
+        PUSH, udonBehaviourFloatVariableName
+        PUSH, __intnl_SystemString_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000118
+        PUSH, udonBehaviourFloatVariableName
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x000001a8
+        PUSH, _currentWheelAngle
+        PUSH, minimumRotation
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, maximumRotation
+        PUSH, minimumRotation
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, udonBehaviourToUpdate
+        PUSH, udonBehaviourFloatVariableName
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_1
+        COPY
+        PUSH, udonBehaviourAngleVariableName
+        PUSH, __intnl_SystemString_1
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000224
+        PUSH, udonBehaviourAngleVariableName
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x0000029c
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_0
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__get_localEulerAngles__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, udonBehaviourToUpdate
+        PUSH, udonBehaviourAngleVariableName
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_isSnapping__param
+        PUSH, __intnl_SystemBoolean_4
+        COPY
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x000002f4
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_2
+        COPY
+        PUSH, udonBehaviourOnDropEventName
+        PUSH, __intnl_SystemString_2
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        PUSH, __intnl_SystemBoolean_3
+        COPY
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x00000350
+        PUSH, udonBehaviourOnDropEventName
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x0000038c
+        PUSH, udonBehaviourToUpdate
+# Cow dirty
+        PUSH, udonBehaviourOnDropEventName
+        PUSH, __intnl_SystemString_3
+        COPY
+        PUSH, udonBehaviourOnDropEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, actAsLever
+        PUSH, __intnl_SystemBoolean_5
+        COPY
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000003c4
+        PUSH, __0_isSnapping__param
+        PUSH, __intnl_SystemBoolean_5
+        COPY
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x000005d4
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_4
+        COPY
+        PUSH, udonBehaviourLeverBoolVariableName
+        PUSH, __intnl_SystemString_4
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000450
+        PUSH, udonBehaviourLeverBoolVariableName
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000004a0
+        PUSH, _currentWheelAngle
+        PUSH, maximumRotation
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemSingle.__op_Equality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, udonBehaviourToUpdate
+        PUSH, udonBehaviourLeverBoolVariableName
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_5
+        COPY
+        PUSH, udonBehaviourLeverIntVariableName
+        PUSH, __intnl_SystemString_5
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x0000051c
+        PUSH, udonBehaviourLeverIntVariableName
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x000005d4
+        PUSH, _currentWheelAngle
+        PUSH, maximumRotation
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemSingle.__op_Equality__SystemSingle_SystemSingle__SystemBoolean"
+# Cow dirty
+        PUSH, udonBehaviourToUpdate
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+# Cow dirty
+        PUSH, udonBehaviourLeverIntVariableName
+        PUSH, __intnl_SystemString_6
+        COPY
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x000005a0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_5
+        COPY
+        JUMP, 0x000005B4
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_5
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemString_6
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.Start()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __1__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponent<com.vrcstuff.udon.PuttSync>(UnityEngine.Component)
+        JUMP, 0x00002BB0
+        PUSH, __0__intnlparam
+        PUSH, puttSync
+        COPY
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_1
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_1
+        PUSH, __const_SystemType_0
+        PUSH, grabTargetRB
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, actAsLever
+        JUMP_IF_FALSE, 0x0000072c
+        PUSH, __const_SystemBoolean_0
+        PUSH, clampRotation
+        COPY
+        PUSH, minimumRotation
+        PUSH, maximumRotation
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __const_SystemSingle_1
+        PUSH, __lcl_wheelMidpoint_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, defaultRotation
+        PUSH, __lcl_wheelMidpoint_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000710
+        PUSH, maximumRotation
+        PUSH, _currentWheelAngle
+        COPY
+        JUMP, 0x00000724
+        PUSH, minimumRotation
+        PUSH, _currentWheelAngle
+        COPY
+        JUMP, 0x00000740
+        PUSH, defaultRotation
+        PUSH, _currentWheelAngle
+        COPY
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x000007f0
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_2
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_2
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00000950
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x000008a0
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_3
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_1
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_3
+        PUSH, __intnl_UnityEngineQuaternion_1
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00000950
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000950
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_4
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __intnl_UnityEngineQuaternion_2
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_4
+        PUSH, __intnl_UnityEngineQuaternion_2
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00000950
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_isSnapping__param
+        COPY
+# Calling com.vrcstuff.controls.wheel.Wheel.UpdateUdonBehaviour(bool)
+        JUMP, 0x00000044
+        PUSH, __gintnl_SystemUInt32_2
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachHandleTimer()
+        JUMP, 0x00000B64
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+# 
+        PUSH, grabTargetRB
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000a88
+        PUSH, grabTargetRB
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "UnityEngineRigidbody.__get_isKinematic__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        PUSH, __const_SystemBoolean_1
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemBoolean.__op_Equality__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000a70
+        PUSH, grabTargetRB
+        PUSH, __const_UnityEngineVector3_0
+        EXTERN, "UnityEngineRigidbody.__set_velocity__UnityEngineVector3__SystemVoid"
+        PUSH, grabTargetRB
+        PUSH, __const_UnityEngineVector3_0
+        EXTERN, "UnityEngineRigidbody.__set_angularVelocity__UnityEngineVector3__SystemVoid"
+        PUSH, grabTargetRB
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineRigidbody.__set_isKinematic__SystemBoolean__SystemVoid"
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_5
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, grabResetTarget
+        PUSH, __intnl_UnityEngineTransform_6
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_6
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineTransform_5
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_7
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, grabResetTarget
+        PUSH, __intnl_UnityEngineTransform_8
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_8
+        PUSH, __intnl_UnityEngineQuaternion_3
+        EXTERN, "UnityEngineTransform.__get_rotation__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_7
+        PUSH, __intnl_UnityEngineQuaternion_3
+        EXTERN, "UnityEngineTransform.__set_rotation__UnityEngineQuaternion__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export ReattachHandleTimer
+    ReattachHandleTimer:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.ReattachHandleTimer()
+# 
+        PUSH, __gintnl_SystemUInt32_3
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemSingle_3
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export HandleSnap
+    HandleSnap:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.HandleSnap()
+# 
+        PUSH, wheelAnimationTime
+        PUSH, __const_SystemSingle_4
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, wheelLeverAnimationCurve
+        PUSH, __intnl_SystemSingle_7
+        PUSH, __lcl_lerpProgress_SystemSingle_0
+        EXTERN, "UnityEngineAnimationCurve.__Evaluate__SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_8
+        EXTERN, "UnityEngineTime.__get_deltaTime__SystemSingle"
+        PUSH, wheelAnimationTime
+        PUSH, __intnl_SystemSingle_8
+        PUSH, wheelAnimationTime
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_9
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, wheelAnimationStartRotation
+        PUSH, wheelAnimationEndRotation
+        PUSH, __lcl_lerpProgress_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_4
+        EXTERN, "UnityEngineQuaternion.__Lerp__UnityEngineQuaternion_UnityEngineQuaternion_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_9
+        PUSH, __intnl_UnityEngineQuaternion_4
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_4
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __lcl_lerpProgress_SystemSingle_0
+        PUSH, __const_SystemSingle_3
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemSingle.__op_GreaterThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x00000d08
+        PUSH, __const_SystemSingle_5
+        PUSH, wheelAnimationTime
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_2
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export HandleLocalPlayerRotation
+    HandleLocalPlayerRotation:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.HandleLocalPlayerRotation()
+# 
+        PUSH, handleIsGrabbed
+        JUMP_IF_FALSE, 0x00000d64
+        JUMP, 0x00000D88
+        PUSH, __gintnl_SystemUInt32_5
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _currentWheelAngle
+        PUSH, __lcl_oldReelAngle_SystemSingle_0
+        COPY
+        PUSH, __const_SystemSingle_0
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        COPY
+        PUSH, desktopLeftButton
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "UnityEngineInput.__GetKey__UnityEngineKeyCode__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00000e0c
+        PUSH, desktopSpeed
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        EXTERN, "SystemSingle.__op_UnaryMinus__SystemSingle__SystemSingle"
+        PUSH, __const_SystemBoolean_1
+        PUSH, hasLastWheelHandleDir
+        COPY
+        JUMP, 0x000011AC
+        PUSH, desktopRightButton
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "UnityEngineInput.__GetKey__UnityEngineKeyCode__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x00000e64
+        PUSH, desktopSpeed
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, hasLastWheelHandleDir
+        COPY
+        JUMP, 0x000011AC
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineQuaternion_5
+        EXTERN, "UnityEngineTransform.__get_rotation__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineQuaternion_5
+        PUSH, __lcl_inverseRot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Inverse__UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_10
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_10
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_11
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_11
+        PUSH, __intnl_UnityEngineVector3_3
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_2
+        PUSH, __intnl_UnityEngineVector3_3
+        PUSH, __intnl_UnityEngineVector3_4
+        EXTERN, "UnityEngineVector3.__op_Subtraction__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_inverseRot_UnityEngineQuaternion_0
+        PUSH, __intnl_UnityEngineVector3_4
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_9
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_10
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __intnl_SystemSingle_9
+        PUSH, __intnl_SystemSingle_10
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Atan2__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x0000100c
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_11
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_12
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __intnl_SystemSingle_11
+        PUSH, __intnl_SystemSingle_12
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Atan2__SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x0000111C
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001094
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_13
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_14
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __intnl_SystemSingle_13
+        PUSH, __intnl_SystemSingle_14
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Atan2__SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x0000111C
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x0000111c
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_15
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __lcl_wheelHandleDelta_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_16
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __intnl_SystemSingle_15
+        PUSH, __intnl_SystemSingle_16
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Atan2__SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x0000111C
+        PUSH, hasLastWheelHandleDir
+        JUMP_IF_FALSE, 0x00001184
+        PUSH, __gintnl_SystemUInt32_6
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        PUSH, lastWheelDir
+        PUSH, __intnl_SystemSingle_11
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_11
+        PUSH, __0_angle__param
+        COPY
+# Calling com.vrcstuff.controls.wheel.Wheel.AngleDiff(float)
+        JUMP, 0x00002774
+        PUSH, __0___0_AngleDiff__ret
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, hasLastWheelHandleDir
+        COPY
+        PUSH, __lcl_wheelHandleDir_SystemSingle_0
+        PUSH, lastWheelDir
+        COPY
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemSingle.__op_Inequality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001570
+        PUSH, clampRotation
+        JUMP_IF_FALSE, 0x0000123c
+        PUSH, _currentWheelAngle
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        PUSH, __intnl_SystemSingle_9
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_9
+        PUSH, minimumRotation
+        PUSH, maximumRotation
+        PUSH, _currentWheelAngle
+        EXTERN, "UnityEngineMathf.__Clamp__SystemSingle_SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x0000125C
+        PUSH, _currentWheelAngle
+        PUSH, __lcl_deltaAngle_SystemSingle_0
+        PUSH, _currentWheelAngle
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_6
+        PUSH, __lcl_hapticsInterval_SystemSingle_0
+        COPY
+        PUSH, __lcl_oldReelAngle_SystemSingle_0
+        PUSH, __lcl_hapticsInterval_SystemSingle_0
+        PUSH, __intnl_SystemSingle_10
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_10
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, _currentWheelAngle
+        PUSH, __lcl_hapticsInterval_SystemSingle_0
+        PUSH, __intnl_SystemSingle_11
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_11
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "UnityEngineMathf.__RoundToInt__SystemSingle__SystemInt32"
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x000014bc
+        PUSH, __lcl_now_SystemSingle_0
+        EXTERN, "UnityEngineTime.__get_time__SystemSingle"
+        PUSH, __lcl_now_SystemSingle_0
+        PUSH, lastClickTime
+        PUSH, __intnl_SystemSingle_12
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_12
+        PUSH, __const_SystemSingle_4
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x0000145c
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemString_7
+        COPY
+        PUSH, udonBehaviourOnCrankEventName
+        PUSH, __intnl_SystemString_7
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemString.__op_Inequality__SystemString_SystemString__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x000013ec
+        PUSH, udonBehaviourOnCrankEventName
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemString.__get_Length__SystemInt32"
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001428
+        PUSH, udonBehaviourToUpdate
+# Cow dirty
+        PUSH, udonBehaviourOnCrankEventName
+        PUSH, __intnl_SystemString_8
+        COPY
+        PUSH, udonBehaviourOnCrankEventName
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __lcl_now_SystemSingle_0
+        PUSH, lastClickTime
+        COPY
+        PUSH, __gintnl_SystemUInt32_7
+# Calling com.vrcstuff.udon.Utils.LocalPlayerIsValid()
+        JUMP, 0x00002E18
+        PUSH, __2__intnlparam
+        JUMP_IF_FALSE, 0x000014bc
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, currentHand
+        PUSH, __const_SystemSingle_7
+        PUSH, __const_SystemSingle_3
+        PUSH, __const_SystemSingle_3
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__PlayHapticEventInHand__VRCSDKBaseVRC_PickupPickupHand_SystemSingle_SystemSingle_SystemSingle__SystemVoid"
+        PUSH, puttSync
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_UnityEngineObject_4
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x0000154c
+        PUSH, puttSync
+        PUSH, __const_SystemString_4
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, puttSync
+        PUSH, __const_SystemString_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_8
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_isSnapping__param
+        COPY
+# Calling com.vrcstuff.controls.wheel.Wheel.UpdateUdonBehaviour(bool)
+        JUMP, 0x00000044
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001620
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_10
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_9
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_9
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_5
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_10
+        PUSH, __intnl_UnityEngineQuaternion_5
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00001780
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x000016d0
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_11
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_10
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_10
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_UnityEngineQuaternion_6
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_11
+        PUSH, __intnl_UnityEngineQuaternion_6
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00001780
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001780
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_12
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_11
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_11
+        PUSH, __intnl_UnityEngineQuaternion_7
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineTransform_12
+        PUSH, __intnl_UnityEngineQuaternion_7
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        JUMP, 0x00001780
+        PUSH, __gintnl_SystemUInt32_9
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __this_VRCUdonUdonBehaviour_4
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onDeserialization
+    _onDeserialization:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.OnDeserialization()
+# 
+        PUSH, wheelIsCurrentlyFollowingSync
+        JUMP_IF_FALSE, 0x000017ec
+        JUMP, 0x00001814
+        PUSH, __this_VRCUdonUdonBehaviour_5
+        PUSH, __const_SystemString_7
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_10
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_isSnapping__param
+        COPY
+# Calling com.vrcstuff.controls.wheel.Wheel.UpdateUdonBehaviour(bool)
+        JUMP, 0x00000044
+        PUSH, __gintnl_SystemUInt32_11
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export SmoothToTargetRotation
+    SmoothToTargetRotation:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.SmoothToTargetRotation()
+# 
+        PUSH, __gintnl_SystemUInt32_12
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __const_SystemBoolean_0
+        PUSH, wheelIsCurrentlyFollowingSync
+        COPY
+        PUSH, __const_UnityEngineQuaternion_0
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        COPY
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x0000191c
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_17
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_17
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x00001A1C
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_24
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_24
+        JUMP_IF_FALSE, 0x0000199c
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_18
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_18
+        PUSH, __const_SystemSingle_0
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x00001A1C
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_25
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_25
+        JUMP_IF_FALSE, 0x00001a1c
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_19
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_19
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x00001A1C
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_13
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_13
+        PUSH, __intnl_UnityEngineQuaternion_8
+        EXTERN, "UnityEngineTransform.__get_localRotation__UnityEngineQuaternion"
+        PUSH, __intnl_SystemSingle_17
+        EXTERN, "UnityEngineTime.__get_deltaTime__SystemSingle"
+        PUSH, __const_SystemSingle_8
+        PUSH, __intnl_SystemSingle_17
+        PUSH, __intnl_SystemSingle_18
+        EXTERN, "UnityEngineMathf.__Pow__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_3
+        PUSH, __intnl_SystemSingle_18
+        PUSH, __intnl_SystemSingle_19
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_UnityEngineQuaternion_8
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_19
+        PUSH, __lcl_newRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__Lerp__UnityEngineQuaternion_UnityEngineQuaternion_SystemSingle__UnityEngineQuaternion"
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_14
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_14
+        PUSH, __intnl_UnityEngineQuaternion_9
+        EXTERN, "UnityEngineTransform.__get_localRotation__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineQuaternion_9
+        PUSH, __lcl_newRotation_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_20
+        EXTERN, "UnityEngineQuaternion.__Angle__UnityEngineQuaternion_UnityEngineQuaternion__SystemSingle"
+        PUSH, __intnl_SystemSingle_20
+        PUSH, __const_SystemSingle_8
+        PUSH, __intnl_SystemBoolean_23
+        EXTERN, "SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_23
+        JUMP_IF_FALSE, 0x00001ba4
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_15
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_15
+        PUSH, __lcl_newRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_6
+        PUSH, __const_SystemString_7
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        JUMP, 0x00001BE8
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_15
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_15
+        PUSH, __lcl_targetRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__set_localRotation__UnityEngineQuaternion__SystemVoid"
+        PUSH, __const_SystemBoolean_1
+        PUSH, wheelIsCurrentlyFollowingSync
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export InteractStart
+    InteractStart:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.InteractStart()
+# 
+        PUSH, __gintnl_SystemUInt32_13
+        PUSH, __this_VRCUdonUdonBehaviour_7
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __const_SystemString_8
+        PUSH, __4__intnlparam
+        COPY
+        PUSH, __const_SystemString_9
+        PUSH, __5__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.Utils.Log(UdonSharp.UdonSharpBehaviour, string, string)
+        JUMP, 0x00002E54
+        PUSH, __gintnl_SystemUInt32_14
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __6__intnlparam
+        COPY
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __7__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.Utils.SetOwner(VRC.SDKBase.VRCPlayerApi, UnityEngine.GameObject)
+        JUMP, 0x0000301C
+        PUSH, udonBehaviourToUpdate
+        PUSH, __intnl_UnityEngineObject_6
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_7
+        COPY
+        PUSH, __intnl_UnityEngineObject_6
+        PUSH, __intnl_UnityEngineObject_7
+        PUSH, __intnl_SystemBoolean_26
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_26
+        JUMP_IF_FALSE, 0x00001d64
+        PUSH, __gintnl_SystemUInt32_15
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, udonBehaviourToUpdate
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        PUSH, __6__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __7__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.Utils.SetOwner(VRC.SDKBase.VRCPlayerApi, UnityEngine.GameObject)
+        JUMP, 0x0000301C
+        PUSH, __const_SystemBoolean_0
+        PUSH, handleIsGrabbed
+        COPY
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_0
+        PUSH, __lcl_leftPickup_VRCSDK3ComponentsVRCPickup_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPickupInHand__VRCSDKBaseVRC_PickupPickupHand__VRCSDKBaseVRC_Pickup"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_1
+        PUSH, __lcl_rightPickup_VRCSDK3ComponentsVRCPickup_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPickupInHand__VRCSDKBaseVRC_PickupPickupHand__VRCSDKBaseVRC_Pickup"
+        PUSH, __lcl_leftPickup_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __intnl_UnityEngineObject_8
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_9
+        COPY
+        PUSH, __intnl_UnityEngineObject_8
+        PUSH, __intnl_UnityEngineObject_9
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x00001e90
+        PUSH, __lcl_leftPickup_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __intnl_UnityEngineObject_10
+        COPY
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineObject_11
+        COPY
+        PUSH, __intnl_UnityEngineObject_10
+        PUSH, __intnl_UnityEngineObject_11
+        PUSH, __intnl_SystemBoolean_27
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_27
+        JUMP_IF_FALSE, 0x00001ebc
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_0
+        PUSH, currentHand
+        COPY
+        JUMP, 0x00001FB4
+        PUSH, __lcl_rightPickup_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __intnl_UnityEngineObject_12
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_13
+        COPY
+        PUSH, __intnl_UnityEngineObject_12
+        PUSH, __intnl_UnityEngineObject_13
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        JUMP_IF_FALSE, 0x00001f74
+        PUSH, __lcl_rightPickup_VRCSDK3ComponentsVRCPickup_0
+        PUSH, __intnl_UnityEngineGameObject_2
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_2
+        PUSH, __intnl_UnityEngineObject_14
+        COPY
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineObject_15
+        COPY
+        PUSH, __intnl_UnityEngineObject_14
+        PUSH, __intnl_UnityEngineObject_15
+        PUSH, __intnl_SystemBoolean_28
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_28
+        JUMP_IF_FALSE, 0x00001fa0
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_1
+        PUSH, currentHand
+        COPY
+        JUMP, 0x00001FB4
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_2
+        PUSH, currentHand
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_8
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_10
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, __this_VRCUdonUdonBehaviour_9
+        PUSH, __const_SystemString_6
+        PUSH, __const_SystemInt32_0
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export InteractEnd
+    InteractEnd:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.InteractEnd()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, handleIsGrabbed
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, hasLastWheelHandleDir
+        COPY
+        PUSH, __const_VRCSDKBaseVRC_PickupPickupHand_2
+        PUSH, currentHand
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_10
+        PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
+        PUSH, __const_SystemString_11
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid"
+        PUSH, actAsLever
+        JUMP_IF_FALSE, 0x0000231c
+        PUSH, minimumRotation
+        PUSH, maximumRotation
+        PUSH, __intnl_SystemSingle_21
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_21
+        PUSH, __const_SystemSingle_1
+        PUSH, __lcl_wheelMidpoint_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, returnToDefaultPositionOnDrop
+        JUMP_IF_FALSE, 0x000020e8
+        PUSH, defaultRotation
+        PUSH, _currentWheelAngle
+        COPY
+        PUSH, _currentWheelAngle
+        PUSH, __lcl_wheelMidpoint_SystemSingle_1
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x00002134
+        PUSH, maximumRotation
+        PUSH, _currentWheelAngle
+        COPY
+        JUMP, 0x00002148
+        PUSH, minimumRotation
+        PUSH, _currentWheelAngle
+        COPY
+        PUSH, wheel
+        PUSH, __intnl_UnityEngineTransform_16
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_16
+        PUSH, wheelAnimationStartRotation
+        EXTERN, "UnityEngineTransform.__get_localRotation__UnityEngineQuaternion"
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_30
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_30
+        JUMP_IF_FALSE, 0x000021f8
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_22
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_22
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, wheelAnimationEndRotation
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x000022F8
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_31
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_31
+        JUMP_IF_FALSE, 0x00002278
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_23
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_23
+        PUSH, __const_SystemSingle_0
+        PUSH, wheelAnimationEndRotation
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x000022F8
+        PUSH, wheelAxis
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_32
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_32
+        JUMP_IF_FALSE, 0x000022f8
+        PUSH, _currentWheelAngle
+        PUSH, __const_SystemSingle_2
+        PUSH, __intnl_SystemSingle_24
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __const_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_24
+        PUSH, wheelAnimationEndRotation
+        EXTERN, "UnityEngineQuaternion.__Euler__SystemSingle_SystemSingle_SystemSingle__UnityEngineQuaternion"
+        JUMP, 0x000022F8
+        PUSH, __const_SystemSingle_0
+        PUSH, wheelAnimationTime
+        COPY
+        PUSH, __gintnl_SystemUInt32_16
+# Calling com.vrcstuff.controls.wheel.Wheel.HandleSnap()
+        JUMP, 0x00000BB8
+        PUSH, __gintnl_SystemUInt32_17
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_isSnapping__param
+        COPY
+# Calling com.vrcstuff.controls.wheel.Wheel.UpdateUdonBehaviour(bool)
+        JUMP, 0x00000044
+        PUSH, __gintnl_SystemUInt32_18
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_29
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_29
+        JUMP_IF_FALSE, 0x000023a0
+        PUSH, __this_VRCUdonUdonBehaviour_11
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export PlayCrankSound
+    PlayCrankSound:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.PlayCrankSound()
+# 
+        PUSH, sharedAudioSource
+        PUSH, __intnl_UnityEngineObject_16
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_17
+        COPY
+        PUSH, __intnl_UnityEngineObject_16
+        PUSH, __intnl_UnityEngineObject_17
+        PUSH, __intnl_SystemBoolean_33
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_33
+        JUMP_IF_FALSE, 0x000024a8
+        PUSH, __gintnl_SystemUInt32_19
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_5
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, sharedAudioSource
+        PUSH, __8__intnlparam
+        COPY
+        PUSH, crankAudioClip
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineVector3_5
+        PUSH, __10__intnlparam
+        COPY
+        PUSH, lowestPitch
+        PUSH, __11__intnlparam
+        COPY
+        PUSH, highestPitch
+        PUSH, __12__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.AudioSourceExtensions.PlaySound(UnityEngine.AudioSource, UnityEngine.AudioClip, UnityEngine.Vector3, float, float)
+        JUMP, 0x000030C4
+        JUMP, 0x00002574
+        PUSH, myAudioSource
+        PUSH, __intnl_UnityEngineObject_18
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_19
+        COPY
+        PUSH, __intnl_UnityEngineObject_18
+        PUSH, __intnl_UnityEngineObject_19
+        PUSH, __intnl_SystemBoolean_34
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_34
+        JUMP_IF_FALSE, 0x00002574
+        PUSH, __gintnl_SystemUInt32_20
+        PUSH, myAudioSource
+        PUSH, __8__intnlparam
+        COPY
+        PUSH, crankAudioClip
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __10__intnlparam
+        COPY
+        PUSH, lowestPitch
+        PUSH, __11__intnlparam
+        COPY
+        PUSH, highestPitch
+        PUSH, __12__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.AudioSourceExtensions.PlaySound(UnityEngine.AudioSource, UnityEngine.AudioClip, UnityEngine.Vector3, float, float)
+        JUMP, 0x000030C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnOtherUserGrabWheel
+    OnOtherUserGrabWheel:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.OnOtherUserGrabWheel()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_6
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_35
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_35
+        JUMP_IF_FALSE, 0x00002618
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_7
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_7
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_36
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_36
+        PUSH, __intnl_SystemBoolean_35
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_35
+        JUMP_IF_FALSE, 0x000026c8
+        PUSH, __gintnl_SystemUInt32_21
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_17
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_17
+        PUSH, __14__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentVRC<VRC.SDKBase.VRC_Pickup>(UnityEngine.Component)
+        JUMP, 0x000032D8
+        PUSH, __13__intnlparam
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__set_pickupable__SystemBoolean"
+        PUSH, __gintnl_SystemUInt32_22
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_18
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_18
+        PUSH, __14__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentVRC<VRC.SDKBase.VRC_Pickup>(UnityEngine.Component)
+        JUMP, 0x000032D8
+        PUSH, __13__intnlparam
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__Drop__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_23
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export OnOtherUserReleaseWheel
+    OnOtherUserReleaseWheel:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.OnOtherUserReleaseWheel()
+# 
+        PUSH, __gintnl_SystemUInt32_24
+        PUSH, grabTarget
+        PUSH, __intnl_UnityEngineTransform_19
+        EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_19
+        PUSH, __14__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.GetComponentShim.GetComponentVRC<VRC.SDKBase.VRC_Pickup>(UnityEngine.Component)
+        JUMP, 0x000032D8
+        PUSH, __13__intnlparam
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCSDK3ComponentsVRCPickup.__set_pickupable__SystemBoolean"
+        PUSH, __gintnl_SystemUInt32_25
+# Calling com.vrcstuff.controls.wheel.Wheel.ReattachGrabHandle()
+        JUMP, 0x000009A0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.AngleDiff(float)
+# 
+        PUSH, __0_angle__param
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_37
+        EXTERN, "SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_37
+        JUMP_IF_FALSE, 0x00002850
+        PUSH, __0_angle__param
+        PUSH, __intnl_SystemSingle_25
+        EXTERN, "SystemSingle.__op_UnaryMinus__SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_25
+        PUSH, __const_SystemSingle_9
+        PUSH, __intnl_SystemSingle_26
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_26
+        PUSH, __intnl_SystemSingle_27
+        EXTERN, "SystemSingle.__op_UnaryMinus__SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_27
+        PUSH, __const_SystemSingle_10
+        PUSH, __intnl_SystemSingle_28
+        EXTERN, "SystemSingle.__op_Remainder__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_28
+        PUSH, __const_SystemSingle_9
+        PUSH, __0___0_AngleDiff__ret
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x000028C4
+        PUSH, __0_angle__param
+        PUSH, __const_SystemSingle_9
+        PUSH, __intnl_SystemSingle_25
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_25
+        PUSH, __const_SystemSingle_10
+        PUSH, __intnl_SystemSingle_26
+        EXTERN, "SystemSingle.__op_Remainder__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_SystemSingle_26
+        PUSH, __const_SystemSingle_9
+        PUSH, __0___0_AngleDiff__ret
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export UpdateVolume
+    UpdateVolume:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.UpdateVolume()
+# 
+        PUSH, sharedAudioSource
+        PUSH, __intnl_UnityEngineObject_20
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_21
+        COPY
+        PUSH, __intnl_UnityEngineObject_20
+        PUSH, __intnl_UnityEngineObject_21
+        PUSH, __intnl_SystemBoolean_38
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_38
+        JUMP_IF_FALSE, 0x00002958
+        PUSH, sharedAudioSource
+        PUSH, soundVolume
+        EXTERN, "UnityEngineAudioSource.__set_volume__SystemSingle__SystemVoid"
+        JUMP, 0x000029C8
+        PUSH, myAudioSource
+        PUSH, __intnl_UnityEngineObject_22
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_23
+        COPY
+        PUSH, __intnl_UnityEngineObject_22
+        PUSH, __intnl_UnityEngineObject_23
+        PUSH, __intnl_SystemBoolean_39
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_39
+        JUMP_IF_FALSE, 0x000029c8
+        PUSH, myAudioSource
+        PUSH, soundVolume
+        EXTERN, "UnityEngineAudioSource.__set_volume__SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export PlaySnapSound
+    PlaySnapSound:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.wheel.Wheel.PlaySnapSound()
+# 
+        PUSH, sharedAudioSource
+        PUSH, __intnl_UnityEngineObject_24
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_25
+        COPY
+        PUSH, __intnl_UnityEngineObject_24
+        PUSH, __intnl_UnityEngineObject_25
+        PUSH, __intnl_SystemBoolean_40
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_40
+        JUMP_IF_FALSE, 0x00002ad0
+        PUSH, __gintnl_SystemUInt32_26
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_6
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, sharedAudioSource
+        PUSH, __8__intnlparam
+        COPY
+        PUSH, wheelLeverSnapAudioClip
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __intnl_UnityEngineVector3_6
+        PUSH, __10__intnlparam
+        COPY
+        PUSH, lowestPitch
+        PUSH, __11__intnlparam
+        COPY
+        PUSH, highestPitch
+        PUSH, __12__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.AudioSourceExtensions.PlaySound(UnityEngine.AudioSource, UnityEngine.AudioClip, UnityEngine.Vector3, float, float)
+        JUMP, 0x000030C4
+        JUMP, 0x00002B9C
+        PUSH, myAudioSource
+        PUSH, __intnl_UnityEngineObject_26
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_27
+        COPY
+        PUSH, __intnl_UnityEngineObject_26
+        PUSH, __intnl_UnityEngineObject_27
+        PUSH, __intnl_SystemBoolean_41
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_41
+        JUMP_IF_FALSE, 0x00002b9c
+        PUSH, __gintnl_SystemUInt32_27
+        PUSH, myAudioSource
+        PUSH, __8__intnlparam
+        COPY
+        PUSH, wheelLeverSnapAudioClip
+        PUSH, __9__intnlparam
+        COPY
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __10__intnlparam
+        COPY
+        PUSH, lowestPitch
+        PUSH, __11__intnlparam
+        COPY
+        PUSH, highestPitch
+        PUSH, __12__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.AudioSourceExtensions.PlaySound(UnityEngine.AudioSource, UnityEngine.AudioClip, UnityEngine.Vector3, float, float)
+        JUMP, 0x000030C4
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponent<com.vrcstuff.udon.PuttSync>(UnityEngine.Component)
+# 
+        PUSH, __1__intnlparam
+        PUSH, __const_SystemType_1
+        PUSH, __intnl_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponent.__GetComponents__SystemType__UnityEngineComponentArray"
+        PUSH, __intnl_UnityEngineComponentArray_0
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        COPY
+        PUSH, __const_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        COPY
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_10
+        COPY
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __intnl_SystemBoolean_42
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_42
+        JUMP_IF_FALSE, 0x00002ddc
+        PUSH, __lcl_udonBehaviours_UnityEngineComponentArray_0
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_12
+        PUSH, __intnl_SystemType_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariableType__SystemString__SystemType"
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemType_1
+        COPY
+        PUSH, __intnl_SystemType_0
+        PUSH, __intnl_SystemType_1
+        PUSH, __intnl_SystemBoolean_43
+        EXTERN, "SystemType.__op_Equality__SystemType_SystemType__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_43
+        JUMP_IF_FALSE, 0x00002ce0
+        JUMP, 0x00002DB4
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_12
+        PUSH, __lcl_idValue_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_44
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_44
+        JUMP_IF_FALSE, 0x00002d68
+        PUSH, __lcl_idValue_SystemObject_0
+        PUSH, __intnl_SystemInt64_0
+        EXTERN, "SystemConvert.__ToInt64__SystemObject__SystemInt64"
+        PUSH, __intnl_SystemInt64_0
+        PUSH, __lcl_targetID_SystemInt64_0
+        PUSH, __intnl_SystemBoolean_44
+        EXTERN, "SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_44
+        JUMP_IF_FALSE, 0x00002db4
+        PUSH, __lcl_behaviour_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineComponent_0
+        COPY
+        PUSH, __intnl_UnityEngineComponent_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00002C24
+        PUSH, __const_SystemObject_0
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.Utils.LocalPlayerIsValid()
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_8
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_8
+        PUSH, __2__intnlparam
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.Utils.Log(UdonSharp.UdonSharpBehaviour, string, string)
+# 
+        PUSH, __3__intnlparam
+        PUSH, __intnl_UnityEngineObject_28
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_29
+        COPY
+        PUSH, __intnl_UnityEngineObject_28
+        PUSH, __intnl_UnityEngineObject_29
+        PUSH, __intnl_SystemBoolean_45
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_45
+        JUMP_IF_FALSE, 0x00002ed0
+        PUSH, __const_SystemString_13
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __3__intnlparam
+        PUSH, __intnl_UnityEngineGameObject_3
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_3
+        PUSH, __intnl_SystemString_9
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemString_9
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __5__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_28
+        PUSH, __3__intnlparam
+        PUSH, __16__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00003334
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_5
+        PUSH, __15__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_6
+        PUSH, __4__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __const_SystemString_14
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __intnl_SystemString_10
+        EXTERN, "SystemString.__Format__SystemString_SystemObjectArray__SystemString"
+        PUSH, __3__intnlparam
+        PUSH, __intnl_UnityEngineGameObject_4
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_4
+        PUSH, __intnl_UnityEngineObject_30
+        COPY
+        PUSH, __intnl_SystemString_10
+        PUSH, __intnl_UnityEngineObject_30
+        EXTERN, "UnityEngineDebug.__Log__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.Utils.SetOwner(VRC.SDKBase.VRCPlayerApi, UnityEngine.GameObject)
+# 
+        PUSH, __gintnl_SystemUInt32_29
+# Calling com.vrcstuff.udon.Utils.LocalPlayerIsValid()
+        JUMP, 0x00002E18
+        PUSH, __2__intnlparam
+        PUSH, __intnl_SystemBoolean_46
+        COPY
+        PUSH, __intnl_SystemBoolean_46
+        JUMP_IF_FALSE, 0x00003088
+        PUSH, __6__intnlparam
+        PUSH, __7__intnlparam
+        PUSH, __intnl_SystemBoolean_47
+        EXTERN, "VRCSDKBaseNetworking.__IsOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_47
+        PUSH, __intnl_SystemBoolean_46
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_46
+        JUMP_IF_FALSE, 0x000030b0
+        PUSH, __6__intnlparam
+        PUSH, __7__intnlparam
+        EXTERN, "VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.AudioSourceExtensions.PlaySound(UnityEngine.AudioSource, UnityEngine.AudioClip, UnityEngine.Vector3, float, float)
+# 
+        PUSH, __9__intnlparam
+        PUSH, __intnl_UnityEngineObject_31
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_32
+        COPY
+        PUSH, __intnl_UnityEngineObject_31
+        PUSH, __intnl_UnityEngineObject_32
+        PUSH, __intnl_SystemBoolean_48
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_48
+        JUMP_IF_FALSE, 0x000031ac
+        PUSH, __gintnl_SystemUInt32_30
+        PUSH, __8__intnlparam
+        PUSH, __intnl_UnityEngineGameObject_5
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_5
+        PUSH, __intnl_SystemString_11
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __intnl_SystemString_11
+        PUSH, __17__intnlparam
+        COPY
+        PUSH, __const_SystemString_15
+        PUSH, __18__intnlparam
+        COPY
+        PUSH, __const_SystemString_9
+        PUSH, __19__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.Utils.LogError(string, string, string)
+        JUMP, 0x00003390
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __8__intnlparam
+        PUSH, __intnl_UnityEngineObject_33
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_34
+        COPY
+        PUSH, __intnl_UnityEngineObject_33
+        PUSH, __intnl_UnityEngineObject_34
+        PUSH, __intnl_SystemBoolean_49
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_49
+        JUMP_IF_FALSE, 0x00003264
+        PUSH, __8__intnlparam
+        PUSH, __9__intnlparam
+        EXTERN, "UnityEngineAudioSource.__set_clip__UnityEngineAudioClip__SystemVoid"
+        PUSH, __11__intnlparam
+        PUSH, __12__intnlparam
+        PUSH, __intnl_SystemSingle_29
+        EXTERN, "UnityEngineRandom.__Range__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __8__intnlparam
+        PUSH, __intnl_SystemSingle_29
+        EXTERN, "UnityEngineAudioSource.__set_pitch__SystemSingle__SystemVoid"
+        PUSH, __8__intnlparam
+        EXTERN, "UnityEngineAudioSource.__Play__SystemVoid"
+        PUSH, __10__intnlparam
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_50
+        EXTERN, "UnityEngineVector3.__op_Inequality__UnityEngineVector3_UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_50
+        JUMP_IF_FALSE, 0x000032c4
+        PUSH, __8__intnlparam
+        PUSH, __intnl_UnityEngineTransform_20
+        EXTERN, "UnityEngineComponent.__get_transform__UnityEngineTransform"
+        PUSH, __intnl_UnityEngineTransform_20
+        PUSH, __10__intnlparam
+        EXTERN, "UnityEngineTransform.__set_position__UnityEngineVector3__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.GetComponentShim.GetComponentVRC<VRC.SDKBase.VRC_Pickup>(UnityEngine.Component)
+# 
+        PUSH, __14__intnlparam
+        PUSH, __const_SystemType_2
+        PUSH, __intnl_UnityEngineComponent_1
+        EXTERN, "UnityEngineComponent.__GetComponent__SystemType__UnityEngineComponent"
+        PUSH, __intnl_UnityEngineComponent_1
+        PUSH, __13__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+# 
+        PUSH, __16__intnlparam
+        PUSH, __const_SystemString_16
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __15__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.Utils.LogError(string, string, string)
+# 
+        PUSH, __const_SystemString_17
+        PUSH, __19__intnlparam
+        PUSH, __17__intnlparam
+        PUSH, __18__intnlparam
+        PUSH, __intnl_SystemString_12
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_12
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

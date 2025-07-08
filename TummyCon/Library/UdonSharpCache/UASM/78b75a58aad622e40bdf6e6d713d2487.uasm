@@ -1,0 +1,228 @@
+.data_start
+    .export Color
+    .export Intensity
+    .export IsDynamic
+    .export IsAdditive
+    .export InvBakedRotation
+    .export BoundsUvwMin0
+    .export BoundsUvwMin1
+    .export BoundsUvwMin2
+    .export BoundsUvwMinOcclusion
+    .export BoundsUvwMax0
+    .export BoundsUvwMax1
+    .export BoundsUvwMax2
+    .export InvLocalEdgeSmoothing
+    .export InvWorldMatrix
+    .export RelativeRotation
+    .export RelativeRotationRow0
+    .export RelativeRotationRow1
+    .export IsRotated
+    .export BakeOcclusion
+    .export IsInitialized
+    .export LightVolumeManager
+    .export IsIterartedThrough
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    Color: %UnityEngineColor, null
+    Intensity: %SystemSingle, null
+    IsDynamic: %SystemBoolean, null
+    IsAdditive: %SystemBoolean, null
+    InvBakedRotation: %UnityEngineQuaternion, null
+    BoundsUvwMin0: %UnityEngineVector4, null
+    BoundsUvwMin1: %UnityEngineVector4, null
+    BoundsUvwMin2: %UnityEngineVector4, null
+    BoundsUvwMinOcclusion: %UnityEngineVector4, null
+    BoundsUvwMax0: %UnityEngineVector4, null
+    BoundsUvwMax1: %UnityEngineVector4, null
+    BoundsUvwMax2: %UnityEngineVector4, null
+    InvLocalEdgeSmoothing: %UnityEngineVector4, null
+    InvWorldMatrix: %UnityEngineMatrix4x4, null
+    RelativeRotation: %UnityEngineVector4, null
+    RelativeRotationRow0: %UnityEngineVector3, null
+    RelativeRotationRow1: %UnityEngineVector3, null
+    IsRotated: %SystemBoolean, null
+    BakeOcclusion: %SystemBoolean, null
+    IsInitialized: %SystemBoolean, null
+    LightVolumeManager: %VRCUdonUdonBehaviour, null
+    IsIterartedThrough: %SystemBoolean, null
+    __0_radius__param: %SystemSingle, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemSingle_0: %SystemSingle, null
+    __const_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __lcl_scl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_transformRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_2: %UnityEngineVector3, null
+    __intnl_UnityEngineMatrix4x4_0: %UnityEngineMatrix4x4, null
+    __lcl_rot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __lcl_m_UnityEngineMatrix4x4_0: %UnityEngineMatrix4x4, null
+    __lcl_row0_UnityEngineVector4_0: %UnityEngineVector4, null
+    __intnl_UnityEngineVector4_0: %UnityEngineVector4, null
+    __lcl_row1_UnityEngineVector4_0: %UnityEngineVector4, null
+    __intnl_UnityEngineVector4_1: %UnityEngineVector4, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+.data_end
+.code_start
+    .export __0_SetSmoothBlending
+    __0_SetSmoothBlending:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeInstance.SetSmoothBlending(float)
+# 
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __lcl_scl_UnityEngineVector3_0
+        EXTERN, "UnityEngineTransform.__get_lossyScale__UnityEngineVector3"
+        PUSH, __0_radius__param
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineMathf.__Max__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_scl_UnityEngineVector3_0
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3.__op_Division__UnityEngineVector3_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, InvLocalEdgeSmoothing
+        EXTERN, "UnityEngineVector4.__op_Implicit__UnityEngineVector3__UnityEngineVector4"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export UpdateTransform
+    UpdateTransform:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeInstance.UpdateTransform()
+# 
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __lcl_transformRot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineTransform.__get_rotation__UnityEngineQuaternion"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineTransform.__get_position__UnityEngineVector3"
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineTransform.__get_lossyScale__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_1
+        PUSH, __lcl_transformRot_UnityEngineQuaternion_0
+        PUSH, __intnl_UnityEngineVector3_2
+        PUSH, __intnl_UnityEngineMatrix4x4_0
+        EXTERN, "UnityEngineMatrix4x4.__TRS__UnityEngineVector3_UnityEngineQuaternion_UnityEngineVector3__UnityEngineMatrix4x4"
+        PUSH, __intnl_UnityEngineMatrix4x4_0
+        PUSH, InvWorldMatrix
+        EXTERN, "UnityEngineMatrix4x4.__get_inverse__UnityEngineMatrix4x4"
+        PUSH, __lcl_transformRot_UnityEngineQuaternion_0
+        PUSH, InvBakedRotation
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __const_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "UnityEngineQuaternion.__Dot__UnityEngineQuaternion_UnityEngineQuaternion__SystemSingle"
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __const_SystemSingle_1
+        PUSH, IsRotated
+        EXTERN, "SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __lcl_m_UnityEngineMatrix4x4_0
+        EXTERN, "UnityEngineMatrix4x4.__Rotate__UnityEngineQuaternion__UnityEngineMatrix4x4"
+        PUSH, __lcl_m_UnityEngineMatrix4x4_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_row0_UnityEngineVector4_0
+        EXTERN, "UnityEngineMatrix4x4.__GetRow__SystemInt32__UnityEngineVector4"
+        PUSH, __lcl_row0_UnityEngineVector4_0
+        PUSH, __const_SystemSingle_2
+        EXTERN, "UnityEngineVector4.__set_w__SystemSingle"
+# Cow dirty
+        PUSH, __lcl_row0_UnityEngineVector4_0
+        PUSH, __intnl_UnityEngineVector4_0
+        COPY
+        PUSH, __lcl_row0_UnityEngineVector4_0
+        PUSH, RelativeRotationRow0
+        EXTERN, "UnityEngineVector4.__op_Implicit__UnityEngineVector4__UnityEngineVector3"
+        PUSH, __lcl_m_UnityEngineMatrix4x4_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_row1_UnityEngineVector4_0
+        EXTERN, "UnityEngineMatrix4x4.__GetRow__SystemInt32__UnityEngineVector4"
+        PUSH, __lcl_row1_UnityEngineVector4_0
+        PUSH, __const_SystemSingle_2
+        EXTERN, "UnityEngineVector4.__set_w__SystemSingle"
+# Cow dirty
+        PUSH, __lcl_row1_UnityEngineVector4_0
+        PUSH, __intnl_UnityEngineVector4_1
+        COPY
+        PUSH, __lcl_row1_UnityEngineVector4_0
+        PUSH, RelativeRotationRow1
+        EXTERN, "UnityEngineVector4.__op_Implicit__UnityEngineVector4__UnityEngineVector3"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "UnityEngineQuaternion.__get_x__SystemSingle"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineQuaternion.__get_y__SystemSingle"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "UnityEngineQuaternion.__get_z__SystemSingle"
+        PUSH, __lcl_rot_UnityEngineQuaternion_0
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "UnityEngineQuaternion.__get_w__SystemSingle"
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __intnl_SystemSingle_5
+        PUSH, RelativeRotation
+        EXTERN, "UnityEngineVector4.__ctor__SystemSingle_SystemSingle_SystemSingle_SystemSingle__UnityEngineVector4"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeInstance.Update()
+# 
+        PUSH, IsInitialized
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x00000378
+        PUSH, LightVolumeManager
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000003c0
+        PUSH, LightVolumeManager
+        PUSH, __const_SystemString_0
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, LightVolumeManager
+        PUSH, __const_SystemString_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

@@ -1,0 +1,86 @@
+.data_start
+    .export currentPosition
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    currentPosition: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemString_0: %SystemString, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_SystemString_2: %SystemString, null
+    __intnl_SystemString_3: %SystemString, null
+    __intnl_SystemString_4: %SystemString, null
+    __intnl_SystemString_5: %SystemString, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# DialUdonTest.Start()
+# 
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export PositionMoved
+    PositionMoved:
+        PUSH, __const_SystemUInt32_0
+# 
+# DialUdonTest.PositionMoved()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_0
+        PUSH, __intnl_SystemString_0
+        PUSH, currentPosition
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_1
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Selected
+    Selected:
+        PUSH, __const_SystemUInt32_0
+# 
+# DialUdonTest.Selected()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemString_2
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemString_2
+        PUSH, currentPosition
+        PUSH, __intnl_SystemString_3
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_3
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export Deselected
+    Deselected:
+        PUSH, __const_SystemUInt32_0
+# 
+# DialUdonTest.Deselected()
+# 
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemString_4
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemString_4
+        PUSH, currentPosition
+        PUSH, __intnl_SystemString_5
+        EXTERN, "SystemString.__Format__SystemString_SystemObject_SystemObject__SystemString"
+        PUSH, __intnl_SystemString_5
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

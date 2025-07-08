@@ -1,0 +1,1683 @@
+.data_start
+    .export LightVolumeAtlas
+    .export LightProbesBlending
+    .export SharpBounds
+    .export AutoUpdateVolumes
+    .export AdditiveMaxOverdraw
+    .export LightsBrightnessCutoff
+    .export LightVolumeInstances
+    .export PointLightVolumeInstances
+    .export CustomTextures
+    .export CubemapsCount
+    .export IsRangeDirty
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    LightVolumeAtlas: %UnityEngineTexture3D, null
+    LightProbesBlending: %SystemBoolean, null
+    SharpBounds: %SystemBoolean, null
+    AutoUpdateVolumes: %SystemBoolean, null
+    AdditiveMaxOverdraw: %SystemInt32, null
+    LightsBrightnessCutoff: %SystemSingle, null
+    LightVolumeInstances: %UnityEngineComponentArray, null
+    PointLightVolumeInstances: %UnityEngineComponentArray, null
+    CustomTextures: %UnityEngineTexture2DArray, null
+    CubemapsCount: %SystemInt32, null
+    IsRangeDirty: %SystemBoolean, null
+    _isInitialized: %SystemBoolean, null
+    _prevLightsBrightnessCutoff: %SystemSingle, null
+    _enabledCount: %SystemInt32, null
+    _lastEnabledCount: %SystemInt32, null
+    _additiveCount: %SystemInt32, null
+    _occlusionCount: %SystemInt32, null
+    _invLocalEdgeSmooth: %UnityEngineVector4Array, null
+    _colors: %UnityEngineVector4Array, null
+    _boundsUvwScale: %UnityEngineVector4Array, null
+    _boundsOcclusionUvw: %UnityEngineVector4Array, null
+    _relativeRotationQuaternion: %UnityEngineVector4Array, null
+    _pointLightCount: %SystemInt32, null
+    _lastPointLightCount: %SystemInt32, null
+    _enabledPointIDs: %SystemInt32Array, null
+    _pointLightPosition: %UnityEngineVector4Array, null
+    _pointLightColor: %UnityEngineVector4Array, null
+    _pointLightDirection: %UnityEngineVector4Array, null
+    _pointLightCustomId: %UnityEngineVector4Array, null
+    _invWorldMatrix: %UnityEngineMatrix4x4Array, null
+    _boundsUvw: %UnityEngineVector4Array, null
+    _relativeRotation: %UnityEngineVector4Array, null
+    _enabledIDs: %SystemInt32Array, null
+    _boundsScale: %UnityEngineVector4Array, null
+    _bounds: %UnityEngineVector4Array, null
+    lightVolumeInvLocalEdgeSmoothID: %SystemInt32, null
+    lightVolumeColorID: %SystemInt32, null
+    lightVolumeCountID: %SystemInt32, null
+    lightVolumeAdditiveCountID: %SystemInt32, null
+    lightVolumeAdditiveMaxOverdrawID: %SystemInt32, null
+    lightVolumeEnabledID: %SystemInt32, null
+    lightVolumeVersionID: %SystemInt32, null
+    lightVolumeProbesBlendID: %SystemInt32, null
+    lightVolumeSharpBoundsID: %SystemInt32, null
+    lightVolumeID: %SystemInt32, null
+    lightVolumeRotationQuaternionID: %SystemInt32, null
+    lightVolumeInvWorldMatrixID: %SystemInt32, null
+    lightVolumeUvwScaleID: %SystemInt32, null
+    lightVolumeOcclusionUvwID: %SystemInt32, null
+    lightVolumeOcclusionCountID: %SystemInt32, null
+    _pointLightPositionID: %SystemInt32, null
+    _pointLightColorID: %SystemInt32, null
+    _pointLightDirectionID: %SystemInt32, null
+    _pointLightCustomIdID: %SystemInt32, null
+    _pointLightCountID: %SystemInt32, null
+    _pointLightCubeCountID: %SystemInt32, null
+    _pointLightTextureID: %SystemInt32, null
+    _lightBrightnessCutoffID: %SystemInt32, null
+    _areaLightBrightnessCutoffID: %SystemInt32, null
+    lightVolumeRotationID: %SystemInt32, null
+    lightVolumeUvwID: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __0_lightVolume__param: %VRCUdonUdonBehaviour, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __0_pointLightVolume__param: %VRCUdonUdonBehaviour, null
+    __const_SystemString_1: %SystemString, null
+    __const_SystemString_2: %SystemString, null
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __const_SystemString_5: %SystemString, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __const_SystemString_12: %SystemString, null
+    __const_SystemString_13: %SystemString, null
+    __const_SystemString_14: %SystemString, null
+    __const_SystemString_15: %SystemString, null
+    __const_SystemString_16: %SystemString, null
+    __const_SystemString_17: %SystemString, null
+    __const_SystemString_18: %SystemString, null
+    __const_SystemString_19: %SystemString, null
+    __const_SystemString_20: %SystemString, null
+    __const_SystemString_21: %SystemString, null
+    __const_SystemString_22: %SystemString, null
+    __const_SystemString_23: %SystemString, null
+    __const_SystemString_24: %SystemString, null
+    __const_SystemString_25: %SystemString, null
+    __const_SystemString_26: %SystemString, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemInt32_4: %SystemInt32, null
+    __const_SystemInt32_5: %SystemInt32, null
+    __const_SystemInt32_6: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemString_27: %SystemString, null
+    __const_SystemString_28: %SystemString, null
+    __const_UnityEngineColor_0: %UnityEngineColor, null
+    __const_SystemString_29: %SystemString, null
+    __const_SystemString_30: %SystemString, null
+    __const_SystemString_31: %SystemString, null
+    __const_SystemString_32: %SystemString, null
+    __const_SystemInt32_7: %SystemInt32, null
+    __const_SystemInt32_8: %SystemInt32, null
+    __const_SystemInt32_9: %SystemInt32, null
+    __const_SystemString_33: %SystemString, null
+    __const_SystemString_34: %SystemString, null
+    __const_SystemString_35: %SystemString, null
+    __const_SystemString_36: %SystemString, null
+    __const_SystemString_37: %SystemString, null
+    __const_SystemString_38: %SystemString, null
+    __const_SystemString_39: %SystemString, null
+    __const_SystemString_40: %SystemString, null
+    __const_SystemString_41: %SystemString, null
+    __const_SystemString_42: %SystemString, null
+    __const_UnityEngineVector4_0: %UnityEngineVector4, null
+    __const_SystemString_43: %SystemString, null
+    __const_SystemString_44: %SystemString, null
+    __const_SystemInt32_10: %SystemInt32, null
+    __const_SystemInt32_11: %SystemInt32, null
+    __const_SystemString_45: %SystemString, null
+    __const_SystemString_46: %SystemString, null
+    __const_SystemString_47: %SystemString, null
+    __const_SystemString_48: %SystemString, null
+    __const_SystemString_49: %SystemString, null
+    __const_SystemString_50: %SystemString, null
+    __const_SystemString_51: %SystemString, null
+    __const_SystemString_52: %SystemString, null
+    __const_SystemString_53: %SystemString, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __lcl_count_SystemInt32_0: %SystemInt32, null
+    __lcl_targetArray_UnityEngineComponentArray_0: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __lcl_count_SystemInt32_1: %SystemInt32, null
+    __lcl_targetArray_UnityEngineComponentArray_1: %UnityEngineComponentArray, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineVector4Array_0: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_1: %UnityEngineVector4Array, null
+    __intnl_UnityEngineMatrix4x4Array_0: %UnityEngineMatrix4x4Array, null
+    __intnl_UnityEngineVector4Array_2: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_3: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_4: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_5: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_6: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_7: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_8: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_9: %UnityEngineVector4Array, null
+    __intnl_UnityEngineVector4Array_10: %UnityEngineVector4Array, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __lcl_isAtlas_SystemBoolean_0: %SystemBoolean, null
+    __intnl_UnityEngineObject_4: %UnityEngineObject, null
+    __intnl_UnityEngineObject_5: %UnityEngineObject, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_SystemSingle_7: %SystemSingle, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_UnityEngineObject_6: %UnityEngineObject, null
+    __intnl_UnityEngineObject_7: %UnityEngineObject, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __lcl_i_SystemInt32_2: %SystemInt32, null
+    __lcl_instance_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_UnityEngineColor_0: %UnityEngineColor, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __intnl_SystemObject_4: %SystemObject, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __lcl_enabledId_SystemInt32_0: %SystemInt32, null
+    __lcl_i2_SystemInt32_0: %SystemInt32, null
+    __lcl_i3_SystemInt32_0: %SystemInt32, null
+    __lcl_i6_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineMatrix4x4_0: %UnityEngineMatrix4x4, null
+    __intnl_UnityEngineVector4_0: %UnityEngineVector4, null
+    __lcl_c_UnityEngineVector4_0: %UnityEngineVector4, null
+    __intnl_UnityEngineColor_1: %UnityEngineColor, null
+    __intnl_UnityEngineColor_2: %UnityEngineColor, null
+    __intnl_UnityEngineVector4_1: %UnityEngineVector4, null
+    __intnl_SystemObject_5: %SystemObject, null
+    __intnl_UnityEngineVector4_2: %UnityEngineVector4, null
+    __intnl_SystemObject_6: %SystemObject, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_UnityEngineVector4_3: %UnityEngineVector4, null
+    __intnl_SystemObject_7: %SystemObject, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_UnityEngineVector4_4: %UnityEngineVector4, null
+    __intnl_SystemObject_8: %SystemObject, null
+    __intnl_UnityEngineVector4_5: %UnityEngineVector4, null
+    __intnl_SystemObject_9: %SystemObject, null
+    __intnl_UnityEngineVector4_6: %UnityEngineVector4, null
+    __intnl_SystemObject_10: %SystemObject, null
+    __intnl_UnityEngineVector4_7: %UnityEngineVector4, null
+    __intnl_SystemObject_11: %SystemObject, null
+    __intnl_UnityEngineVector4_8: %UnityEngineVector4, null
+    __intnl_UnityEngineVector4Array_11: %UnityEngineVector4Array, null
+    __intnl_SystemObject_12: %SystemObject, null
+    __intnl_SystemObject_13: %SystemObject, null
+    __intnl_UnityEngineVector4_9: %UnityEngineVector4, null
+    __intnl_SystemObject_14: %SystemObject, null
+    __intnl_UnityEngineVector4_10: %UnityEngineVector4, null
+    __intnl_SystemObject_15: %SystemObject, null
+    __intnl_UnityEngineVector4_11: %UnityEngineVector4, null
+    __intnl_SystemObject_16: %SystemObject, null
+    __intnl_UnityEngineVector4_12: %UnityEngineVector4, null
+    __intnl_SystemObject_17: %SystemObject, null
+    __intnl_UnityEngineVector4_13: %UnityEngineVector4, null
+    __intnl_SystemObject_18: %SystemObject, null
+    __intnl_UnityEngineVector4_14: %UnityEngineVector4, null
+    __intnl_SystemSByte_0: %SystemSByte, null
+    __intnl_UnityEngineTexture_0: %UnityEngineTexture, null
+.data_end
+.code_start
+    .export _onDisable
+    _onDisable:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.OnDisable()
+# 
+        PUSH, __gintnl_SystemUInt32_0
+# Calling VRCLightVolumes.LightVolumeManager.TryInitialize()
+        JUMP, 0x0000047C
+        PUSH, lightVolumeEnabledID
+        PUSH, __const_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_InitializeLightVolume
+    __0_InitializeLightVolume:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.InitializeLightVolume(VRCLightVolumes.LightVolumeInstance)
+# 
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_count_SystemInt32_0
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000019c
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000174
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __0_lightVolume__param
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __0_lightVolume__param
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000078
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_0
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_0
+        PUSH, __lcl_count_SystemInt32_0
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemArray_SystemInt32__SystemVoid"
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_0
+        PUSH, __lcl_count_SystemInt32_0
+        PUSH, __0_lightVolume__param
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __0_lightVolume__param
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_0
+        PUSH, LightVolumeInstances
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_InitializePointLightVolume
+    __0_InitializePointLightVolume:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.InitializePointLightVolume(VRCLightVolumes.PointLightVolumeInstance)
+# 
+        PUSH, PointLightVolumeInstances
+        PUSH, __lcl_count_SystemInt32_1
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000003b4
+        PUSH, PointLightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x0000038c
+        PUSH, PointLightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __0_pointLightVolume__param
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __0_pointLightVolume__param
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000290
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_1
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, PointLightVolumeInstances
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_1
+        PUSH, __lcl_count_SystemInt32_1
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemArray_SystemInt32__SystemVoid"
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_1
+        PUSH, __lcl_count_SystemInt32_1
+        PUSH, __0_pointLightVolume__param
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __0_pointLightVolume__param
+        PUSH, __const_SystemString_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_targetArray_UnityEngineComponentArray_1
+        PUSH, PointLightVolumeInstances
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.TryInitialize()
+# 
+        PUSH, __const_SystemString_1
+        PUSH, lightVolumeInvLocalEdgeSmoothID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_2
+        PUSH, lightVolumeInvWorldMatrixID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_3
+        PUSH, lightVolumeUvwID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_4
+        PUSH, lightVolumeColorID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_5
+        PUSH, lightVolumeCountID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_6
+        PUSH, lightVolumeAdditiveCountID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_7
+        PUSH, lightVolumeAdditiveMaxOverdrawID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_8
+        PUSH, lightVolumeEnabledID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_9
+        PUSH, lightVolumeVersionID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_10
+        PUSH, lightVolumeProbesBlendID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_11
+        PUSH, lightVolumeSharpBoundsID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_12
+        PUSH, lightVolumeID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_13
+        PUSH, lightVolumeRotationQuaternionID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_2
+        PUSH, lightVolumeInvWorldMatrixID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_14
+        PUSH, lightVolumeUvwScaleID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_15
+        PUSH, lightVolumeOcclusionUvwID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_16
+        PUSH, lightVolumeOcclusionCountID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_17
+        PUSH, _pointLightPositionID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_18
+        PUSH, _pointLightColorID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_19
+        PUSH, _pointLightDirectionID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_20
+        PUSH, _pointLightCountID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_21
+        PUSH, _pointLightCustomIdID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_22
+        PUSH, _pointLightCubeCountID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_23
+        PUSH, _pointLightTextureID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_24
+        PUSH, _lightBrightnessCutoffID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_25
+        PUSH, _areaLightBrightnessCutoffID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_26
+        PUSH, lightVolumeRotationID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, __const_SystemString_3
+        PUSH, lightVolumeUvwID
+        EXTERN, "VRCSDKBaseVRCShader.__PropertyToID__SystemString__SystemInt32"
+        PUSH, _isInitialized
+        JUMP_IF_FALSE, 0x00000740
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4Array_0
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeInvLocalEdgeSmoothID
+        PUSH, __intnl_UnityEngineVector4Array_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4Array_1
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeColorID
+        PUSH, __intnl_UnityEngineVector4Array_1
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineMatrix4x4Array_0
+        EXTERN, "UnityEngineMatrix4x4Array.__ctor__SystemInt32__UnityEngineMatrix4x4Array"
+        PUSH, lightVolumeInvWorldMatrixID
+        PUSH, __intnl_UnityEngineMatrix4x4Array_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalMatrixArray__SystemInt32_UnityEngineMatrix4x4Array__SystemVoid"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4Array_2
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeRotationQuaternionID
+        PUSH, __intnl_UnityEngineVector4Array_2
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_UnityEngineVector4Array_3
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeUvwScaleID
+        PUSH, __intnl_UnityEngineVector4Array_3
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4Array_4
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeOcclusionUvwID
+        PUSH, __intnl_UnityEngineVector4Array_4
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_UnityEngineVector4Array_5
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightPositionID
+        PUSH, __intnl_UnityEngineVector4Array_5
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_UnityEngineVector4Array_6
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightColorID
+        PUSH, __intnl_UnityEngineVector4Array_6
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_UnityEngineVector4Array_7
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightDirectionID
+        PUSH, __intnl_UnityEngineVector4Array_7
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_UnityEngineVector4Array_8
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightCustomIdID
+        PUSH, __intnl_UnityEngineVector4Array_8
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_5
+        PUSH, __intnl_UnityEngineVector4Array_9
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeRotationID
+        PUSH, __intnl_UnityEngineVector4Array_9
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemInt32_6
+        PUSH, __intnl_UnityEngineVector4Array_10
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, lightVolumeUvwID
+        PUSH, __intnl_UnityEngineVector4Array_10
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, __const_SystemBoolean_0
+        PUSH, _isInitialized
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.Update()
+# 
+        PUSH, AutoUpdateVolumes
+        JUMP_IF_FALSE, 0x000009c8
+        JUMP, 0x000009DC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_1
+# Calling VRCLightVolumes.LightVolumeManager.UpdateVolumes()
+        JUMP, 0x00000A48
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.Start()
+# 
+        PUSH, __const_SystemBoolean_1
+        PUSH, _isInitialized
+        COPY
+        PUSH, __gintnl_SystemUInt32_2
+# Calling VRCLightVolumes.LightVolumeManager.UpdateVolumes()
+        JUMP, 0x00000A48
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export UpdateVolumes
+    UpdateVolumes:
+        PUSH, __const_SystemUInt32_0
+# 
+# VRCLightVolumes.LightVolumeManager.UpdateVolumes()
+# 
+        PUSH, __gintnl_SystemUInt32_3
+# Calling VRCLightVolumes.LightVolumeManager.TryInitialize()
+        JUMP, 0x0000047C
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__get_enabled__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000aa0
+        JUMP, 0x00000AD0
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000b0c
+        PUSH, lightVolumeEnabledID
+        PUSH, __const_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, _prevLightsBrightnessCutoff
+        PUSH, LightsBrightnessCutoff
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemSingle.__op_Inequality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000b64
+        PUSH, LightsBrightnessCutoff
+        PUSH, _prevLightsBrightnessCutoff
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, IsRangeDirty
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, _enabledCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, _additiveCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, _occlusionCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, LightVolumeInstances
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000c1c
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000fd4
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_UnityEngineObject_4
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000cac
+        JUMP, 0x00000FAC
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000d44
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemSingle.__op_Inequality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000dbc
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_28
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineColor_0
+        COPY
+        PUSH, __intnl_UnityEngineColor_0
+        PUSH, __const_UnityEngineColor_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "UnityEngineColor.__op_Inequality__UnityEngineColor_UnityEngineColor__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        PUSH, __intnl_SystemBoolean_10
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000e2c
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemBoolean_13
+        COPY
+        PUSH, __intnl_SystemBoolean_13
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00000f8c
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_30
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_31
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x00000ec0
+        PUSH, _additiveCount
+        PUSH, __const_SystemInt32_1
+        PUSH, _additiveCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000F24
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemBoolean_15
+        COPY
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000f24
+        PUSH, _occlusionCount
+        PUSH, __const_SystemInt32_1
+        PUSH, _occlusionCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, _enabledIDs
+        PUSH, _enabledCount
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_1
+        PUSH, _enabledCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x00000FAC
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000BB4
+        PUSH, _enabledCount
+        PUSH, _lastEnabledCount
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00001138
+        PUSH, _enabledCount
+        PUSH, _invLocalEdgeSmooth
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, _relativeRotationQuaternion
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_7
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, _boundsUvwScale
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, _boundsOcclusionUvw
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, _colors
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, _invWorldMatrix
+        EXTERN, "UnityEngineMatrix4x4Array.__ctor__SystemInt32__UnityEngineMatrix4x4Array"
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, _relativeRotation
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_9
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, _boundsUvw
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _enabledCount
+        PUSH, _lastEnabledCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, _enabledCount
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001a08
+        PUSH, _enabledIDs
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_enabledId_SystemInt32_0
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_8
+        PUSH, __lcl_i2_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_7
+        PUSH, __lcl_i3_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_9
+        PUSH, __lcl_i6_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Multiplication__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, LightVolumeInstances
+        PUSH, __lcl_enabledId_SystemInt32_0
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_33
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_UnityEngineMatrix4x4_0
+        COPY
+        PUSH, _invWorldMatrix
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineMatrix4x4_0
+        EXTERN, "UnityEngineMatrix4x4Array.__Set__SystemInt32_UnityEngineMatrix4x4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_34
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineVector4_0
+        COPY
+        PUSH, _invLocalEdgeSmooth
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_0
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_28
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_UnityEngineColor_0
+        COPY
+        PUSH, __intnl_UnityEngineColor_0
+        PUSH, __intnl_UnityEngineColor_1
+        EXTERN, "UnityEngineColor.__get_linear__UnityEngineColor"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_UnityEngineColor_1
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_UnityEngineColor_2
+        EXTERN, "UnityEngineColor.__op_Multiply__UnityEngineColor_SystemSingle__UnityEngineColor"
+        PUSH, __intnl_UnityEngineColor_2
+        PUSH, __lcl_c_UnityEngineVector4_0
+        EXTERN, "UnityEngineColor.__op_Implicit__UnityEngineColor__UnityEngineVector4"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_35
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemBoolean_10
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00001400
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        JUMP, 0x00001414
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __lcl_c_UnityEngineVector4_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "UnityEngineVector4.__set_w__SystemSingle"
+# Cow dirty
+        PUSH, __lcl_c_UnityEngineVector4_0
+        PUSH, __intnl_UnityEngineVector4_1
+        COPY
+        PUSH, _colors
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_c_UnityEngineVector4_0
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_36
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_UnityEngineVector4_2
+        COPY
+        PUSH, _relativeRotationQuaternion
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_2
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_37
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __intnl_UnityEngineVector3_0
+        COPY
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector4_3
+        EXTERN, "UnityEngineVector4.__op_Implicit__UnityEngineVector3__UnityEngineVector4"
+        PUSH, _relativeRotation
+        PUSH, __lcl_i2_SystemInt32_0
+        PUSH, __intnl_UnityEngineVector4_3
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_i2_SystemInt32_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_38
+        PUSH, __intnl_SystemObject_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_7
+        PUSH, __intnl_UnityEngineVector3_1
+        COPY
+        PUSH, __intnl_UnityEngineVector3_1
+        PUSH, __intnl_UnityEngineVector4_4
+        EXTERN, "UnityEngineVector4.__op_Implicit__UnityEngineVector3__UnityEngineVector4"
+        PUSH, _relativeRotation
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_UnityEngineVector4_4
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_39
+        PUSH, __intnl_SystemObject_8
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_8
+        PUSH, __intnl_UnityEngineVector4_5
+        COPY
+        PUSH, _boundsScale
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_UnityEngineVector4_5
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_40
+        PUSH, __intnl_SystemObject_9
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_9
+        PUSH, __intnl_UnityEngineVector4_6
+        COPY
+        PUSH, _boundsScale
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector4_6
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_41
+        PUSH, __intnl_SystemObject_10
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_10
+        PUSH, __intnl_UnityEngineVector4_7
+        COPY
+        PUSH, _boundsScale
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_UnityEngineVector4_7
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_32
+        PUSH, __intnl_SystemObject_11
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_11
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+# Cow dirty
+        PUSH, _boundsOcclusionUvw
+        PUSH, __intnl_UnityEngineVector4Array_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001754
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_42
+        PUSH, __intnl_SystemObject_12
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_12
+        PUSH, __intnl_UnityEngineVector4_8
+        COPY
+        JUMP, 0x00001768
+        PUSH, __const_UnityEngineVector4_0
+        PUSH, __intnl_UnityEngineVector4_8
+        COPY
+        PUSH, __intnl_UnityEngineVector4Array_11
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_8
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_39
+        PUSH, __intnl_SystemObject_13
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_13
+        PUSH, __intnl_UnityEngineVector4_9
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_UnityEngineVector4_9
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_43
+        PUSH, __intnl_SystemObject_14
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_14
+        PUSH, __intnl_UnityEngineVector4_10
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector4_10
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_40
+        PUSH, __intnl_SystemObject_15
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_15
+        PUSH, __intnl_UnityEngineVector4_11
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_8
+        PUSH, __intnl_UnityEngineVector4_11
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_44
+        PUSH, __intnl_SystemObject_16
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_16
+        PUSH, __intnl_UnityEngineVector4_12
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_7
+        PUSH, __intnl_UnityEngineVector4_12
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_41
+        PUSH, __intnl_SystemObject_17
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_17
+        PUSH, __intnl_UnityEngineVector4_13
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_10
+        PUSH, __intnl_UnityEngineVector4_13
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_45
+        PUSH, __intnl_SystemObject_18
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_18
+        PUSH, __intnl_UnityEngineVector4_14
+        COPY
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_11
+        PUSH, __intnl_UnityEngineVector4_14
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, _boundsScale
+        PUSH, __const_SystemInt32_0
+        PUSH, _boundsUvwScale
+        PUSH, __lcl_i3_SystemInt32_0
+        PUSH, __const_SystemInt32_7
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _bounds
+        PUSH, __const_SystemInt32_0
+        PUSH, _boundsUvw
+        PUSH, __lcl_i6_SystemInt32_0
+        PUSH, __const_SystemInt32_9
+        EXTERN, "SystemArray.__Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000114C
+        PUSH, __const_SystemInt32_0
+        PUSH, _pointLightCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, PointLightVolumeInstances
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemArray.__get_Length__SystemInt32"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001a98
+        PUSH, _pointLightCount
+        PUSH, __const_SystemInt32_4
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001da8
+        PUSH, PointLightVolumeInstances
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_UnityEngineObject_4
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00001b28
+        JUMP, 0x00001D80
+        PUSH, IsRangeDirty
+        JUMP_IF_FALSE, 0x00001b50
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_46
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00001be8
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemSingle.__op_Inequality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        PUSH, __intnl_SystemBoolean_12
+        COPY
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00001c60
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_28
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineColor_0
+        COPY
+        PUSH, __intnl_UnityEngineColor_0
+        PUSH, __const_UnityEngineColor_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "UnityEngineColor.__op_Inequality__UnityEngineColor_UnityEngineColor__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001cd0
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        PUSH, __intnl_SystemBoolean_14
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001d60
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_30
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, _enabledPointIDs
+        PUSH, _pointLightCount
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, _pointLightCount
+        PUSH, __const_SystemInt32_1
+        PUSH, _pointLightCount
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        JUMP, 0x00001D80
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001A30
+        PUSH, __const_SystemBoolean_1
+        PUSH, IsRangeDirty
+        COPY
+        PUSH, _pointLightCount
+        PUSH, _lastPointLightCount
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001e60
+        PUSH, _pointLightCount
+        PUSH, _pointLightPosition
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightCount
+        PUSH, _pointLightColor
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightCount
+        PUSH, _pointLightDirection
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightCount
+        PUSH, _pointLightCustomId
+        EXTERN, "UnityEngineVector4Array.__ctor__SystemInt32__UnityEngineVector4Array"
+        PUSH, _pointLightCount
+        PUSH, _lastPointLightCount
+        COPY
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_2
+        COPY
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, _pointLightCount
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00002364
+        PUSH, _enabledPointIDs
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, PointLightVolumeInstances
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, IsRangeDirty
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001f10
+        JUMP, 0x00001F44
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_47
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemBoolean_11
+        COPY
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001f6c
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_46
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_29
+        PUSH, __const_SystemBoolean_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_48
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_UnityEngineVector4_0
+        COPY
+        PUSH, _pointLightPosition
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_0
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_28
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_UnityEngineColor_0
+        COPY
+        PUSH, __intnl_UnityEngineColor_0
+        PUSH, __intnl_UnityEngineColor_1
+        EXTERN, "UnityEngineColor.__get_linear__UnityEngineColor"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_27
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_UnityEngineColor_1
+        PUSH, __intnl_SystemSingle_0
+        PUSH, __intnl_UnityEngineColor_2
+        EXTERN, "UnityEngineColor.__op_Multiply__UnityEngineColor_SystemSingle__UnityEngineColor"
+        PUSH, __intnl_UnityEngineColor_2
+        PUSH, __lcl_c_UnityEngineVector4_0
+        EXTERN, "UnityEngineColor.__op_Implicit__UnityEngineColor__UnityEngineVector4"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_49
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __lcl_c_UnityEngineVector4_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "UnityEngineVector4.__set_w__SystemSingle"
+# Cow dirty
+        PUSH, __lcl_c_UnityEngineVector4_0
+        PUSH, __intnl_UnityEngineVector4_1
+        COPY
+        PUSH, _pointLightColor
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __lcl_c_UnityEngineVector4_0
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_50
+        PUSH, __intnl_SystemObject_5
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_5
+        PUSH, __intnl_UnityEngineVector4_2
+        COPY
+        PUSH, _pointLightDirection
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_2
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_3
+        EXTERN, "UnityEngineVector4Array.__Get__SystemInt32__UnityEngineVector4"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_51
+        PUSH, __intnl_SystemObject_6
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_6
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_UnityEngineVector4_3
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "UnityEngineVector4.__set_x__SystemSingle"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_3
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_4
+        EXTERN, "UnityEngineVector4Array.__Get__SystemInt32__UnityEngineVector4"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_52
+        PUSH, __intnl_SystemObject_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_7
+        PUSH, __intnl_SystemSByte_0
+        EXTERN, "SystemConvert.__ToSByte__SystemObject__SystemSByte"
+        PUSH, __intnl_SystemSByte_0
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemConvert.__ToSingle__SystemSByte__SystemSingle"
+        PUSH, __intnl_UnityEngineVector4_4
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "UnityEngineVector4.__set_y__SystemSingle"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_4
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_5
+        EXTERN, "UnityEngineVector4Array.__Get__SystemInt32__UnityEngineVector4"
+        PUSH, __lcl_instance_VRCUdonUdonBehaviour_0
+        PUSH, __const_SystemString_53
+        PUSH, __intnl_SystemObject_8
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_8
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemConvert.__ToSingle__SystemObject__SystemSingle"
+        PUSH, __intnl_UnityEngineVector4_5
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "UnityEngineVector4.__set_z__SystemSingle"
+        PUSH, _pointLightCustomId
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __intnl_UnityEngineVector4_5
+        EXTERN, "UnityEngineVector4Array.__Set__SystemInt32_UnityEngineVector4__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_2
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001E74
+        PUSH, LightVolumeAtlas
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_UnityEngineObject_4
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __lcl_isAtlas_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, lightVolumeVersionID
+        PUSH, __const_SystemSingle_1
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __lcl_isAtlas_SystemBoolean_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x000023f4
+        JUMP, 0x00002414
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        PUSH, __intnl_SystemBoolean_10
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00002458
+        PUSH, _pointLightCount
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x00002494
+        PUSH, lightVolumeEnabledID
+        PUSH, __const_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_isAtlas_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000024d0
+        PUSH, LightVolumeAtlas
+        PUSH, __intnl_UnityEngineTexture_0
+        COPY
+        PUSH, lightVolumeID
+        PUSH, __intnl_UnityEngineTexture_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalTexture__SystemInt32_UnityEngineTexture__SystemVoid"
+        PUSH, _enabledCount
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, lightVolumeCountID
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, _additiveCount
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, lightVolumeAdditiveCountID
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, _occlusionCount
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, lightVolumeOcclusionCountID
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+# Cow dirty
+        PUSH, lightVolumeProbesBlendID
+        PUSH, __intnl_SystemInt32_3
+        COPY
+        PUSH, LightProbesBlending
+        JUMP_IF_FALSE, 0x000025a0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        JUMP, 0x000025B4
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, __intnl_SystemInt32_2
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+# Cow dirty
+        PUSH, lightVolumeSharpBoundsID
+        PUSH, __intnl_SystemInt32_5
+        COPY
+        PUSH, SharpBounds
+        JUMP_IF_FALSE, 0x00002624
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemInt32_4
+        COPY
+        JUMP, 0x00002638
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_4
+        COPY
+        PUSH, __intnl_SystemInt32_4
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, AdditiveMaxOverdraw
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, lightVolumeAdditiveMaxOverdrawID
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, _enabledCount
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00002788
+        PUSH, lightVolumeInvLocalEdgeSmoothID
+        PUSH, _invLocalEdgeSmooth
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeUvwScaleID
+        PUSH, _boundsUvwScale
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeOcclusionUvwID
+        PUSH, _boundsOcclusionUvw
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeInvWorldMatrixID
+        PUSH, _invWorldMatrix
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalMatrixArray__SystemInt32_UnityEngineMatrix4x4Array__SystemVoid"
+        PUSH, lightVolumeRotationQuaternionID
+        PUSH, _relativeRotationQuaternion
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeColorID
+        PUSH, _colors
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeUvwID
+        PUSH, _boundsUvw
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, lightVolumeRotationID
+        PUSH, _relativeRotation
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, _pointLightCount
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, _pointLightCountID
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, CubemapsCount
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "SystemConvert.__ToSingle__SystemInt32__SystemSingle"
+        PUSH, _pointLightCubeCountID
+        PUSH, __intnl_SystemSingle_7
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, _pointLightCount
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x000028a8
+        PUSH, _pointLightColorID
+        PUSH, _pointLightColor
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, _pointLightPositionID
+        PUSH, _pointLightPosition
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, _pointLightDirectionID
+        PUSH, _pointLightDirection
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, _pointLightCustomIdID
+        PUSH, _pointLightCustomId
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalVectorArray__SystemInt32_UnityEngineVector4Array__SystemVoid"
+        PUSH, _lightBrightnessCutoffID
+        PUSH, LightsBrightnessCutoff
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, _areaLightBrightnessCutoffID
+        PUSH, LightsBrightnessCutoff
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, CustomTextures
+        PUSH, __intnl_UnityEngineObject_6
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_7
+        COPY
+        PUSH, __intnl_UnityEngineObject_6
+        PUSH, __intnl_UnityEngineObject_7
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x0000292c
+        PUSH, CustomTextures
+        PUSH, __intnl_UnityEngineTexture_0
+        COPY
+        PUSH, _pointLightTextureID
+        PUSH, __intnl_UnityEngineTexture_0
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalTexture__SystemInt32_UnityEngineTexture__SystemVoid"
+        PUSH, lightVolumeEnabledID
+        PUSH, __const_SystemSingle_2
+        EXTERN, "VRCSDKBaseVRCShader.__SetGlobalFloat__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

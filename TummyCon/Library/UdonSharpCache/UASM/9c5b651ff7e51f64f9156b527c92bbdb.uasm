@@ -1,0 +1,1255 @@
+.data_start
+    .export bufferSize
+    .export lookbackFrames
+    .export endOffset
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    bufferSize: %SystemInt32, null
+    headPositions: %UnityEngineVector3Array, null
+    headRotations: %UnityEngineQuaternionArray, null
+    leftHandPositions: %UnityEngineVector3Array, null
+    leftHandRotations: %UnityEngineQuaternionArray, null
+    rightHandPositions: %UnityEngineVector3Array, null
+    rightHandRotations: %UnityEngineQuaternionArray, null
+    timestamps: %SystemSingleArray, null
+    currentIndex: %SystemInt32, null
+    initialized: %SystemBoolean, null
+    framesFilled: %SystemInt32, null
+    lookbackFrames: %SystemInt32, null
+    endOffset: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_0: %SystemInt32, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __const_VRCSDKBaseVRCPlayerApiTrackingDataType_1: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __const_VRCSDKBaseVRCPlayerApiTrackingDataType_2: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    __0___0_GetIndexWithOffset__ret: %SystemInt32, null
+    __0_offset__param: %SystemInt32, null
+    __0___0_GetVelocity__ret: %UnityEngineVector3, null
+    __0_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __const_UnityEngineVector3_0: %UnityEngineVector3, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __0___0_GetPosition__ret: %UnityEngineVector3, null
+    __3_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __0_index__param: %SystemInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __const_SystemSingle_0: %SystemSingle, null
+    __0___0_GetVelocityAtOffset__ret: %UnityEngineVector3, null
+    __1_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __0_localOffset__param: %UnityEngineVector3, null
+    __gintnl_SystemUInt32_5: %SystemUInt32, null
+    __gintnl_SystemUInt32_6: %SystemUInt32, null
+    __gintnl_SystemUInt32_7: %SystemUInt32, null
+    __gintnl_SystemUInt32_8: %SystemUInt32, null
+    __0___0_GetRotation__ret: %UnityEngineQuaternion, null
+    __4_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __1_index__param: %SystemInt32, null
+    __gintnl_SystemUInt32_9: %SystemUInt32, null
+    __gintnl_SystemUInt32_10: %SystemUInt32, null
+    __0___0_GetAngularVelocity__ret: %UnityEngineVector3, null
+    __2_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __0_smoothingFrames__param: %SystemInt32, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __gintnl_SystemUInt32_11: %SystemUInt32, null
+    __gintnl_SystemUInt32_12: %SystemUInt32, null
+    __gintnl_SystemUInt32_13: %SystemUInt32, null
+    __gintnl_SystemUInt32_14: %SystemUInt32, null
+    __const_SystemSingle_1: %SystemSingle, null
+    __const_SystemSingle_2: %SystemSingle, null
+    __const_SystemSingle_3: %SystemSingle, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __0___0_CalculateLocalOffsetFromWorldPosition__ret: %UnityEngineVector3, null
+    __5_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __0_worldPosition__param: %UnityEngineVector3, null
+    __gintnl_SystemUInt32_15: %SystemUInt32, null
+    __gintnl_SystemUInt32_16: %SystemUInt32, null
+    __0___0_GetHistoricalPositionsArrayAtOffset__ret: %UnityEngineVector3Array, null
+    __6_dataType__param: %VRCSDKBaseVRCPlayerApiTrackingDataType, null
+    __1_localOffset__param: %UnityEngineVector3, null
+    __0_startOffset__param: %SystemInt32, null
+    __0_numberOfFrames__param: %SystemInt32, null
+    __gintnl_SystemUInt32_17: %SystemUInt32, null
+    __gintnl_SystemUInt32_18: %SystemUInt32, null
+    __gintnl_SystemUInt32_19: %SystemUInt32, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __lcl_currentHeadPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_0: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentHeadRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_1: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentLeftPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_2: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentLeftRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_3: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentRightPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_4: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentRightRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_5: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __lcl_currentTime_SystemSingle_0: %SystemSingle, null
+    __lcl_i_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __lcl_player_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemSingle_0: %SystemSingle, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_6: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_7: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_UnityEngineVector3_1: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_8: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_UnityEngineQuaternion_1: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_9: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_UnityEngineVector3_2: %UnityEngineVector3, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_10: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_UnityEngineQuaternion_2: %UnityEngineQuaternion, null
+    __intnl_VRCSDKBaseVRCPlayerApiTrackingData_11: %VRCSDKBaseVRCPlayerApiTrackingData, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_SystemInt32_3: %SystemInt32, null
+    __intnl_SystemInt32_4: %SystemInt32, null
+    __intnl_SystemInt32_5: %SystemInt32, null
+    __lcl_newestIdx_SystemInt32_0: %SystemInt32, null
+    __lcl_oldestIdx_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemInt32_6: %SystemInt32, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_SystemInt32_7: %SystemInt32, null
+    __intnl_SystemInt32_8: %SystemInt32, null
+    __lcl_newestPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_oldestPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_totalDeltaTime_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_2: %SystemSingle, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_UnityEngineVector3_3: %UnityEngineVector3, null
+    __lcl_newestIdx_SystemInt32_1: %SystemInt32, null
+    __lcl_oldestIdx_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemInt32_9: %SystemInt32, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_SystemInt32_10: %SystemInt32, null
+    __intnl_SystemInt32_11: %SystemInt32, null
+    __lcl_newestPos_UnityEngineVector3_1: %UnityEngineVector3, null
+    __lcl_newestRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __lcl_oldestPos_UnityEngineVector3_1: %UnityEngineVector3, null
+    __lcl_oldestRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __lcl_totalDeltaTime_SystemSingle_1: %SystemSingle, null
+    __intnl_SystemSingle_3: %SystemSingle, null
+    __intnl_SystemSingle_4: %SystemSingle, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_offsetPointNewestPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_4: %UnityEngineVector3, null
+    __lcl_offsetPointOldestPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_5: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_6: %UnityEngineVector3, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __lcl_newestIdx_SystemInt32_2: %SystemInt32, null
+    __lcl_oldestIdx_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemInt32_12: %SystemInt32, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_SystemInt32_13: %SystemInt32, null
+    __intnl_SystemInt32_14: %SystemInt32, null
+    __lcl_currentRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __lcl_previousRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __lcl_deltaTime_SystemSingle_0: %SystemSingle, null
+    __intnl_SystemSingle_5: %SystemSingle, null
+    __intnl_SystemSingle_6: %SystemSingle, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __lcl_deltaRotation_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineQuaternion_3: %UnityEngineQuaternion, null
+    __lcl_angle_SystemSingle_0: %SystemSingle, null
+    __lcl_axis_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_UnityEngineVector3_7: %UnityEngineVector3, null
+    __intnl_SystemInt32_15: %SystemInt32, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_SystemInt32_16: %SystemInt32, null
+    __intnl_SystemBoolean_16: %SystemBoolean, null
+    __intnl_SystemBoolean_17: %SystemBoolean, null
+    __intnl_SystemBoolean_18: %SystemBoolean, null
+    __lcl_trackingPointWorldPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_trackingPointWorldRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineQuaternion_4: %UnityEngineQuaternion, null
+    __intnl_UnityEngineVector3_8: %UnityEngineVector3, null
+    __intnl_SystemBoolean_19: %SystemBoolean, null
+    __intnl_SystemBoolean_20: %SystemBoolean, null
+    __intnl_SystemBoolean_21: %SystemBoolean, null
+    __intnl_SystemInt32_17: %SystemInt32, null
+    __lcl_historicalPositions_UnityEngineVector3Array_0: %UnityEngineVector3Array, null
+    __lcl_i_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_22: %SystemBoolean, null
+    __lcl_currentOffset_SystemInt32_0: %SystemInt32, null
+    __lcl_historicalIndex_SystemInt32_0: %SystemInt32, null
+    __lcl_trackingPointHistoricalPos_UnityEngineVector3_0: %UnityEngineVector3, null
+    __lcl_trackingPointHistoricalRot_UnityEngineQuaternion_0: %UnityEngineQuaternion, null
+    __intnl_UnityEngineVector3_9: %UnityEngineVector3, null
+    __intnl_UnityEngineVector3_10: %UnityEngineVector3, null
+.data_end
+.code_start
+.update_order -999
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.Start()
+# 
+        PUSH, lookbackFrames
+        PUSH, endOffset
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, bufferSize
+        PUSH, bufferSize
+        EXTERN, "UnityEngineMathf.__Max__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_0
+# Calling com.vrcstuff.udon.ControllerTracker.InitializeArrays()
+        JUMP, 0x00000094
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.InitializeArrays()
+# 
+        PUSH, bufferSize
+        PUSH, headPositions
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, bufferSize
+        PUSH, headRotations
+        EXTERN, "UnityEngineQuaternionArray.__ctor__SystemInt32__UnityEngineQuaternionArray"
+        PUSH, bufferSize
+        PUSH, leftHandPositions
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, bufferSize
+        PUSH, leftHandRotations
+        EXTERN, "UnityEngineQuaternionArray.__ctor__SystemInt32__UnityEngineQuaternionArray"
+        PUSH, bufferSize
+        PUSH, rightHandPositions
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, bufferSize
+        PUSH, rightHandRotations
+        EXTERN, "UnityEngineQuaternionArray.__ctor__SystemInt32__UnityEngineQuaternionArray"
+        PUSH, bufferSize
+        PUSH, timestamps
+        EXTERN, "SystemSingleArray.__ctor__SystemInt32__SystemSingleArray"
+        PUSH, __const_SystemInt32_1
+        PUSH, currentIndex
+        COPY
+        PUSH, __const_SystemInt32_1
+        PUSH, framesFilled
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, initialized
+        COPY
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x0000048c
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_0
+        PUSH, __lcl_currentHeadPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_1
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_1
+        PUSH, __lcl_currentHeadRot_UnityEngineQuaternion_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_1
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_2
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_2
+        PUSH, __lcl_currentLeftPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_1
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_3
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_3
+        PUSH, __lcl_currentLeftRot_UnityEngineQuaternion_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_2
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_4
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_4
+        PUSH, __lcl_currentRightPos_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_2
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_5
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_5
+        PUSH, __lcl_currentRightRot_UnityEngineQuaternion_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, __lcl_currentTime_SystemSingle_0
+        EXTERN, "UnityEngineTime.__get_time__SystemSingle"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_0
+        COPY
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, bufferSize
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000464
+        PUSH, headPositions
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentHeadPos_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, headRotations
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentHeadRot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, leftHandPositions
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentLeftPos_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, leftHandRotations
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentLeftRot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, rightHandPositions
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentRightPos_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, rightHandRotations
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentRightRot_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, timestamps
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __lcl_currentTime_SystemSingle_0
+        EXTERN, "SystemSingleArray.__Set__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x0000032C
+        PUSH, __const_SystemBoolean_1
+        PUSH, initialized
+        COPY
+        PUSH, bufferSize
+        PUSH, framesFilled
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _update
+    _update:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.Update()
+# 
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000004fc
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, currentIndex
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_2
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_2
+        PUSH, bufferSize
+        PUSH, currentIndex
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "UnityEngineTime.__get_time__SystemSingle"
+        PUSH, timestamps
+        PUSH, currentIndex
+        PUSH, __intnl_SystemSingle_0
+        EXTERN, "SystemSingleArray.__Set__SystemInt32_SystemSingle__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_6
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_6
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, headPositions
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_7
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_7
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, headRotations
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_1
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_8
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_8
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, leftHandPositions
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineVector3_1
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_1
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_9
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_9
+        PUSH, __intnl_UnityEngineQuaternion_1
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, leftHandRotations
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineQuaternion_1
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_2
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_10
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_10
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3"
+        PUSH, rightHandPositions
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineVector3_2
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_player_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __const_VRCSDKBaseVRCPlayerApiTrackingDataType_2
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_11
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApiTrackingData_11
+        PUSH, __intnl_UnityEngineQuaternion_2
+        EXTERN, "VRCSDKBaseVRCPlayerApiTrackingData.__get_rotation__UnityEngineQuaternion"
+        PUSH, rightHandRotations
+        PUSH, currentIndex
+        PUSH, __intnl_UnityEngineQuaternion_2
+        EXTERN, "UnityEngineQuaternionArray.__Set__SystemInt32_UnityEngineQuaternion__SystemVoid"
+        PUSH, initialized
+        JUMP_IF_FALSE, 0x00000794
+        JUMP, 0x00000800
+        PUSH, framesFilled
+        PUSH, bufferSize
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000007ec
+        PUSH, framesFilled
+        PUSH, __const_SystemInt32_0
+        PUSH, framesFilled
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000800
+        PUSH, __const_SystemBoolean_1
+        PUSH, initialized
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetIndexWithOffset
+    __0_GetIndexWithOffset:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+# 
+        PUSH, __0_offset__param
+        PUSH, bufferSize
+        PUSH, __intnl_SystemInt32_3
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, currentIndex
+        PUSH, __intnl_SystemInt32_3
+        PUSH, __intnl_SystemInt32_4
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_4
+        PUSH, bufferSize
+        PUSH, __intnl_SystemInt32_5
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_5
+        PUSH, bufferSize
+        PUSH, __0___0_GetIndexWithOffset__ret
+        EXTERN, "SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetVelocity
+    __0_GetVelocity:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetVelocity(VRC.SDKBase.VRCPlayerApi.TrackingDataType)
+# 
+        PUSH, initialized
+        JUMP_IF_FALSE, 0x000008e4
+        JUMP, 0x0000090C
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, endOffset
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_newestIdx_SystemInt32_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, endOffset
+        PUSH, lookbackFrames
+        PUSH, __intnl_SystemInt32_6
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_6
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_oldestIdx_SystemInt32_0
+        COPY
+        PUSH, initialized
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000a24
+        PUSH, endOffset
+        PUSH, lookbackFrames
+        PUSH, __intnl_SystemInt32_7
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_7
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_8
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, framesFilled
+        PUSH, __intnl_SystemInt32_8
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x00000a5c
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, __0_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, __lcl_newestIdx_SystemInt32_0
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_newestPos_UnityEngineVector3_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, __0_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, __lcl_oldestIdx_SystemInt32_0
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_oldestPos_UnityEngineVector3_0
+        COPY
+        PUSH, timestamps
+        PUSH, __lcl_newestIdx_SystemInt32_0
+        PUSH, __intnl_SystemSingle_1
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, timestamps
+        PUSH, __lcl_oldestIdx_SystemInt32_0
+        PUSH, __intnl_SystemSingle_2
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemSingle_1
+        PUSH, __intnl_SystemSingle_2
+        PUSH, __lcl_totalDeltaTime_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_totalDeltaTime_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000bac
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_newestPos_UnityEngineVector3_0
+        PUSH, __lcl_oldestPos_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector3_3
+        EXTERN, "UnityEngineVector3.__op_Subtraction__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_3
+        PUSH, __lcl_totalDeltaTime_SystemSingle_0
+        PUSH, __0___0_GetVelocity__ret
+        EXTERN, "UnityEngineVector3.__op_Division__UnityEngineVector3_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetVelocityAtOffset
+    __0_GetVelocityAtOffset:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetVelocityAtOffset(VRC.SDKBase.VRCPlayerApi.TrackingDataType, UnityEngine.Vector3)
+# 
+        PUSH, initialized
+        JUMP_IF_FALSE, 0x00000c34
+        JUMP, 0x00000C5C
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocityAtOffset__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_5
+        PUSH, endOffset
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_newestIdx_SystemInt32_1
+        COPY
+        PUSH, __gintnl_SystemUInt32_6
+        PUSH, endOffset
+        PUSH, lookbackFrames
+        PUSH, __intnl_SystemInt32_9
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_9
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_oldestIdx_SystemInt32_1
+        COPY
+        PUSH, initialized
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000d74
+        PUSH, endOffset
+        PUSH, lookbackFrames
+        PUSH, __intnl_SystemInt32_10
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_10
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_11
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, framesFilled
+        PUSH, __intnl_SystemInt32_11
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x00000dac
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocityAtOffset__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_7
+        PUSH, __1_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, __lcl_newestIdx_SystemInt32_1
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_newestPos_UnityEngineVector3_1
+        COPY
+        PUSH, __gintnl_SystemUInt32_8
+        PUSH, __1_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, __lcl_newestIdx_SystemInt32_1
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_newestRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_9
+        PUSH, __1_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, __lcl_oldestIdx_SystemInt32_1
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_oldestPos_UnityEngineVector3_1
+        COPY
+        PUSH, __gintnl_SystemUInt32_10
+        PUSH, __1_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, __lcl_oldestIdx_SystemInt32_1
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_oldestRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, timestamps
+        PUSH, __lcl_newestIdx_SystemInt32_1
+        PUSH, __intnl_SystemSingle_3
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, timestamps
+        PUSH, __lcl_oldestIdx_SystemInt32_1
+        PUSH, __intnl_SystemSingle_4
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemSingle_3
+        PUSH, __intnl_SystemSingle_4
+        PUSH, __lcl_totalDeltaTime_SystemSingle_1
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_totalDeltaTime_SystemSingle_1
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        JUMP_IF_FALSE, 0x00000f94
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetVelocityAtOffset__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_newestRot_UnityEngineQuaternion_0
+        PUSH, __0_localOffset__param
+        PUSH, __intnl_UnityEngineVector3_4
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_newestPos_UnityEngineVector3_1
+        PUSH, __intnl_UnityEngineVector3_4
+        PUSH, __lcl_offsetPointNewestPos_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3.__op_Addition__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_oldestRot_UnityEngineQuaternion_0
+        PUSH, __0_localOffset__param
+        PUSH, __intnl_UnityEngineVector3_5
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_oldestPos_UnityEngineVector3_1
+        PUSH, __intnl_UnityEngineVector3_5
+        PUSH, __lcl_offsetPointOldestPos_UnityEngineVector3_0
+        EXTERN, "UnityEngineVector3.__op_Addition__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_offsetPointNewestPos_UnityEngineVector3_0
+        PUSH, __lcl_offsetPointOldestPos_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector3_6
+        EXTERN, "UnityEngineVector3.__op_Subtraction__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_6
+        PUSH, __lcl_totalDeltaTime_SystemSingle_1
+        PUSH, __0___0_GetVelocityAtOffset__ret
+        EXTERN, "UnityEngineVector3.__op_Division__UnityEngineVector3_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetAngularVelocity
+    __0_GetAngularVelocity:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetAngularVelocity(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+# 
+        PUSH, initialized
+        JUMP_IF_FALSE, 0x0000109c
+        JUMP, 0x000010C4
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetAngularVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_smoothingFrames__param
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00001108
+        PUSH, lookbackFrames
+        PUSH, __0_smoothingFrames__param
+        COPY
+        PUSH, __gintnl_SystemUInt32_11
+        PUSH, endOffset
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_newestIdx_SystemInt32_2
+        COPY
+        PUSH, __gintnl_SystemUInt32_12
+        PUSH, endOffset
+        PUSH, __0_smoothingFrames__param
+        PUSH, __intnl_SystemInt32_12
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_12
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_oldestIdx_SystemInt32_2
+        COPY
+        PUSH, initialized
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001220
+        PUSH, endOffset
+        PUSH, __0_smoothingFrames__param
+        PUSH, __intnl_SystemInt32_13
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_13
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemInt32_14
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, framesFilled
+        PUSH, __intnl_SystemInt32_14
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00001258
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetAngularVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_13
+        PUSH, __2_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, __lcl_newestIdx_SystemInt32_2
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_currentRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_14
+        PUSH, __2_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, __lcl_oldestIdx_SystemInt32_2
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_previousRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, timestamps
+        PUSH, __lcl_newestIdx_SystemInt32_2
+        PUSH, __intnl_SystemSingle_5
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, timestamps
+        PUSH, __lcl_oldestIdx_SystemInt32_2
+        PUSH, __intnl_SystemSingle_6
+        EXTERN, "SystemSingleArray.__Get__SystemInt32__SystemSingle"
+        PUSH, __intnl_SystemSingle_5
+        PUSH, __intnl_SystemSingle_6
+        PUSH, __lcl_deltaTime_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_deltaTime_SystemSingle_0
+        PUSH, __const_SystemSingle_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemSingle.__op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_10
+        JUMP_IF_FALSE, 0x000013a8
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetAngularVelocity__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __lcl_previousRot_UnityEngineQuaternion_0
+        PUSH, __intnl_UnityEngineQuaternion_3
+        EXTERN, "UnityEngineQuaternion.__Inverse__UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __intnl_UnityEngineQuaternion_3
+        PUSH, __lcl_currentRot_UnityEngineQuaternion_0
+        PUSH, __lcl_deltaRotation_UnityEngineQuaternion_0
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __lcl_deltaRotation_UnityEngineQuaternion_0
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __lcl_axis_UnityEngineVector3_0
+        EXTERN, "UnityEngineQuaternion.__ToAngleAxis__SystemSingleRef_UnityEngineVector3Ref__SystemVoid"
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __const_SystemSingle_1
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00001458
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __const_SystemSingle_2
+        PUSH, __lcl_angle_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        JUMP, 0x000014A8
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __const_SystemSingle_3
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x000014a8
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __const_SystemSingle_2
+        PUSH, __lcl_angle_SystemSingle_0
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __lcl_axis_UnityEngineVector3_0
+        PUSH, __lcl_angle_SystemSingle_0
+        PUSH, __intnl_UnityEngineVector3_7
+        EXTERN, "UnityEngineVector3.__op_Multiply__UnityEngineVector3_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineVector3_7
+        PUSH, __lcl_deltaTime_SystemSingle_0
+        PUSH, __0___0_GetAngularVelocity__ret
+        EXTERN, "UnityEngineVector3.__op_Division__UnityEngineVector3_SystemSingle__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+# 
+        PUSH, __3_dataType__param
+        PUSH, __intnl_SystemInt32_15
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00001594
+        PUSH, headPositions
+        PUSH, __0_index__param
+        PUSH, __0___0_GetPosition__ret
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_14
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_14
+        JUMP_IF_FALSE, 0x000015f8
+        PUSH, leftHandPositions
+        PUSH, __0_index__param
+        PUSH, __0___0_GetPosition__ret
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_15
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x0000168c
+        PUSH, rightHandPositions
+        PUSH, __0_index__param
+        PUSH, __0___0_GetPosition__ret
+        EXTERN, "UnityEngineVector3Array.__Get__SystemInt32__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x0000168C
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_GetPosition__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x00001664
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetRotation
+    __0_GetRotation:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+# 
+        PUSH, __4_dataType__param
+        PUSH, __intnl_SystemInt32_16
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_16
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_16
+        JUMP_IF_FALSE, 0x0000172c
+        PUSH, headRotations
+        PUSH, __1_index__param
+        PUSH, __0___0_GetRotation__ret
+        EXTERN, "UnityEngineQuaternionArray.__Get__SystemInt32__UnityEngineQuaternion"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_17
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_17
+        JUMP_IF_FALSE, 0x00001790
+        PUSH, leftHandRotations
+        PUSH, __1_index__param
+        PUSH, __0___0_GetRotation__ret
+        EXTERN, "UnityEngineQuaternionArray.__Get__SystemInt32__UnityEngineQuaternion"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_SystemInt32_16
+        PUSH, __const_SystemInt32_3
+        PUSH, __intnl_SystemBoolean_18
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_18
+        JUMP_IF_FALSE, 0x00001824
+        PUSH, rightHandRotations
+        PUSH, __1_index__param
+        PUSH, __0___0_GetRotation__ret
+        EXTERN, "UnityEngineQuaternionArray.__Get__SystemInt32__UnityEngineQuaternion"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x00001824
+        PUSH, __const_UnityEngineQuaternion_0
+        PUSH, __0___0_GetRotation__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        JUMP, 0x000017FC
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_CalculateLocalOffsetFromWorldPosition
+    __0_CalculateLocalOffsetFromWorldPosition:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.CalculateLocalOffsetFromWorldPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, UnityEngine.Vector3)
+# 
+        PUSH, initialized
+        JUMP_IF_FALSE, 0x00001860
+        JUMP, 0x00001888
+        PUSH, __const_UnityEngineVector3_0
+        PUSH, __0___0_CalculateLocalOffsetFromWorldPosition__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __gintnl_SystemUInt32_15
+        PUSH, __5_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, currentIndex
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_trackingPointWorldPos_UnityEngineVector3_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_16
+        PUSH, __5_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, currentIndex
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_trackingPointWorldRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, __lcl_trackingPointWorldRot_UnityEngineQuaternion_0
+        PUSH, __intnl_UnityEngineQuaternion_4
+        EXTERN, "UnityEngineQuaternion.__Inverse__UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __0_worldPosition__param
+        PUSH, __lcl_trackingPointWorldPos_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector3_8
+        EXTERN, "UnityEngineVector3.__op_Subtraction__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineQuaternion_4
+        PUSH, __intnl_UnityEngineVector3_8
+        PUSH, __0___0_CalculateLocalOffsetFromWorldPosition__ret
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export __0_GetHistoricalPositionsArrayAtOffset
+    __0_GetHistoricalPositionsArrayAtOffset:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.udon.ControllerTracker.GetHistoricalPositionsArrayAtOffset(VRC.SDKBase.VRCPlayerApi.TrackingDataType, UnityEngine.Vector3, int, int)
+# 
+        PUSH, initialized
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        JUMP_IF_FALSE, 0x000019d8
+        JUMP, 0x000019F8
+        PUSH, __0_startOffset__param
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_21
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_21
+        PUSH, __intnl_SystemBoolean_20
+        COPY
+        PUSH, __intnl_SystemBoolean_20
+        JUMP_IF_FALSE, 0x00001a24
+        JUMP, 0x00001A44
+        PUSH, __0_numberOfFrames__param
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemBoolean_20
+        EXTERN, "SystemInt32.__op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_20
+        PUSH, __intnl_SystemBoolean_19
+        COPY
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001a70
+        JUMP, 0x00001AB0
+        PUSH, __0_startOffset__param
+        PUSH, __0_numberOfFrames__param
+        PUSH, __intnl_SystemInt32_17
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __intnl_SystemInt32_17
+        PUSH, bufferSize
+        PUSH, __intnl_SystemBoolean_19
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_19
+        JUMP_IF_FALSE, 0x00001aec
+        PUSH, __const_SystemInt32_1
+        PUSH, __0___0_GetHistoricalPositionsArrayAtOffset__ret
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0_numberOfFrames__param
+        PUSH, __lcl_historicalPositions_UnityEngineVector3Array_0
+        EXTERN, "UnityEngineVector3Array.__ctor__SystemInt32__UnityEngineVector3Array"
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_i_SystemInt32_1
+        COPY
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __0_numberOfFrames__param
+        PUSH, __intnl_SystemBoolean_22
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_22
+        JUMP_IF_FALSE, 0x00001cc0
+        PUSH, __0_startOffset__param
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __lcl_currentOffset_SystemInt32_0
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __gintnl_SystemUInt32_17
+        PUSH, __lcl_currentOffset_SystemInt32_0
+        PUSH, __0_offset__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetIndexWithOffset(int)
+        JUMP, 0x0000081C
+        PUSH, __0___0_GetIndexWithOffset__ret
+        PUSH, __lcl_historicalIndex_SystemInt32_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_18
+        PUSH, __6_dataType__param
+        PUSH, __3_dataType__param
+        COPY
+        PUSH, __lcl_historicalIndex_SystemInt32_0
+        PUSH, __0_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetPosition(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x00001518
+        PUSH, __0___0_GetPosition__ret
+        PUSH, __lcl_trackingPointHistoricalPos_UnityEngineVector3_0
+        COPY
+        PUSH, __gintnl_SystemUInt32_19
+        PUSH, __6_dataType__param
+        PUSH, __4_dataType__param
+        COPY
+        PUSH, __lcl_historicalIndex_SystemInt32_0
+        PUSH, __1_index__param
+        COPY
+# Calling com.vrcstuff.udon.ControllerTracker.GetRotation(VRC.SDKBase.VRCPlayerApi.TrackingDataType, int)
+        JUMP, 0x000016B0
+        PUSH, __0___0_GetRotation__ret
+        PUSH, __lcl_trackingPointHistoricalRot_UnityEngineQuaternion_0
+        COPY
+        PUSH, __lcl_trackingPointHistoricalRot_UnityEngineQuaternion_0
+        PUSH, __1_localOffset__param
+        PUSH, __intnl_UnityEngineVector3_9
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_trackingPointHistoricalPos_UnityEngineVector3_0
+        PUSH, __intnl_UnityEngineVector3_9
+        PUSH, __intnl_UnityEngineVector3_10
+        EXTERN, "UnityEngineVector3.__op_Addition__UnityEngineVector3_UnityEngineVector3__UnityEngineVector3"
+        PUSH, __lcl_historicalPositions_UnityEngineVector3Array_0
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __intnl_UnityEngineVector3_10
+        EXTERN, "UnityEngineVector3Array.__Set__SystemInt32_UnityEngineVector3__SystemVoid"
+        PUSH, __lcl_i_SystemInt32_1
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_i_SystemInt32_1
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001B18
+        PUSH, __lcl_historicalPositions_UnityEngineVector3Array_0
+        PUSH, __0___0_GetHistoricalPositionsArrayAtOffset__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end

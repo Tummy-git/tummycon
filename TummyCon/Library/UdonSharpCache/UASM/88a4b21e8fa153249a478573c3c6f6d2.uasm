@@ -1,0 +1,590 @@
+.data_start
+    .export controller
+    .export autoOffCollider
+    .export autoOffCheckDelay
+    .export dialOffPosition
+    __refl_typeid: %SystemInt64, null
+    __refl_typename: %SystemString, null
+    __intnl_returnJump_SystemUInt32_0: %SystemUInt32, null
+    controller: %VRCUdonUdonBehaviour, null
+    autoOffCollider: %UnityEngineBoxCollider, null
+    autoOffCheckDelay: %SystemSingle, null
+    dialOffPosition: %SystemInt32, null
+    currentDialPosition: %SystemInt32, null
+    playerInside: %SystemInt32, null
+    __const_SystemUInt32_0: %SystemUInt32, null
+    __const_SystemObject_0: %SystemObject, null
+    __const_SystemString_0: %SystemString, null
+    __const_SystemString_1: %SystemString, null
+    __this_UnityEngineTransform_0: %UnityEngineTransform, this
+    __const_SystemType_0: %SystemType, null
+    __const_SystemString_2: %SystemString, null
+    __this_UnityEngineGameObject_0: %UnityEngineGameObject, this
+    __const_SystemBoolean_0: %SystemBoolean, null
+    __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0__intnlparam: %VRCUdonUdonBehaviour, null
+    __1__intnlparam: %SystemString, null
+    __2__intnlparam: %SystemString, null
+    __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
+    __const_SystemString_3: %SystemString, null
+    __const_SystemString_4: %SystemString, null
+    __this_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, this
+    __const_SystemString_5: %SystemString, null
+    __const_VRCUdonCommonEnumsEventTiming_0: %VRCUdonCommonEnumsEventTiming, null
+    __this_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, this
+    __const_SystemInt32_0: %SystemInt32, null
+    __const_SystemInt32_1: %SystemInt32, null
+    __gintnl_SystemUInt32_1: %SystemUInt32, null
+    __0_player__param: %VRCSDKBaseVRCPlayerApi, null
+    __0_inside__param: %SystemBoolean, null
+    __this_VRCUdonUdonBehaviour_3: %VRCUdonUdonBehaviour, this
+    onPlayerTriggerEnterPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_2: %SystemUInt32, null
+    __const_SystemBoolean_1: %SystemBoolean, null
+    onPlayerTriggerExitPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __gintnl_SystemUInt32_3: %SystemUInt32, null
+    __const_SystemString_6: %SystemString, null
+    __const_SystemString_7: %SystemString, null
+    __const_SystemString_8: %SystemString, null
+    __const_SystemString_9: %SystemString, null
+    __gintnl_SystemObjectArray_0: %SystemObjectArray, null
+    __const_SystemInt32_2: %SystemInt32, null
+    __gintnl_SystemUInt32_4: %SystemUInt32, null
+    __3__intnlparam: %SystemString, null
+    __4__intnlparam: %VRCUdonUdonBehaviour, null
+    __const_SystemInt32_3: %SystemInt32, null
+    __const_SystemString_10: %SystemString, null
+    __const_SystemString_11: %SystemString, null
+    __intnl_UnityEngineObject_0: %UnityEngineObject, null
+    __intnl_UnityEngineObject_1: %UnityEngineObject, null
+    __intnl_SystemBoolean_0: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, null
+    __intnl_SystemInt32_0: %SystemInt32, null
+    __intnl_SystemObject_0: %SystemObject, null
+    __intnl_UnityEngineObject_2: %UnityEngineObject, null
+    __intnl_UnityEngineObject_3: %UnityEngineObject, null
+    __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_SystemBoolean_2: %SystemBoolean, null
+    __intnl_UnityEngineObject_4: %UnityEngineObject, null
+    __intnl_UnityEngineObject_5: %UnityEngineObject, null
+    __intnl_SystemObject_1: %SystemObject, null
+    __intnl_UnityEngineGameObject_0: %UnityEngineGameObject, null
+    __intnl_UnityEngineObject_6: %UnityEngineObject, null
+    __intnl_UnityEngineObject_7: %UnityEngineObject, null
+    __intnl_SystemBoolean_3: %SystemBoolean, null
+    __intnl_UnityEngineObject_8: %UnityEngineObject, null
+    __intnl_UnityEngineObject_9: %UnityEngineObject, null
+    __intnl_SystemBoolean_4: %SystemBoolean, null
+    __intnl_VRCUdonUdonBehaviour_1: %VRCUdonUdonBehaviour, null
+    __intnl_UnityEngineObject_10: %UnityEngineObject, null
+    __intnl_UnityEngineObject_11: %UnityEngineObject, null
+    __intnl_SystemBoolean_5: %SystemBoolean, null
+    __intnl_SystemBoolean_6: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_VRCSDKBaseVRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_7: %SystemBoolean, null
+    __lcl_playerInside_SystemInt32_0: %SystemInt32, null
+    __intnl_UnityEngineBounds_0: %UnityEngineBounds, null
+    __intnl_VRCSDKBaseVRCPlayerApi_2: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineVector3_0: %UnityEngineVector3, null
+    __intnl_SystemBoolean_8: %SystemBoolean, null
+    __intnl_SystemBoolean_9: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_3: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_SystemBoolean_10: %SystemBoolean, null
+    __intnl_SystemBoolean_11: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_4: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineObject_12: %UnityEngineObject, null
+    __intnl_UnityEngineObject_13: %UnityEngineObject, null
+    __intnl_SystemBoolean_12: %SystemBoolean, null
+    __intnl_VRCSDKBaseVRCPlayerApi_5: %VRCSDKBaseVRCPlayerApi, null
+    __intnl_UnityEngineObject_14: %UnityEngineObject, null
+    __intnl_UnityEngineObject_15: %UnityEngineObject, null
+    __intnl_SystemBoolean_13: %SystemBoolean, null
+    __intnl_UnityEngineObject_16: %UnityEngineObject, null
+    __intnl_UnityEngineObject_17: %UnityEngineObject, null
+    __intnl_SystemInt32_1: %SystemInt32, null
+    __intnl_SystemBoolean_14: %SystemBoolean, null
+    __intnl_SystemObject_2: %SystemObject, null
+    __intnl_VRCUdonUdonBehaviour_2: %VRCUdonUdonBehaviour, null
+    __intnl_SystemInt32_2: %SystemInt32, null
+    __intnl_SystemObject_3: %SystemObject, null
+    __intnl_UnityEngineObject_18: %UnityEngineObject, null
+    __intnl_UnityEngineObject_19: %UnityEngineObject, null
+    __intnl_SystemBoolean_15: %SystemBoolean, null
+    __intnl_UnityEngineGameObject_1: %UnityEngineGameObject, null
+    __intnl_SystemString_0: %SystemString, null
+    __intnl_SystemString_1: %SystemString, null
+    __intnl_UnityEngineGameObject_2: %UnityEngineGameObject, null
+    __intnl_UnityEngineObject_20: %UnityEngineObject, null
+    __intnl_SystemObject_4: %SystemObject, null
+.data_end
+.code_start
+    .export _start
+    _start:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.Dial.DialAutoOff.Start()
+# 
+        PUSH, controller
+        PUSH, __intnl_UnityEngineObject_0
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        COPY
+        PUSH, __intnl_UnityEngineObject_0
+        PUSH, __intnl_UnityEngineObject_1
+        PUSH, __intnl_SystemBoolean_0
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_0
+        JUMP_IF_FALSE, 0x000000d8
+        PUSH, controller
+# Cow dirty
+        PUSH, controller
+        PUSH, __intnl_VRCUdonUdonBehaviour_0
+        COPY
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemObject_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_0
+        PUSH, __intnl_SystemInt32_0
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_0
+        PUSH, currentDialPosition
+        COPY
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineObject_2
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_3
+        COPY
+        PUSH, __intnl_UnityEngineObject_2
+        PUSH, __intnl_UnityEngineObject_3
+        PUSH, __intnl_SystemBoolean_1
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_1
+        JUMP_IF_FALSE, 0x00000150
+        PUSH, __this_UnityEngineTransform_0
+        PUSH, __const_SystemType_0
+        PUSH, autoOffCollider
+        EXTERN, "UnityEngineComponent.__GetComponent__T"
+        PUSH, controller
+        PUSH, __intnl_UnityEngineObject_4
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_5
+        COPY
+        PUSH, __intnl_UnityEngineObject_4
+        PUSH, __intnl_UnityEngineObject_5
+        PUSH, __intnl_SystemBoolean_2
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x000001dc
+        PUSH, controller
+        PUSH, __const_SystemString_2
+        PUSH, __intnl_SystemObject_1
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_1
+        PUSH, __intnl_SystemBoolean_2
+        COPY
+        PUSH, __intnl_SystemBoolean_2
+        JUMP_IF_FALSE, 0x00000278
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __const_SystemBoolean_0
+        EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_0
+        PUSH, __this_VRCUdonUdonBehaviour_0
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        COPY
+        PUSH, __intnl_VRCUdonUdonBehaviour_1
+        PUSH, __0__intnlparam
+        COPY
+        PUSH, __const_SystemString_3
+        PUSH, __1__intnlparam
+        COPY
+        PUSH, __const_SystemString_4
+        PUSH, __2__intnlparam
+        COPY
+# Calling com.vrcstuff.udon.Utils.Log(UdonSharp.UdonSharpBehaviour, string, string)
+        JUMP, 0x00000A64
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineGameObject_0
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineObject_6
+        COPY
+        PUSH, __this_UnityEngineGameObject_0
+        PUSH, __intnl_UnityEngineObject_7
+        COPY
+        PUSH, __intnl_UnityEngineObject_6
+        PUSH, __intnl_UnityEngineObject_7
+        PUSH, __intnl_SystemBoolean_3
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_3
+        JUMP_IF_FALSE, 0x000002fc
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineObject_8
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_9
+        COPY
+        PUSH, __intnl_UnityEngineObject_8
+        PUSH, __intnl_UnityEngineObject_9
+        PUSH, __intnl_SystemBoolean_4
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_4
+        JUMP_IF_FALSE, 0x0000037c
+        PUSH, __this_VRCUdonUdonBehaviour_1
+        PUSH, __const_SystemString_5
+        PUSH, autoOffCheckDelay
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _CheckColliderState
+    _CheckColliderState:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.Dial.DialAutoOff._CheckColliderState()
+# 
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineObject_10
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_11
+        COPY
+        PUSH, __intnl_UnityEngineObject_10
+        PUSH, __intnl_UnityEngineObject_11
+        PUSH, __intnl_SystemBoolean_5
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_5
+        JUMP_IF_FALSE, 0x00000404
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x0000044c
+        JUMP, 0x0000048C
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_1
+        PUSH, __intnl_SystemBoolean_7
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsValid__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_7
+        PUSH, __intnl_SystemBoolean_6
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_6
+        JUMP_IF_FALSE, 0x000004d8
+        PUSH, __this_VRCUdonUdonBehaviour_2
+        PUSH, __const_SystemString_5
+        PUSH, autoOffCheckDelay
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineBounds_0
+        EXTERN, "UnityEngineCollider.__get_bounds__UnityEngineBounds"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_2
+        PUSH, __intnl_UnityEngineVector3_0
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPosition__UnityEngineVector3"
+        PUSH, __intnl_UnityEngineBounds_0
+        PUSH, __intnl_UnityEngineVector3_0
+        PUSH, __intnl_SystemBoolean_8
+        EXTERN, "UnityEngineBounds.__Contains__UnityEngineVector3__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_8
+        JUMP_IF_FALSE, 0x00000564
+        PUSH, __const_SystemInt32_0
+        PUSH, __lcl_playerInside_SystemInt32_0
+        COPY
+        JUMP, 0x00000578
+        PUSH, __const_SystemInt32_1
+        PUSH, __lcl_playerInside_SystemInt32_0
+        COPY
+        PUSH, playerInside
+        PUSH, __lcl_playerInside_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_9
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_9
+        JUMP_IF_FALSE, 0x00000624
+        PUSH, __gintnl_SystemUInt32_1
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __lcl_playerInside_SystemInt32_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __intnl_SystemBoolean_10
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_3
+        PUSH, __0_player__param
+        COPY
+        PUSH, __intnl_SystemBoolean_10
+        PUSH, __0_inside__param
+        COPY
+# Calling com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerStateChange(VRC.SDKBase.VRCPlayerApi, bool)
+        JUMP, 0x00000840
+        PUSH, __lcl_playerInside_SystemInt32_0
+        PUSH, playerInside
+        COPY
+        PUSH, __this_VRCUdonUdonBehaviour_3
+        PUSH, __const_SystemString_5
+        PUSH, autoOffCheckDelay
+        PUSH, __const_VRCUdonCommonEnumsEventTiming_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerTriggerEnter
+    _onPlayerTriggerEnter:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerTriggerEnter(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_4
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x000006f0
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineObject_12
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_13
+        COPY
+        PUSH, __intnl_UnityEngineObject_12
+        PUSH, __intnl_UnityEngineObject_13
+        PUSH, __intnl_SystemBoolean_11
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_11
+        JUMP_IF_FALSE, 0x00000738
+        PUSH, __gintnl_SystemUInt32_2
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __0_player__param
+        COPY
+        PUSH, __const_SystemBoolean_1
+        PUSH, __0_inside__param
+        COPY
+# Calling com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerStateChange(VRC.SDKBase.VRCPlayerApi, bool)
+        JUMP, 0x00000840
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export _onPlayerTriggerExit
+    _onPlayerTriggerExit:
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerTriggerExit(VRC.SDKBase.VRCPlayerApi)
+# 
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, __intnl_VRCSDKBaseVRCPlayerApi_5
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x000007dc
+        PUSH, autoOffCollider
+        PUSH, __intnl_UnityEngineObject_14
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_15
+        COPY
+        PUSH, __intnl_UnityEngineObject_14
+        PUSH, __intnl_UnityEngineObject_15
+        PUSH, __intnl_SystemBoolean_12
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_12
+        JUMP_IF_FALSE, 0x00000824
+        PUSH, __gintnl_SystemUInt32_3
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, __0_player__param
+        COPY
+        PUSH, __const_SystemBoolean_0
+        PUSH, __0_inside__param
+        COPY
+# Calling com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerStateChange(VRC.SDKBase.VRCPlayerApi, bool)
+        JUMP, 0x00000840
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __const_SystemUInt32_0
+# 
+# com.vrcstuff.controls.Dial.DialAutoOff.OnPlayerStateChange(VRC.SDKBase.VRCPlayerApi, bool)
+# 
+        PUSH, controller
+        PUSH, __intnl_UnityEngineObject_16
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_17
+        COPY
+        PUSH, __intnl_UnityEngineObject_16
+        PUSH, __intnl_UnityEngineObject_17
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "UnityEngineObject.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x000008b0
+        PUSH, __0_player__param
+        PUSH, __intnl_SystemBoolean_13
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_13
+        JUMP_IF_FALSE, 0x00000a50
+        PUSH, __0_inside__param
+        JUMP_IF_FALSE, 0x00000958
+# Cow dirty
+        PUSH, currentDialPosition
+        PUSH, __intnl_SystemInt32_1
+        COPY
+        PUSH, controller
+        PUSH, __const_SystemString_6
+        PUSH, currentDialPosition
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_8
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        JUMP, 0x00000A50
+        PUSH, controller
+# Cow dirty
+        PUSH, controller
+        PUSH, __intnl_VRCUdonUdonBehaviour_2
+        COPY
+        PUSH, __const_SystemString_0
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_1
+        PUSH, __intnl_SystemObject_2
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_2
+        PUSH, __intnl_SystemInt32_1
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __intnl_SystemInt32_1
+        PUSH, currentDialPosition
+        COPY
+# Cow dirty
+        PUSH, dialOffPosition
+        PUSH, __intnl_SystemInt32_2
+        COPY
+        PUSH, controller
+        PUSH, __const_SystemString_6
+        PUSH, dialOffPosition
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_7
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, controller
+        PUSH, __const_SystemString_8
+        PUSH, __intnl_SystemObject_3
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_3
+        PUSH, __intnl_SystemBoolean_14
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# com.vrcstuff.udon.Utils.Log(UdonSharp.UdonSharpBehaviour, string, string)
+# 
+        PUSH, __0__intnlparam
+        PUSH, __intnl_UnityEngineObject_18
+        COPY
+        PUSH, __const_SystemObject_0
+        PUSH, __intnl_UnityEngineObject_19
+        COPY
+        PUSH, __intnl_UnityEngineObject_18
+        PUSH, __intnl_UnityEngineObject_19
+        PUSH, __intnl_SystemBoolean_15
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __intnl_SystemBoolean_15
+        JUMP_IF_FALSE, 0x00000ae0
+        PUSH, __const_SystemString_9
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __0__intnlparam
+        PUSH, __intnl_UnityEngineGameObject_1
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_1
+        PUSH, __intnl_SystemString_0
+        EXTERN, "UnityEngineObject.__get_name__SystemString"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_1
+        PUSH, __intnl_SystemString_0
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_0
+        PUSH, __2__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemUInt32_4
+        PUSH, __0__intnlparam
+        PUSH, __4__intnlparam
+        COPY
+# Calling UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+        JUMP, 0x00000C2C
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_2
+        PUSH, __3__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __const_SystemInt32_3
+        PUSH, __1__intnlparam
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __const_SystemString_10
+        PUSH, __gintnl_SystemObjectArray_0
+        PUSH, __intnl_SystemString_1
+        EXTERN, "SystemString.__Format__SystemString_SystemObjectArray__SystemString"
+        PUSH, __0__intnlparam
+        PUSH, __intnl_UnityEngineGameObject_2
+        EXTERN, "UnityEngineComponent.__get_gameObject__UnityEngineGameObject"
+        PUSH, __intnl_UnityEngineGameObject_2
+        PUSH, __intnl_UnityEngineObject_20
+        COPY
+        PUSH, __intnl_SystemString_1
+        PUSH, __intnl_UnityEngineObject_20
+        EXTERN, "UnityEngineDebug.__Log__SystemObject_UnityEngineObject__SystemVoid"
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+# 
+# UdonSharp.Lib.Internal.UdonSharpBehaviourMethods.GetUdonTypeName(VRC.Udon.UdonBehaviour)
+# 
+        PUSH, __4__intnlparam
+        PUSH, __const_SystemString_11
+        PUSH, __intnl_SystemObject_4
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __intnl_SystemObject_4
+        PUSH, __3__intnlparam
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+.code_end
