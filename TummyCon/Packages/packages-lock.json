@@ -253,6 +253,18 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "dev.architech.protv": {
+      "version": "file:dev.architech.protv",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.architech.sdk": {
+      "version": "file:dev.architech.sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "dev.onevr.vrworldtoolkit": {
       "version": "file:dev.onevr.vrworldtoolkit",
       "depth": 0,

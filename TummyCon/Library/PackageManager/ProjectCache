@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638875692060973270
-    m_Hash: 280916597
+      ticks: 638875724515347231
+    m_Hash: 3784863515
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     E:/github_root/tummycon/TummyCon/Packages/com.varneon.asset-move-prompt/package.json:
@@ -33,6 +33,14 @@ m_EmbeddedPackageManifests:
         serializedVersion: 2
         ticks: 638851874820000000
       m_Hash: 2421096278
+    E:/github_root/tummycon/TummyCon/Packages/dev.architech.protv/package.json:
+      m_FilePath: E:/github_root/tummycon/TummyCon/Packages/dev.architech.protv/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638875477680000000
+      m_Hash: 1379584488
     E:/github_root/tummycon/TummyCon/Packages/one.razgriz.rats/package.json:
       m_FilePath: E:/github_root/tummycon/TummyCon/Packages/one.razgriz.rats/package.json
       m_PathExists: 1
@@ -57,6 +65,14 @@ m_EmbeddedPackageManifests:
         serializedVersion: 2
         ticks: 638819741100000000
       m_Hash: 1190175523
+    E:/github_root/tummycon/TummyCon/Packages/dev.architech.sdk/package.json:
+      m_FilePath: E:/github_root/tummycon/TummyCon/Packages/dev.architech.sdk/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638874393600000000
+      m_Hash: 1031617999
     E:/github_root/tummycon/TummyCon/Packages/com.z3y.shaders/package.json:
       m_FilePath: E:/github_root/tummycon/TummyCon/Packages/com.z3y.shaders/package.json
       m_PathExists: 1
@@ -2804,6 +2820,113 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: dev.architech.protv@file:E:\github_root\tummycon\TummyCon\Packages\dev.architech.protv
+  testable: 1
+  isDirectDependency: 1
+  version: 3.0.0-beta.28
+  source: 3
+  resolvedPath: E:\github_root\tummycon\TummyCon\Packages\dev.architech.protv
+  assetPath: Packages/dev.architech.protv
+  name: dev.architech.protv
+  displayName: ArchiTech.ProTV
+  author:
+    name: ArchiTechVR
+    email: archi@techanon.dev
+    url: 
+  category: 
+  type: 
+  description: A feature-rich, extensible media and video player system for VRChat.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - protv
+  - udon
+  - video player
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://protv.dev/start
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: dev.architech.sdk@file:E:\github_root\tummycon\TummyCon\Packages\dev.architech.sdk
+  testable: 1
+  isDirectDependency: 1
+  version: 0.21.2
+  source: 3
+  resolvedPath: E:\github_root\tummycon\TummyCon\Packages\dev.architech.sdk
+  assetPath: Packages/dev.architech.sdk
+  name: dev.architech.sdk
+  displayName: ArchiTech.SDK
+  author:
+    name: ArchiTechVR
+    email: archi@techanon.dev
+    url: 
+  category: 
+  type: 
+  description: Library of common functionality used across all of the ArchiTech assets.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 

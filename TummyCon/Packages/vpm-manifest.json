@@ -26,6 +26,9 @@
     },
     "net.ureishi.qvpen": {
       "version": "3.3.8"
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.28"
     }
   },
   "locked": {
@@ -82,6 +85,19 @@
       "version": "3.3.8",
       "dependencies": {
         "com.vrchat.worlds": "^3.5.0"
+      }
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.28",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4",
+        "dev.architech.sdk": ">=0.21.2 <1"
+      }
+    },
+    "dev.architech.sdk": {
+      "version": "0.21.2",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4"
       }
     }
   }
