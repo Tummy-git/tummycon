@@ -25,6 +25,9 @@ Material:
   stringTagMap:
     RenderType: Opaque
     folder_Advanced Options: 1
+    folder_Detail: 0
+    folder_Emission: 0
+    folder_Rendering Options: 1
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -75,8 +78,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 30690ff1931905b4cae9028267176016, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
         m_Texture: {fileID: 2800000, guid: df28a956399638746a1d4cee8fdda5e6, type: 3}
@@ -202,6 +205,7 @@ Material:
     - __reset: 0
     - _specularAntiAliasingThreshold: 0.1
     - _specularAntiAliasingVariance: 0.15
+    - intensity: 1
     m_Colors:
     - _CoatColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
