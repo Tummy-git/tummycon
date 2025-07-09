@@ -24,6 +24,7 @@ Material:
   stringTagMap:
     RenderType: Opaque
     folder_Advanced Options: 1
+    folder_Rendering Options: 1
     folder_Wind: 1
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -59,8 +60,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 7727bd00c1f2e1646b240cac8ecd6d1c, type: 3}
+        m_Scale: {x: 0.74, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
         m_Texture: {fileID: 0}
@@ -107,7 +108,7 @@ Material:
     - _CoatIOR: 1.6
     - _CoatRoughness: 0
     - _CoatWeight: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _Decalery: 0
     - _DetailAlbedoBlendMode: 0
@@ -156,8 +157,8 @@ Material:
     - _UVSec: 0
     - _VRC_LightVolumes: 1
     - _WindHelpbox: 0
-    - _WindScale: 2
-    - _WindSpeed: 0.02
+    - _WindScale: 1
+    - _WindSpeed: 0.01
     - _ZTest: 4
     - _ZWrite: 1
     - __reset: 0
@@ -170,5 +171,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainUVScoll: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WindIntensity: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+    - _WindIntensity: {r: 0.1, g: 0, b: 0.1, a: 0}
   m_BuildTextureStacks: []
