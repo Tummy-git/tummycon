@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Torus.001","Plane.004","Plane.003","Plane.002","Plane","Cylinder.018","Cylinder.017","Cylinder.016","Cylinder.015","Cylinder.014","Cylinder.013","Cylinder.012","Cylinder.011","Cylinder.010","Cylinder.009","Cube.003","Cube.002"],"padding":[256,151,256,256,36,8,8,64,64,64,64,64,59,22,17,15,13],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Torus.001","Plane.004","Plane.003","Plane.002","Plane","Cylinder.018","Cylinder.017","Cylinder.016","Cylinder.015","Cylinder.014","Cylinder.013","Cylinder.012","Cylinder.011","Cylinder.010","Cylinder.009","Cube.003","Cube.002","Cube.004","DeskLamp.001","DeskLamp.002","DeskLamp"],"padding":[256,151,256,256,36,8,8,64,64,64,64,64,59,22,17,15,13,68,121,121,121],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
