@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Poster.005","Poster.004","Poster.003","Poster.002","Poster.001","Poster","PANEL.005","PANEL.004","PANEL.003","PANEL.002","PANEL.001","PANEL","ElevatorBody.005","ElevatorBody.004","ElevatorBody.003","ElevatorBody.002","ElevatorBody.001","ElevatorBody","DOOR.005","DOOR.004","DOOR.003","DOOR.002","DOOR.001","DOOR","Cube.015","Cube.014","Cube.013","Cube.012","Cube.011","Cube.010"],"padding":[132,132,132,132,132,132,256,256,256,256,256,256,17,17,17,17,17,17,28,28,28,28,28,28,256,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Poster.005","Poster.004","Poster.003","Poster.002","Poster.001","Poster","PANEL.005","PANEL.004","PANEL.003","PANEL.002","PANEL.001","PANEL","ElevatorBody.005","ElevatorBody.004","ElevatorBody.003","ElevatorBody.002","ElevatorBody.001","ElevatorBody","DOOR.005","DOOR.004","DOOR.003","DOOR.002","DOOR.001","DOOR","Cube.015","Cube.014","Cube.013","Cube.012","Cube.011","Cube.010"],"padding":[132,132,132,132,132,132,256,256,256,256,256,256,17,17,17,17,17,17,27,27,27,27,27,27,256,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
