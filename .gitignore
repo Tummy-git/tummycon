@@ -110,3 +110,6 @@ TummyCon/Assets/BakeryLightmaps/
 TummyCon/Assets/AVProVideo/
 TummyCon/Assets/TextMesh Pro/
 TummyCon/Assets/StreamingAssets/AVProVideoSamples/
+*.log
+TummyCon/Assets/Plugins/Grabbit/Demo/
+*.blend1
