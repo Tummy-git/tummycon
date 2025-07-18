@@ -32,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties:
     - '#BAKERY{"meshName":["round room.002","round room","lightarmature1.001","lightarmature1","hub
-      portals","hub lights","hub banners"],"padding":[4,1,14,5,2,19,9],"unwrapper":[0,0,0,0,0,0,0]}'
+      portals","hub lights","hub banners","hook.001","talja.001","vajer.001"],"padding":[4,1,14,5,2,19,9,56,15,8],"unwrapper":[0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
