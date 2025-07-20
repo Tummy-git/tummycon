@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties:
     - '#BAKERY{"meshName":["Plane.001","Cylinder.008","Cylinder.007","boothroom wall
       against hub","boothroom main wall","hook","talja","vajer","travers2","travers.001","travers","Ceiling
-      Tracks","boothroom main wall.001"],"padding":[10,11,35,2,1,256,122,80,57,57,57,21,1],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      Tracks","boothroom main wall.001","BigDoor combined.001"],"padding":[10,11,35,2,1,256,122,80,57,57,57,21,1,5],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
