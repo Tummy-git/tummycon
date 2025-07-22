@@ -32,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties:
     - '#BAKERY{"meshName":["spawn room","Cube.005","Cube","Circle","LobbyFountain","LobbyDesk","lobby
-      lights"],"padding":[1,22,8,6,5,8,12],"unwrapper":[0,0,0,0,0,0,0]}'
+      lights"],"padding":[1,22,8,6,5,8,7],"unwrapper":[0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
