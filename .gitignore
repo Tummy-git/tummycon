@@ -113,3 +113,6 @@ TummyCon/Assets/StreamingAssets/AVProVideoSamples/
 *.log
 TummyCon/Assets/Plugins/Grabbit/Demo/
 *.blend1
+TummyCon/Assets/Scenes/TummyCon/VRCLightVolumes/LightVolumeAtlas.asset
+TummyCon/Assets/Scenes/TummyCon/VRCLightVolumes/LightVolumeAtlas.asset.meta
+TummyCon/Assets/Scenes/TummyCon/ReflectionProbe-*.exr*
