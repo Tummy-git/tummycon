@@ -114,6 +114,9 @@
         PUSH, _downsampledTex
         PUSH, __intnl_SystemBoolean_0
         EXTERN, "UnityEngineRenderTexture.__Create__SystemBoolean"
+        PUSH, __const_SystemInt32_3
+        PUSH, _pixels
+        EXTERN, "UnityEngineColor32Array.__ctor__SystemInt32__UnityEngineColor32Array"
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -153,9 +156,6 @@
 # 
 # VRCLightVolumes.LightVolumeTVGI.OnAsyncGpuReadbackComplete(VRC.SDK3.Rendering.VRCAsyncGPUReadbackRequest)
 # 
-        PUSH, __const_SystemInt32_3
-        PUSH, _pixels
-        EXTERN, "UnityEngineColor32Array.__ctor__SystemInt32__UnityEngineColor32Array"
         PUSH, onAsyncGpuReadbackCompleteRequest
         PUSH, _pixels
         PUSH, __const_SystemInt32_2

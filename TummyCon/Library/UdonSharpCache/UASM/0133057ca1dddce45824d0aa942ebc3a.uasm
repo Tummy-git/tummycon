@@ -14,6 +14,7 @@
     .export textInUseTMP
     .export textInUseTMPU
     .export _roundedTrailShader
+    .export allowCallPen
     .sync _syncedData, none
     .sync inkId, none
     __refl_typeid: %SystemInt64, null
@@ -34,6 +35,7 @@
     textInUseTMP: %TMProTextMeshPro, null
     textInUseTMPU: %TMProTextMeshProUGUI, null
     _roundedTrailShader: %UnityEngineShader, null
+    allowCallPen: %SystemBoolean, null
     clearButtonPositionConstraint: %UnityEngineAnimationsPositionConstraint, null
     clearButtonRotationConstraint: %UnityEngineAnimationsRotationConstraint, null
     listenerList: %VRCSDK3DataDataList, null
@@ -43,6 +45,7 @@
     isInUseSyncBuffer: %SystemBoolean, null
     __0_get_roundedTrailShader__ret: %UnityEngineShader, null
     __const_SystemUInt32_0: %SystemUInt32, null
+    __0_get_AllowCallPen__ret: %SystemBoolean, null
     __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
     __const_SystemString_0: %SystemString, null
     __const_SystemString_1: %SystemString, null
@@ -221,6 +224,18 @@
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
+    .export get_AllowCallPen
+    get_AllowCallPen:
+        PUSH, __const_SystemUInt32_0
+# 
+# QvPen.UdonScript.QvPen_PenManager.AllowCallPen.get
+# 
+        PUSH, allowCallPen
+        PUSH, __0_get_AllowCallPen__ret
+        COPY
+        PUSH, __intnl_returnJump_SystemUInt32_0
+        COPY
+        JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
     .export _start
     _start:
         PUSH, __const_SystemUInt32_0
@@ -250,7 +265,7 @@
         PUSH, __intnl_SystemBoolean_0
         EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_0
-        JUMP_IF_FALSE, 0x00000140
+        JUMP_IF_FALSE, 0x00000170
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -269,7 +284,7 @@
         PUSH, __intnl_SystemBoolean_0
         COPY
         PUSH, __intnl_SystemBoolean_0
-        JUMP_IF_FALSE, 0x00000170
+        JUMP_IF_FALSE, 0x000001a0
         PUSH, __this_VRCUdonUdonBehaviour_1
         PUSH, __const_VRCUdonCommonInterfacesNetworkEventTarget_0
         PUSH, __const_SystemString_4
@@ -278,12 +293,12 @@
         PUSH, __intnl_SystemBoolean_2
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean"
         PUSH, __intnl_SystemBoolean_2
-        JUMP_IF_FALSE, 0x00000240
+        JUMP_IF_FALSE, 0x00000270
         PUSH, clearButton
         PUSH, __intnl_SystemBoolean_3
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_3
-        JUMP_IF_FALSE, 0x00000240
+        JUMP_IF_FALSE, 0x00000270
         PUSH, clearButton
         PUSH, __intnl_UnityEngineTransform_0
         EXTERN, "UnityEngineGameObject.__get_transform__UnityEngineTransform"
@@ -300,7 +315,7 @@
         EXTERN, "UnityEngineComponent.__GetComponent__T"
         PUSH, __gintnl_SystemUInt32_0
 # Calling QvPen.UdonScript.QvPen_PenManager.EnableClearButtonConstraints()
-        JUMP, 0x00000874
+        JUMP, 0x000008A4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -317,7 +332,7 @@
         PUSH, __intnl_SystemBoolean_4
         EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_4
-        JUMP_IF_FALSE, 0x00000314
+        JUMP_IF_FALSE, 0x00000344
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -336,7 +351,7 @@
         PUSH, __intnl_SystemBoolean_4
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_4
-        JUMP_IF_FALSE, 0x00000350
+        JUMP_IF_FALSE, 0x00000380
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -361,7 +376,7 @@
         PUSH, __intnl_SystemBoolean_6
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_6
-        JUMP_IF_FALSE, 0x000003cc
+        JUMP_IF_FALSE, 0x000003fc
         PUSH, respawnButton
         PUSH, __const_SystemBoolean_1
         EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
@@ -369,18 +384,18 @@
         PUSH, __intnl_SystemBoolean_7
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_7
-        JUMP_IF_FALSE, 0x00000418
+        JUMP_IF_FALSE, 0x00000448
         PUSH, __gintnl_SystemUInt32_1
         PUSH, __const_SystemBoolean_1
         PUSH, __0_isActive__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.SetClearButtonActive(bool)
-        JUMP, 0x000007C0
+        JUMP, 0x000007F0
         PUSH, inUseUI
         PUSH, __intnl_SystemBoolean_8
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_8
-        JUMP_IF_FALSE, 0x00000458
+        JUMP_IF_FALSE, 0x00000488
         PUSH, inUseUI
         PUSH, __const_SystemBoolean_0
         EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
@@ -395,11 +410,11 @@
         PUSH, __intnl_SystemBoolean_9
         EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_9
-        JUMP_IF_FALSE, 0x000004d8
+        JUMP_IF_FALSE, 0x00000508
         PUSH, __lcl_owner_VRCSDKBaseVRCPlayerApi_0
         PUSH, __lcl_text_SystemString_0
         EXTERN, "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString"
-        JUMP, 0x000004EC
+        JUMP, 0x0000051C
         PUSH, __const_SystemString_7
         PUSH, __lcl_text_SystemString_0
         COPY
@@ -407,7 +422,7 @@
         PUSH, __intnl_SystemBoolean_10
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_10
-        JUMP_IF_FALSE, 0x0000052c
+        JUMP_IF_FALSE, 0x0000055c
         PUSH, textInUse
         PUSH, __lcl_text_SystemString_0
         EXTERN, "UnityEngineUIText.__set_text__SystemString__SystemVoid"
@@ -415,7 +430,7 @@
         PUSH, __intnl_SystemBoolean_11
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_11
-        JUMP_IF_FALSE, 0x0000056c
+        JUMP_IF_FALSE, 0x0000059c
         PUSH, textInUseTMP
         PUSH, __lcl_text_SystemString_0
         EXTERN, "TMProTextMeshPro.__set_text__SystemString__SystemVoid"
@@ -423,7 +438,7 @@
         PUSH, __intnl_SystemBoolean_12
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_12
-        JUMP_IF_FALSE, 0x000005ac
+        JUMP_IF_FALSE, 0x000005dc
         PUSH, textInUseTMPU
         PUSH, __lcl_text_SystemString_0
         EXTERN, "TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid"
@@ -444,7 +459,7 @@
         PUSH, __intnl_SystemBoolean_13
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_13
-        JUMP_IF_FALSE, 0x00000628
+        JUMP_IF_FALSE, 0x00000658
         PUSH, respawnButton
         PUSH, __const_SystemBoolean_0
         EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
@@ -452,18 +467,18 @@
         PUSH, __intnl_SystemBoolean_14
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_14
-        JUMP_IF_FALSE, 0x00000674
+        JUMP_IF_FALSE, 0x000006a4
         PUSH, __gintnl_SystemUInt32_2
         PUSH, __const_SystemBoolean_0
         PUSH, __0_isActive__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.SetClearButtonActive(bool)
-        JUMP, 0x000007C0
+        JUMP, 0x000007F0
         PUSH, inUseUI
         PUSH, __intnl_SystemBoolean_15
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_15
-        JUMP_IF_FALSE, 0x000006b4
+        JUMP_IF_FALSE, 0x000006e4
         PUSH, inUseUI
         PUSH, __const_SystemBoolean_1
         EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
@@ -471,7 +486,7 @@
         PUSH, __intnl_SystemBoolean_16
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_16
-        JUMP_IF_FALSE, 0x00000704
+        JUMP_IF_FALSE, 0x00000734
         PUSH, __intnl_SystemString_0
         EXTERN, "SystemString.__get_Empty__SystemString"
         PUSH, textInUse
@@ -481,7 +496,7 @@
         PUSH, __intnl_SystemBoolean_17
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_17
-        JUMP_IF_FALSE, 0x00000754
+        JUMP_IF_FALSE, 0x00000784
         PUSH, __intnl_SystemString_1
         EXTERN, "SystemString.__get_Empty__SystemString"
         PUSH, textInUseTMP
@@ -491,7 +506,7 @@
         PUSH, __intnl_SystemBoolean_18
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_18
-        JUMP_IF_FALSE, 0x000007a4
+        JUMP_IF_FALSE, 0x000007d4
         PUSH, __intnl_SystemString_2
         EXTERN, "SystemString.__get_Empty__SystemString"
         PUSH, textInUseTMPU
@@ -508,23 +523,23 @@
         PUSH, __intnl_SystemBoolean_19
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_19
-        JUMP_IF_FALSE, 0x00000808
+        JUMP_IF_FALSE, 0x00000838
         PUSH, clearButton
         PUSH, __0_isActive__param
         EXTERN, "UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid"
-        JUMP, 0x0000081C
+        JUMP, 0x0000084C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __0_isActive__param
-        JUMP_IF_FALSE, 0x00000834
-        JUMP, 0x00000848
+        JUMP_IF_FALSE, 0x00000864
+        JUMP, 0x00000878
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_3
 # Calling QvPen.UdonScript.QvPen_PenManager.EnableClearButtonConstraints()
-        JUMP, 0x00000874
+        JUMP, 0x000008A4
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -536,7 +551,7 @@
         PUSH, __intnl_SystemBoolean_20
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_20
-        JUMP_IF_FALSE, 0x000008b4
+        JUMP_IF_FALSE, 0x000008e4
         PUSH, clearButtonPositionConstraint
         PUSH, __const_SystemBoolean_0
         EXTERN, "UnityEngineAnimationsPositionConstraint.__set_enabled__SystemBoolean__SystemVoid"
@@ -544,7 +559,7 @@
         PUSH, __intnl_SystemBoolean_21
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_21
-        JUMP_IF_FALSE, 0x000008f4
+        JUMP_IF_FALSE, 0x00000924
         PUSH, clearButtonRotationConstraint
         PUSH, __const_SystemBoolean_0
         EXTERN, "UnityEngineAnimationsRotationConstraint.__set_enabled__SystemBoolean__SystemVoid"
@@ -566,7 +581,7 @@
         PUSH, __intnl_SystemBoolean_22
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_22
-        JUMP_IF_FALSE, 0x00000978
+        JUMP_IF_FALSE, 0x000009a8
         PUSH, clearButtonPositionConstraint
         PUSH, __const_SystemBoolean_1
         EXTERN, "UnityEngineAnimationsPositionConstraint.__set_enabled__SystemBoolean__SystemVoid"
@@ -574,7 +589,7 @@
         PUSH, __intnl_SystemBoolean_23
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_23
-        JUMP_IF_FALSE, 0x000009b8
+        JUMP_IF_FALSE, 0x000009e8
         PUSH, clearButtonRotationConstraint
         PUSH, __const_SystemBoolean_1
         EXTERN, "UnityEngineAnimationsRotationConstraint.__set_enabled__SystemBoolean__SystemVoid"
@@ -706,10 +721,10 @@
 # 
         PUSH, __gintnl_SystemUInt32_4
 # Calling QvPen.UdonScript.QvPen_PenManager.Clear()
-        JUMP, 0x00000CC8
+        JUMP, 0x00000CF8
         PUSH, __gintnl_SystemUInt32_5
 # Calling QvPen.UdonScript.QvPen_PenManager.Respawn()
-        JUMP, 0x00000C5C
+        JUMP, 0x00000C8C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -731,7 +746,7 @@
         PUSH, __0_isActive__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.SetClearButtonActive(bool)
-        JUMP, 0x000007C0
+        JUMP, 0x000007F0
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -743,7 +758,7 @@
 # 
         PUSH, __gintnl_SystemUInt32_7
 # Calling QvPen.UdonScript.QvPen_PenManager._ClearSyncBuffer()
-        JUMP, 0x00001834
+        JUMP, 0x00001864
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -768,13 +783,13 @@
         PUSH, __intnl_SystemBoolean_27
         COPY
         PUSH, __intnl_SystemBoolean_27
-        JUMP_IF_FALSE, 0x00000d78
+        JUMP_IF_FALSE, 0x00000da8
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_8
 # Calling QvPen.UdonScript.QvPen_PenManager._TakeOwnership()
-        JUMP, 0x00001248
+        JUMP, 0x00001278
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -799,13 +814,13 @@
         PUSH, __intnl_SystemBoolean_28
         COPY
         PUSH, __intnl_SystemBoolean_28
-        JUMP_IF_FALSE, 0x00000e28
+        JUMP_IF_FALSE, 0x00000e58
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __gintnl_SystemUInt32_9
 # Calling QvPen.UdonScript.QvPen_PenManager._TakeOwnership()
-        JUMP, 0x00001248
+        JUMP, 0x00001278
         PUSH, pen
 # Cow dirty
         PUSH, pen
@@ -829,8 +844,8 @@
         PUSH, __intnl_SystemBoolean_29
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_29
-        JUMP_IF_FALSE, 0x00000ec8
-        JUMP, 0x00000F00
+        JUMP_IF_FALSE, 0x00000ef8
+        JUMP, 0x00000F30
         PUSH, __0_listener__param
         PUSH, __intnl_VRCSDK3DataDataToken_0
         EXTERN, "VRCSDK3DataDataToken.__op_Implicit__UnityEngineObject__VRCSDK3DataDataToken"
@@ -839,7 +854,7 @@
         PUSH, __intnl_SystemBoolean_29
         EXTERN, "VRCSDK3DataDataList.__Contains__VRCSDK3DataDataToken__SystemBoolean"
         PUSH, __intnl_SystemBoolean_29
-        JUMP_IF_FALSE, 0x00000f24
+        JUMP_IF_FALSE, 0x00000f54
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -869,7 +884,7 @@
         PUSH, __intnl_SystemBoolean_31
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_31
-        JUMP_IF_FALSE, 0x000010c0
+        JUMP_IF_FALSE, 0x000010f0
         PUSH, listenerList
         PUSH, __lcl_i_SystemInt32_0
         PUSH, __const_VRCSDK3DataTokenType_0
@@ -877,9 +892,9 @@
         PUSH, __intnl_SystemBoolean_32
         EXTERN, "VRCSDK3DataDataList.__TryGetValue__SystemInt32_VRCSDK3DataTokenType_VRCSDK3DataDataTokenRef__SystemBoolean"
         PUSH, __intnl_SystemBoolean_32
-        JUMP_IF_FALSE, 0x00001014
-        JUMP, 0x0000101C
-        JUMP, 0x00001098
+        JUMP_IF_FALSE, 0x00001044
+        JUMP, 0x0000104C
+        JUMP, 0x000010C8
         PUSH, __lcl_listerToken_VRCSDK3DataDataToken_0
         PUSH, __intnl_SystemObject_4
         EXTERN, "VRCSDK3DataDataToken.__get_Reference__SystemObject"
@@ -890,9 +905,9 @@
         PUSH, __intnl_SystemBoolean_33
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_33
-        JUMP_IF_FALSE, 0x00001078
-        JUMP, 0x00001080
-        JUMP, 0x00001098
+        JUMP_IF_FALSE, 0x000010a8
+        JUMP, 0x000010B0
+        JUMP, 0x000010C8
         PUSH, __lcl_listener_VRCUdonUdonBehaviour_0
         PUSH, __const_SystemString_20
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
@@ -900,7 +915,7 @@
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_i_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000F9C
+        JUMP, 0x00000FCC
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -921,7 +936,7 @@
         PUSH, __intnl_SystemBoolean_34
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_34
-        JUMP_IF_FALSE, 0x0000122c
+        JUMP_IF_FALSE, 0x0000125c
         PUSH, listenerList
         PUSH, __lcl_i_SystemInt32_1
         PUSH, __const_VRCSDK3DataTokenType_0
@@ -929,9 +944,9 @@
         PUSH, __intnl_SystemBoolean_35
         EXTERN, "VRCSDK3DataDataList.__TryGetValue__SystemInt32_VRCSDK3DataTokenType_VRCSDK3DataDataTokenRef__SystemBoolean"
         PUSH, __intnl_SystemBoolean_35
-        JUMP_IF_FALSE, 0x00001180
-        JUMP, 0x00001188
-        JUMP, 0x00001204
+        JUMP_IF_FALSE, 0x000011b0
+        JUMP, 0x000011B8
+        JUMP, 0x00001234
         PUSH, __lcl_listerToken_VRCSDK3DataDataToken_1
         PUSH, __intnl_SystemObject_5
         EXTERN, "VRCSDK3DataDataToken.__get_Reference__SystemObject"
@@ -942,9 +957,9 @@
         PUSH, __intnl_SystemBoolean_36
         EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_36
-        JUMP_IF_FALSE, 0x000011e4
-        JUMP, 0x000011EC
-        JUMP, 0x00001204
+        JUMP_IF_FALSE, 0x00001214
+        JUMP, 0x0000121C
+        JUMP, 0x00001234
         PUSH, __lcl_listener_VRCUdonUdonBehaviour_1
         PUSH, __const_SystemString_21
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
@@ -952,7 +967,7 @@
         PUSH, __const_SystemInt32_1
         PUSH, __lcl_i_SystemInt32_1
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00001108
+        JUMP, 0x00001138
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -966,17 +981,17 @@
         PUSH, __intnl_SystemBoolean_37
         EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_37
-        JUMP_IF_FALSE, 0x000012b0
+        JUMP_IF_FALSE, 0x000012e0
         PUSH, __gintnl_SystemUInt32_10
 # Calling QvPen.UdonScript.QvPen_PenManager._ClearSyncBuffer()
-        JUMP, 0x00001834
+        JUMP, 0x00001864
         PUSH, __const_SystemBoolean_0
         PUSH, __0__TakeOwnership__ret
         COPY
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
-        JUMP, 0x00001304
+        JUMP, 0x00001334
         PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
         EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
         PUSH, __intnl_VRCSDKBaseVRCPlayerApi_0
@@ -999,8 +1014,8 @@
         PUSH, __intnl_SystemBoolean_38
         COPY
         PUSH, __intnl_SystemBoolean_38
-        JUMP_IF_FALSE, 0x0000134c
-        JUMP, 0x00001370
+        JUMP_IF_FALSE, 0x0000137c
+        JUMP, 0x000013A0
         PUSH, _isNetworkSettled
         EXTERN, "VRCSDKBaseNetworking.__get_IsNetworkSettled__SystemBoolean"
         PUSH, _isNetworkSettled
@@ -1028,10 +1043,10 @@
 # 
         PUSH, __gintnl_SystemUInt32_11
 # Calling QvPen.UdonScript.QvPen_PenManager.isNetworkSettled.get
-        JUMP, 0x00001320
+        JUMP, 0x00001350
         PUSH, __0_get_isNetworkSettled__ret
-        JUMP_IF_FALSE, 0x000013f8
-        JUMP, 0x0000140C
+        JUMP_IF_FALSE, 0x00001428
+        JUMP, 0x0000143C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1040,7 +1055,7 @@
         COPY
         PUSH, __gintnl_SystemUInt32_12
 # Calling QvPen.UdonScript.QvPen_PenManager.RequestSendPackage()
-        JUMP, 0x00001524
+        JUMP, 0x00001554
 # Cow dirty
         PUSH, _syncedData
         PUSH, __intnl_UnityEngineVector3Array_0
@@ -1095,7 +1110,7 @@
         PUSH, __intnl_SystemBoolean_40
         EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_40
-        JUMP_IF_FALSE, 0x0000157c
+        JUMP_IF_FALSE, 0x000015ac
         PUSH, __this_UnityEngineGameObject_0
         PUSH, __intnl_SystemBoolean_40
         EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
@@ -1103,12 +1118,12 @@
         PUSH, __intnl_SystemBoolean_39
         COPY
         PUSH, __intnl_SystemBoolean_39
-        JUMP_IF_FALSE, 0x000015b8
+        JUMP_IF_FALSE, 0x000015e8
         PUSH, isInUseSyncBuffer
         PUSH, __intnl_SystemBoolean_39
         EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
         PUSH, __intnl_SystemBoolean_39
-        JUMP_IF_FALSE, 0x000015ec
+        JUMP_IF_FALSE, 0x0000161c
         PUSH, __const_SystemBoolean_0
         PUSH, isInUseSyncBuffer
         COPY
@@ -1124,14 +1139,14 @@
 # QvPen.UdonScript.QvPen_PenManager._SendData(UnityEngine.Vector3[])
 # 
         PUSH, isInUseSyncBuffer
-        JUMP_IF_FALSE, 0x00001620
-        JUMP, 0x00001644
+        JUMP_IF_FALSE, 0x00001650
+        JUMP, 0x00001674
         PUSH, __gintnl_SystemUInt32_13
         PUSH, __0_data__param
         PUSH, __3_value__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.syncedData.set
-        JUMP, 0x000013D0
+        JUMP, 0x00001400
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1143,7 +1158,7 @@
 # 
         PUSH, __gintnl_SystemUInt32_14
 # Calling QvPen.UdonScript.QvPen_PenManager.syncedData.get
-        JUMP, 0x000013A0
+        JUMP, 0x000013D0
         PUSH, __0_get_syncedData__ret
         PUSH, _syncedData
         COPY
@@ -1160,7 +1175,7 @@
         PUSH, __intnl_SystemBoolean_41
         EXTERN, "VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean"
         PUSH, __intnl_SystemBoolean_41
-        JUMP_IF_FALSE, 0x000016dc
+        JUMP_IF_FALSE, 0x0000170c
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1169,7 +1184,7 @@
         PUSH, __3_value__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.syncedData.set
-        JUMP, 0x000013D0
+        JUMP, 0x00001400
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
@@ -1186,7 +1201,7 @@
         PUSH, __intnl_SystemBoolean_42
         EXTERN, "VRCUdonCommonSerializationResult.__get_success__SystemBoolean"
         PUSH, __intnl_SystemBoolean_42
-        JUMP_IF_FALSE, 0x000017cc
+        JUMP_IF_FALSE, 0x000017fc
 # Cow dirty
         PUSH, _syncedData
         PUSH, __intnl_UnityEngineVector3Array_1
@@ -1202,7 +1217,7 @@
         PUSH, pen
         PUSH, __const_SystemString_24
         EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
-        JUMP, 0x00001818
+        JUMP, 0x00001848
 # Cow dirty
         PUSH, _syncedData
         PUSH, __intnl_UnityEngineVector3Array_2
@@ -1231,7 +1246,7 @@
         PUSH, __3_value__param
         COPY
 # Calling QvPen.UdonScript.QvPen_PenManager.syncedData.set
-        JUMP, 0x000013D0
+        JUMP, 0x00001400
         PUSH, __const_SystemBoolean_1
         PUSH, isInUseSyncBuffer
         COPY
