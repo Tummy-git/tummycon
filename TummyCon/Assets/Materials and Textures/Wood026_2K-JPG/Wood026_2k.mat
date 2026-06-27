@@ -16,6 +16,7 @@ Material:
   - _BAKERY_MONOSH
   - _MASKMAP
   - _NORMALMAP
+  - _VRC_LIGHTVOLUMES
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -160,7 +161,7 @@ Material:
     - _Toggle_WIND: 0
     - _TransClipping: 0
     - _UVSec: 0
-    - _VRC_LightVolumes: 0
+    - _VRC_LightVolumes: 1
     - _WindHelpbox: 0
     - _WindScale: 0.02
     - _WindSpeed: 0.05

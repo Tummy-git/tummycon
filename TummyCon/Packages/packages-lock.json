@@ -318,6 +318,12 @@
         "com.unity.editorcoroutines": "1.0.0"
       }
     },
+    "red.sim.particlevolumes": {
+      "version": "file:red.sim.particlevolumes",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

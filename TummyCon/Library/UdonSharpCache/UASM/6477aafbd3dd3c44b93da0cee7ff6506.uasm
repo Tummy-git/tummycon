@@ -26,6 +26,7 @@
     __this_VRCUdonUdonBehaviour_0: %VRCUdonUdonBehaviour, this
     onAsyncGpuReadbackCompleteRequest: %VRCSDK3RenderingVRCAsyncGPUReadbackRequest, null
     __gintnl_SystemUInt32_0: %SystemUInt32, null
+    __0_color__param: %UnityEngineColor, null
     __gintnl_SystemUInt32_1: %SystemUInt32, null
     __0___0_ColorDifference__ret: %SystemSingle, null
     __0_colorA__param: %UnityEngineColor, null
@@ -47,10 +48,10 @@
     __intnl_VRCUdonCommonInterfacesIUdonEventReceiver_0: %VRCUdonCommonInterfacesIUdonEventReceiver, null
     __intnl_VRCSDK3RenderingVRCAsyncGPUReadbackRequest_0: %VRCSDK3RenderingVRCAsyncGPUReadbackRequest, null
     __intnl_SystemBoolean_1: %SystemBoolean, null
+    __intnl_UnityEngineColor32_0: %UnityEngineColor32, null
+    __intnl_UnityEngineColor_0: %UnityEngineColor, null
     __lcl_dTime_SystemSingle_0: %SystemSingle, null
     __intnl_SystemSingle_0: %SystemSingle, null
-    __lcl_color_UnityEngineColor_0: %UnityEngineColor, null
-    __intnl_UnityEngineColor32_0: %UnityEngineColor32, null
     __lcl_diff_SystemSingle_0: %SystemSingle, null
     __lcl_smoothing_SystemSingle_0: %SystemSingle, null
     __intnl_SystemSingle_1: %SystemSingle, null
@@ -162,16 +163,26 @@
         PUSH, __intnl_SystemBoolean_1
         EXTERN, "VRCSDK3RenderingVRCAsyncGPUReadbackRequest.__TryGetData__UnityEngineColor32Array_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_1
-        JUMP_IF_FALSE, 0x000001e4
+        JUMP_IF_FALSE, 0x00000230
         PUSH, __gintnl_SystemUInt32_0
-# Calling VRCLightVolumes.LightVolumeTVGI.SetColor()
-        JUMP, 0x00000200
+        PUSH, _pixels
+        PUSH, __const_SystemInt32_2
+        PUSH, __intnl_UnityEngineColor32_0
+        EXTERN, "UnityEngineColor32Array.__Get__SystemInt32__UnityEngineColor32"
+        PUSH, __intnl_UnityEngineColor32_0
+        PUSH, __intnl_UnityEngineColor_0
+        EXTERN, "UnityEngineColor32.__op_Implicit__UnityEngineColor32__UnityEngineColor"
+        PUSH, __intnl_UnityEngineColor_0
+        PUSH, __0_color__param
+        COPY
+# Calling VRCLightVolumes.LightVolumeTVGI.SetColor(UnityEngine.Color)
+        JUMP, 0x0000024C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0
         PUSH, __const_SystemUInt32_0
 # 
-# VRCLightVolumes.LightVolumeTVGI.SetColor()
+# VRCLightVolumes.LightVolumeTVGI.SetColor(UnityEngine.Color)
 # 
         PUSH, __intnl_SystemSingle_0
         EXTERN, "UnityEngineTime.__get_time__SystemSingle"
@@ -181,24 +192,17 @@
         EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
         PUSH, _timePrev
         EXTERN, "UnityEngineTime.__get_time__SystemSingle"
-        PUSH, _pixels
-        PUSH, __const_SystemInt32_2
-        PUSH, __intnl_UnityEngineColor32_0
-        EXTERN, "UnityEngineColor32Array.__Get__SystemInt32__UnityEngineColor32"
-        PUSH, __intnl_UnityEngineColor32_0
-        PUSH, __lcl_color_UnityEngineColor_0
-        EXTERN, "UnityEngineColor32.__op_Implicit__UnityEngineColor32__UnityEngineColor"
         PUSH, AntiFlickering
-        JUMP_IF_FALSE, 0x0000038c
+        JUMP_IF_FALSE, 0x000003a0
         PUSH, __gintnl_SystemUInt32_1
-        PUSH, __lcl_color_UnityEngineColor_0
+        PUSH, __0_color__param
         PUSH, __0_colorA__param
         COPY
         PUSH, _prevColor
         PUSH, __0_colorB__param
         COPY
 # Calling VRCLightVolumes.LightVolumeTVGI.ColorDifference(UnityEngine.Color, UnityEngine.Color)
-        JUMP, 0x00000584
+        JUMP, 0x00000598
         PUSH, __0___0_ColorDifference__ret
         PUSH, __lcl_diff_SystemSingle_0
         COPY
@@ -220,12 +224,12 @@
         PUSH, __lcl_smoothing_SystemSingle_0
         EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
         PUSH, _prevColor
-        PUSH, __lcl_color_UnityEngineColor_0
+        PUSH, __0_color__param
         PUSH, __lcl_smoothing_SystemSingle_0
         PUSH, _prevColor
         EXTERN, "UnityEngineColor.__Lerp__UnityEngineColor_UnityEngineColor_SystemSingle__UnityEngineColor"
-        JUMP, 0x000003A0
-        PUSH, __lcl_color_UnityEngineColor_0
+        JUMP, 0x000003B4
+        PUSH, __0_color__param
         PUSH, _prevColor
         COPY
         PUSH, __const_SystemInt32_2
@@ -239,7 +243,7 @@
         PUSH, __intnl_SystemBoolean_2
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_2
-        JUMP_IF_FALSE, 0x00000464
+        JUMP_IF_FALSE, 0x00000478
         PUSH, TargetLightVolumes
         PUSH, __lcl_i_SystemInt32_0
         PUSH, __intnl_VRCUdonUdonBehaviour_0
@@ -252,7 +256,7 @@
         PUSH, __const_SystemInt32_3
         PUSH, __lcl_i_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x000003B4
+        JUMP, 0x000003C8
         PUSH, __const_SystemInt32_2
         PUSH, __lcl_i_SystemInt32_0
         COPY
@@ -264,7 +268,7 @@
         PUSH, __intnl_SystemBoolean_2
         EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
         PUSH, __intnl_SystemBoolean_2
-        JUMP_IF_FALSE, 0x00000568
+        JUMP_IF_FALSE, 0x0000057c
         PUSH, TargetPointLightVolumes
         PUSH, __lcl_i_SystemInt32_0
         PUSH, __intnl_VRCUdonUdonBehaviour_0
@@ -285,7 +289,7 @@
         PUSH, __const_SystemInt32_3
         PUSH, __lcl_i_SystemInt32_0
         EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
-        JUMP, 0x00000478
+        JUMP, 0x0000048C
         PUSH, __intnl_returnJump_SystemUInt32_0
         COPY
         JUMP_INDIRECT, __intnl_returnJump_SystemUInt32_0

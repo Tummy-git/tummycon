@@ -35,6 +35,9 @@
     },
     "net.ureishi.qvpen": {
       "version": "3.3.9"
+    },
+    "red.sim.particlevolumes": {
+      "version": "1.0.4"
     }
   },
   "locked": {
@@ -107,7 +110,7 @@
       "dependencies": {}
     },
     "red.sim.lightvolumes": {
-      "version": "2.1.3",
+      "version": "3.0.0-dev.1",
       "dependencies": {}
     },
     "net.ureishi.qvpen": {
@@ -115,6 +118,10 @@
       "dependencies": {
         "com.vrchat.worlds": "^3.5.0"
       }
+    },
+    "red.sim.particlevolumes": {
+      "version": "1.0.4",
+      "dependencies": {}
     }
   }
 }
