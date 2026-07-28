@@ -13,6 +13,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _NORMALMAP
   - _VRC_LIGHTVOLUMES
   m_InvalidKeywords: []
@@ -23,6 +24,7 @@ Material:
   stringTagMap:
     RenderType: Opaque
     folder_Advanced Options: 1
+    folder_Emission: 1
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -174,7 +176,7 @@ Material:
     - _EmissionGIMultiplier: 1
     - _EmissionMapUV: 0
     - _EmissionMultBase: 0
-    - _EmissionMultiplyBase: 0
+    - _EmissionMultiplyBase: 1
     - _EnableEmission: 0
     - _ForceBoxProjection: 0
     - _GSAA: 0
@@ -219,7 +221,7 @@ Material:
     - _Toggle_ANISOTROPY: 0
     - _Toggle_AUDIOLINK_EMISSION: 0
     - _Toggle_COAT: 0
-    - _Toggle_EMISSION: 0
+    - _Toggle_EMISSION: 1
     - _Toggle_GSAA: 0
     - _Toggle_PIXELUV: 0
     - _Toggle_THINFILM: 0
@@ -239,7 +241,7 @@ Material:
     - _CoatColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DetailUVScoll: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 1}
     - _GlossinessRemapping: {r: 0, g: 1, b: 0, a: 1}
     - _MainUVScoll: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
