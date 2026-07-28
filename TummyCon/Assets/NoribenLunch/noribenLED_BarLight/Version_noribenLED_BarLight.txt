@@ -1,0 +1,18 @@
+LEDバーライトシステム / LED BarLight System
+https://noriben.booth.pm/items/5465615
+
+
+2024/02/04 V001 初期
+2024/02/09 V002 設定警告用のテクスチャを削除
+2024/08/13 V003 AudioLinkを使用したときに動画プレイヤーのカラーを使用せずに指定した色で光らせられるPrefabを追加
+2024/08/24 V004 AudioLinkを使用したときにColorプロパティがバーライトの色に反映されるように修正
+2026/07/19 v5.0.0
+- 設定インスペクタを追加
+- iwaSync、ProTV 3.0、VizVid、YamaPlayerの動画プレイヤー自動検出・設定に対応
+- Camera Depth Textureを使用したライトシャフトのソフトな遮蔽を追加
+- AudioLink On、Intensity、Band Typeを設定インスペクタから変更できるように対応
+
+
+noriben
+https://x.com/noriben327
+https://noriben.booth.pm/

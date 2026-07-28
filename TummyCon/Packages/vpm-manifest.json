@@ -86,7 +86,7 @@
       }
     },
     "one.razgriz.rats": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "dependencies": {
         "com.vrchat.base": "^3.4.0"
       }
@@ -106,11 +106,11 @@
       "dependencies": {}
     },
     "com.z3y.graphlit": {
-      "version": "2.7.2",
+      "version": "2.7.3",
       "dependencies": {}
     },
     "red.sim.lightvolumes": {
-      "version": "3.0.0-dev.1",
+      "version": "3.0.0-dev.11",
       "dependencies": {}
     },
     "net.ureishi.qvpen": {
