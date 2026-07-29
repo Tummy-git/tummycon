@@ -298,6 +298,12 @@
         "com.unity.postprocessing": "3.1.1"
       }
     },
+    "name.tummy.tcboothsdk": {
+      "version": "file:name.tummy.tcboothsdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "net.ureishi.qvpen": {
       "version": "file:net.ureishi.qvpen",
       "depth": 0,

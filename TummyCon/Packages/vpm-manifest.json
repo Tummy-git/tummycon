@@ -38,6 +38,9 @@
     },
     "red.sim.particlevolumes": {
       "version": "1.0.4"
+    },
+    "name.tummy.tcboothsdk": {
+      "version": "0.0.4"
     }
   },
   "locked": {
@@ -122,6 +125,12 @@
     "red.sim.particlevolumes": {
       "version": "1.0.4",
       "dependencies": {}
+    },
+    "name.tummy.tcboothsdk": {
+      "version": "0.0.4",
+      "dependencies": {
+        "com.vrchat.worlds": "3.10.4"
+      }
     }
   }
 }
