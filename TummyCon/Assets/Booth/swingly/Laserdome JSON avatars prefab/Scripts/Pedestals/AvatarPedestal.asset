@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: AvatarPedestal
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 9598cbde52bb25e4a83af02361ebb68a, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: c07c44980cf77c64b917dc0e19cd51b7,
+    type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 02231641a9915094094cc6591a91a670, type: 3}
