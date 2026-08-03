@@ -5,6 +5,9 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
+    },
+    "name.tummy.tcboothsdk": {
+      "version": "0.0.10"
     }
   },
   "locked": {
@@ -21,6 +24,12 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
+    },
+    "name.tummy.tcboothsdk": {
+      "version": "0.0.10",
+      "dependencies": {
+        "com.vrchat.worlds": "3.10.4"
+      }
     }
   }
 }

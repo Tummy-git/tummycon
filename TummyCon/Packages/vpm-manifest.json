@@ -41,6 +41,9 @@
     },
     "name.tummy.tcboothsdk": {
       "version": "0.0.4"
+    },
+    "sh.orels.shaders": {
+      "version": "7.3.1"
     }
   },
   "locked": {
@@ -127,10 +130,25 @@
       "dependencies": {}
     },
     "name.tummy.tcboothsdk": {
-      "version": "0.0.4",
+      "version": "0.0.9",
       "dependencies": {
         "com.vrchat.worlds": "3.10.4"
       }
+    },
+    "sh.orels.shaders": {
+      "version": "7.3.1",
+      "dependencies": {
+        "sh.orels.shaders.generator": "^7.3.1",
+        "sh.orels.shaders.inspector": "^7.3.1"
+      }
+    },
+    "sh.orels.shaders.generator": {
+      "version": "7.4.0-dev.1",
+      "dependencies": {}
+    },
+    "sh.orels.shaders.inspector": {
+      "version": "7.4.0-dev.1",
+      "dependencies": {}
     }
   }
 }

@@ -2,21 +2,30 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _MODE_TRANSPARENT
+  m_Shader: {fileID: 4334904775004639687, guid: 2918c08764a2abb41887082aebb996a1,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BAKERY_MONOSH
+  - _SURFACE_TYPE_TRANSPARENT
+  - _VRC_LIGHTVOLUMES
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
+    folder_Advanced Options: 1
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -28,8 +37,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CoatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DFG:
-        m_Texture: {fileID: 2800000, guid: cbf702fb4e469384aa70ef8f9e6230c7, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6ae58f8777e2124b9766f14e9fe3ddc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -65,6 +78,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -104,22 +121,52 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThinFilmMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoise:
+        m_Texture: {fileID: 2800000, guid: 1f64a42e7dab12c45a5e26b39168b016, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Bakery: 0
     - _AlbedoSaturation: 1
+    - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Anisotropy: 0
+    - _AudioLinkEmissionBand: 0
+    - _AudioLinkEmissionIntensity: 0.5
     - _BakedSpecular: 0
+    - _BicubicLightmap: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
+    - _CoatAnisotropy: 0
+    - _CoatDarkening: 1
+    - _CoatIOR: 1.6
+    - _CoatRoughness: 0
+    - _CoatWeight: 1
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Decalery: 0
+    - _DetailAlbedoBlendMode: 0
     - _DetailAlbedoScale: 1
     - _DetailMapUV: 0
+    - _DetailMaskInfo: 0
     - _DetailMaskMapChannel: 0
     - _DetailNormalMapScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 0
     - _DstBlend: 10
+    - _EmissionGIMultiplier: 1
     - _EmissionMultBase: 0
+    - _EmissionMultiplyBase: 0
     - _EnableEmission: 0
     - _EnableParallax: 0
     - _GSAA: 0
@@ -127,15 +174,20 @@ Material:
     - _Glossiness: 0.982
     - _GlossinessMin: 0
     - _GlossyReflections: 1
+    - _GraphlitMaterial: 1
     - _IsPackingMetallicGlossMap: 0
     - _KeywordOffBakery: 1
     - _KeywordOffOpaque: 1
     - _KeywordOffTexture: 1
     - _LTCGI: 0
+    - _LightmappedSpecular: 0
     - _Metallic: 0
     - _MetallicMapChannel: 0
     - _MetallicMin: 0
+    - _MetallicScale: 1
+    - _Mirror: 0
     - _Mode: 3
+    - _MonoSH: 1
     - _NonLinearLightProbeSH: 0
     - _Occlusion: 0
     - _OcclusionMapChannel: 0
@@ -143,18 +195,47 @@ Material:
     - _Parallax: 0.02
     - _ParallaxOffset: 0
     - _ParallaxSteps: 25
+    - _QueueOffset: 0
     - _Reflectance: 0.5
+    - _Roughness: 0.5
+    - _RoughnessScale: 1
     - _SmoothnessMapChannel: 0
     - _SmoothnessMapInvert: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularOcclusion: 0
+    - _SpecularOcclusionExp: 1
     - _SrcBlend: 1
+    - _Surface: 1
     - _Texture: 0
+    - _ThinFilmIOR: 1.4
+    - _ThinFilmThickness: 0.5
+    - _ThinFilmWeight: 1
+    - _Toggle_ANISOTROPY: 0
+    - _Toggle_AUDIOLINK_EMISSION: 0
+    - _Toggle_COAT: 0
+    - _Toggle_EMISSION: 0
+    - _Toggle_GSAA: 0
+    - _Toggle_PIXELUV: 0
+    - _Toggle_THINFILM: 0
+    - _Toggle_WIND: 0
+    - _TransClipping: 0
     - _UVSec: 0
+    - _VRC_LightVolumes: 1
+    - _WindHelpbox: 0
+    - _WindScale: 0.02
+    - _WindSpeed: 0.05
+    - _ZTest: 4
     - _ZWrite: 0
+    - __reset: 0
     - _specularAntiAliasingThreshold: 0.1
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
+    - _CoatColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 0, b: 0, a: 0.1764706}
+    - _DetailUVScoll: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainUVScoll: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WindIntensity: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+  m_BuildTextureStacks: []

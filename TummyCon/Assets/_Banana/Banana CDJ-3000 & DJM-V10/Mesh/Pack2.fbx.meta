@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["AudioLink","DJM-V10","Cables"],"padding":[38,6,51],"unwrapper":[0,0,0]}'
+    - '#BAKERY{"meshName":["DJM-V10","Cables"],"padding":[119,256],"unwrapper":[0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
