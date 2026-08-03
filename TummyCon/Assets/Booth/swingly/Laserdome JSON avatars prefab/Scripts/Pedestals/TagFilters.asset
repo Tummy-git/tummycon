@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: TagFilters
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 591a497bdd458044fbaf55d0e9a3f311,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 81c1f72c0c54b184a98f365c704b4ac8, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 1f93ac0ec279bd240ba2ad23751e0c69, type: 3}

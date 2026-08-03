@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: JsonAvatarLoader
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 6cb0203b66b58d843b8cceca83f4e604,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: e5c5af98d9aa7644ca0253e0fc705894, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: a7932ca7372f89b4b97f082b6f11518d, type: 3}
