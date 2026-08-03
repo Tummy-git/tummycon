@@ -1,9 +1,6 @@
 ﻿
 using UdonSharp;
 using UnityEngine;
-using UnityShaderParser.HLSL;
-using VRC.SDKBase;
-using VRC.Udon;
 
 public class StageToggle : UdonSharpBehaviour
 {
