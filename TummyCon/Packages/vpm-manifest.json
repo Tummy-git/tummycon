@@ -44,6 +44,9 @@
     },
     "sh.orels.shaders": {
       "version": "7.3.1"
+    },
+    "com.mikeee324.openputt": {
+      "version": "0.9.1"
     }
   },
   "locked": {
@@ -116,11 +119,11 @@
       "dependencies": {}
     },
     "red.sim.lightvolumes": {
-      "version": "3.0.0-dev.13",
+      "version": "3.0.0-dev.14",
       "dependencies": {}
     },
     "net.ureishi.qvpen": {
-      "version": "3.3.14",
+      "version": "3.3.15",
       "dependencies": {
         "com.vrchat.worlds": "^3.5.0"
       }
@@ -130,7 +133,7 @@
       "dependencies": {}
     },
     "name.tummy.tcboothsdk": {
-      "version": "0.0.9",
+      "version": "0.0.13",
       "dependencies": {
         "com.vrchat.worlds": "3.10.4"
       }
@@ -149,6 +152,19 @@
     "sh.orels.shaders.inspector": {
       "version": "7.4.0-dev.1",
       "dependencies": {}
+    },
+    "com.varneon.vudon.array-extensions": {
+      "version": "0.3.1",
+      "dependencies": {
+        "com.vrchat.worlds": ">=3.4.0 <4.0.0"
+      }
+    },
+    "com.mikeee324.openputt": {
+      "version": "0.9.1",
+      "dependencies": {
+        "com.varneon.vudon.array-extensions": "^0.3.1",
+        "com.vrchat.worlds": "^3.7.4"
+      }
     }
   }
 }

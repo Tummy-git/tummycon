@@ -6,6 +6,16 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.mikeee324.openputt": {
+      "version": "file:com.mikeee324.openputt",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.vrchat.worlds": "3.7.4",
+        "com.unity.textmeshpro": "3.0.9",
+        "com.varneon.vudon.array-extensions": "0.3.1"
+      }
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 1,
@@ -146,7 +156,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.9",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -208,6 +218,12 @@
     },
     "com.varneon.asset-move-prompt": {
       "version": "file:com.varneon.asset-move-prompt",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.varneon.vudon.array-extensions": {
+      "version": "file:com.varneon.vudon.array-extensions",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
