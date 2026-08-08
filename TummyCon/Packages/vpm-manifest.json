@@ -160,10 +160,10 @@
       }
     },
     "com.mikeee324.openputt": {
-      "version": "0.9.1",
+      "version": "1.0.0-beta.2",
       "dependencies": {
         "com.varneon.vudon.array-extensions": "^0.3.1",
-        "com.vrchat.worlds": "^3.7.4"
+        "com.vrchat.worlds": "^3.10.4"
       }
     }
   }

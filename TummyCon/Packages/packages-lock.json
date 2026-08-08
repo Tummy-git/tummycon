@@ -11,7 +11,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.vrchat.worlds": "3.7.4",
+        "com.vrchat.worlds": "3.10.4",
         "com.unity.textmeshpro": "3.0.9",
         "com.varneon.vudon.array-extensions": "0.3.1"
       }
