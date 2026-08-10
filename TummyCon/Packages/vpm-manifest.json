@@ -47,6 +47,9 @@
     },
     "com.mikeee324.openputt": {
       "version": "0.9.1"
+    },
+    "com.livedimensions.vrrefassist": {
+      "version": "1.0.0"
     }
   },
   "locked": {
@@ -165,6 +168,10 @@
         "com.varneon.vudon.array-extensions": "^0.3.1",
         "com.vrchat.worlds": "^3.10.4"
       }
+    },
+    "com.livedimensions.vrrefassist": {
+      "version": "1.0.0",
+      "dependencies": {}
     }
   }
 }

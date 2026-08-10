@@ -5,13 +5,19 @@ using UnityEngine;
 public class StageToggle : UdonSharpBehaviour
 {
     public GameObject[] _stageParts;
-    [HideInInspector] public int dialCurrentPosition;
+    [HideInInspector, UdonSynced] public int dialCurrentPosition;
     [HideInInspector] public float dialCurrentAngle;
     
     public void OnDialChanged()
     {
         Debug.Log($"[Dial Target] Position: {dialCurrentPosition} | Angle: {dialCurrentAngle}");
 
+        RequestSerialization();
+        OnDeserialization();
+    }
+
+    public override void OnDeserialization()
+    {
         switch (dialCurrentPosition)
         {
             case 0:
@@ -22,7 +28,4 @@ public class StageToggle : UdonSharpBehaviour
                 break;
         }
     }
-    
-    
-    
 }
