@@ -1,6 +1,7 @@
 ﻿
 using UdonSharp;
 using UnityEngine;
+using VRC.SDKBase;
 
 public class StageToggle : UdonSharpBehaviour
 {
@@ -11,7 +12,7 @@ public class StageToggle : UdonSharpBehaviour
     public void OnDialChanged()
     {
         Debug.Log($"[Dial Target] Position: {dialCurrentPosition} | Angle: {dialCurrentAngle}");
-
+        Networking.GetOwner(this.gameObject);
         RequestSerialization();
         OnDeserialization();
     }
