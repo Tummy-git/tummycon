@@ -34,7 +34,7 @@ ModelImporter:
     - '#BAKERY{"meshName":["Plane.001","Cylinder.008","Cylinder.007","boothroom wall
       against hub","boothroom main wall","hook","talja","vajer","travers2","travers.001","travers","Ceiling
       Tracks","boothroom main wall.001","BigDoor combined.001","boothroom main wall
-      endcap","PathLightBoothArea.001","PathLightBoothArea"],"padding":[20,23,70,4,1,256,245,160,114,114,114,42,1,11,3,180,38],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      endcap","PathLightBoothArea.001","PathLightBoothArea"],"padding":[13,15,46,3,1,256,163,106,76,76,76,28,1,7,2,120,25],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

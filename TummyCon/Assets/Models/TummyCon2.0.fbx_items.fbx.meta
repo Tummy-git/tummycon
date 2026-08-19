@@ -32,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties:
     - '#BAKERY{"meshName":["Torus.001","Plane.004","Plane.003","Plane.002","Plane","Cylinder.018","Cylinder.017","Cylinder.016","Cylinder.015","Cylinder.014","Cylinder.013","Cylinder.012","Cylinder.011","Cylinder.010","Cylinder.009","Cube.003","Cube.002","Cube.004","DeskLamp.001","DeskLamp.002","DeskLamp","Stege","halogen
-      lamp.003","halogen lamp.001"],"padding":[256,256,256,256,36,17,17,128,128,128,128,128,119,44,34,31,27,136,243,243,243,84,101,71],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      lamp.003","halogen lamp.001"],"padding":[256,256,256,256,36,11,11,85,85,85,85,85,79,29,23,20,18,91,162,162,162,84,67,47],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

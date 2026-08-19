@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Walkway","The Bananacuibe","SteamMachineRoom","SteamMachine","Pilars2","Pilars1","Lights"],"padding":[3,14,3,5,6,6,7],"unwrapper":[0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Walkway","The Bananacuibe","SteamMachineRoom","SteamMachine","Pilars2","Pilars1","Lights"],"padding":[2,14,2,3,4,4,4],"unwrapper":[0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

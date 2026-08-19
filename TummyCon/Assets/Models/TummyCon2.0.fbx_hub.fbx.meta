@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties:
     - '#BAKERY{"meshName":["round room.002","round room","lightarmature1.001","lightarmature1","hub
       portals","hub lights","hub banners","hook.001","talja.001","vajer.001","BigDoor
-      combined.002","halogen lamp toptube","halogen lamp toptube.001"],"padding":[9,1,28,10,5,38,18,113,30,17,5,49,34],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      combined.002","halogen lamp toptube","halogen lamp toptube.001"],"padding":[6,1,18,7,3,25,12,113,30,17,3,32,23],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using pi.coas;
 using UdonSharp;
 using UnityEngine;
@@ -20,24 +19,43 @@ public class TheScriptToShushTheCarsOnAStick : UdonSharpBehaviour
 
     private void OnEnable()
     {
-        if (carController != null && theTrigger.bounds.Contains(Networking.LocalPlayer.GetPosition()))
+        if (carController == null || theTrigger == null) return;
+
+        VRCPlayerApi localPlayer = Networking.LocalPlayer;
+        
+        if (!Utilities.IsValid(localPlayer)) return;
+
+        if (theTrigger.bounds.Contains(localPlayer.GetPosition()))
+        {
             carController.GlobalVolume = newVolume;
+        }
     }
 
     private void OnDisable()
     {
-        if (carController) carController.GlobalVolume = newVolume;
+        if (carController != null) 
+        {
+            carController.GlobalVolume = 1f;
+        }
     }
 
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {
-        if (!player.isLocal) return;
-        if (carController) carController.GlobalVolume = newVolume;
+        if (!Utilities.IsValid(player) || !player.isLocal) return;
+        
+        if (carController != null) 
+        {
+            carController.GlobalVolume = newVolume;
+        }
     }
 
     public override void OnPlayerTriggerExit(VRCPlayerApi player)
     {
-        if (!player.isLocal) return; 
-        if (carController) carController.GlobalVolume = 1f;
+        if (!Utilities.IsValid(player) || !player.isLocal) return; 
+        
+        if (carController != null) 
+        {
+            carController.GlobalVolume = 1f;
+        }
     }
 }
