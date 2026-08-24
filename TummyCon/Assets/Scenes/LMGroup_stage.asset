@@ -17,7 +17,7 @@ MonoBehaviour:
   id: 0
   sortingID: 2
   isImplicit: 0
-  area: 1456.1125
+  area: 1456.1124
   totalVertexCount: 0
   vertexCounter: 0
   sceneLodLevel: -1
@@ -43,5 +43,6 @@ MonoBehaviour:
   parentName: 
   overridePath: 
   fixPos3D: 0
+  disableFixPos: 0
   voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 5
+  passedFilter: 1

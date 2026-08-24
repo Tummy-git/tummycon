@@ -2,61 +2,29 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Screen
   m_Shader: {fileID: 4800000, guid: 90043144ccebdd04286c0ba5e7b3ae31, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 5000
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Move:
         m_Texture: {fileID: 2800000, guid: d44f88ba882ecde42a42436676524fd4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Screen:
@@ -71,71 +39,21 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BaseBandColorEmission: 1
-    - _BaseBandColorEmission1: 1
     - _BaseEmission: 5
     - _BaseTextureEmission: 5
-    - _BumpScale: 1
-    - _Cutoff: 0.5
     - _Delay: 127
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Else: 1
-    - _Emission: 1
-    - _Float1: 2
-    - _Float18: 1
-    - _Float19: 1
-    - _Float20: 1
-    - _Float21: 1
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
     - _HighBandColorEmission: 1
-    - _HighBandColorEmission1: 1
     - _LowBandColorEmission: 1
-    - _LowBandColorEmission1: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _ScreenPixelEmission: 1
+    - _ScreenPixelEmission: 2
     - _Smoothing: 0.002
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _StepValie: 0.01
-    - _TessEdgeLength: 16
-    - _TessMax: 25
-    - _TessMaxDisp: 25
-    - _TessMin: 10
-    - _TessPhongStrength: 0.5
-    - _TessValue: 16
-    - _TransAmbient: 0.1
-    - _TransDirect: 0.9
-    - _TransNormal: 0.5
-    - _TransScattering: 2
-    - _TransShadow: 0.5
-    - _TransStrength: 1
-    - _TransmissionShadow: 0.5
     - _TrebelBandColorEmission: 1
-    - _TrebelBandColorEmission1: 1
-    - _UVSec: 0
-    - _ZWrite: 1
     m_Colors:
     - _BaseBandColor: {r: 0.33174568, g: 0.43677506, b: 0.99056596, a: 0}
-    - _BaseBandColor1: {r: 0.3317461, g: 0.4367754, b: 0.990566, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.7058823, g: 0.4117644, b: 0.03529412, a: 0}
-    - _Color1: {r: 1, g: 0.07371502, b: 0, a: 0}
-    - _Color2: {r: 0.33174604, g: 0.43677533, b: 0.99056596, a: 0}
-    - _Color3: {r: 0.09793136, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighBandColor: {r: 0.09793111, g: 1, b: 0, a: 0}
-    - _HighBandColor1: {r: 0.09793144, g: 1, b: 0, a: 0}
     - _LowBandColor: {r: 1, g: 0.0737148, b: 0, a: 0}
-    - _LowBandColor1: {r: 1, g: 0.07371499, b: 0, a: 0}
     - _Resolutioin: {r: 720, g: 1280, b: 0, a: 0}
     - _TrebelBandColor: {r: 0.7058823, g: 0.41176412, b: 0.03529412, a: 0}
-    - _TrebelBandColor1: {r: 0.7058823, g: 0.4117645, b: 0.03529412, a: 0}
-    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
