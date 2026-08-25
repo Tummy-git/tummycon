@@ -20,10 +20,16 @@ public class WallAdminPanel : UdonSharpBehaviour
     {
         if (player.isLocal)
         {
-            buttonPanelObject.SetActive(accessControl._HasAccess(player));
+            buttonPanelObject.SetActive(accessControl._HasAccess(Networking.LocalPlayer));
+            SendCustomEventDelayedSeconds(nameof(PermisisonCheck), 60);
         }
     }
 
+    public void PermisisonCheck()
+    {
+            buttonPanelObject.SetActive(accessControl._HasAccess(Networking.LocalPlayer));
+    }
+    
     public void OnButton()
     {
         partsEnabled = true;
