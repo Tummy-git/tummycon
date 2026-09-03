@@ -11,6 +11,8 @@ public class WallAdminPanel : UdonSharpBehaviour
     public GameObject[] stageParts;
     [UdonSynced] public bool partsEnabled;
     public GameObject buttonPanelObject;
+    public bool AllowEveryoneLOL = false;
+
     // void Start()
     // {
     //     this.enabled = accessControl._LocalWhitelisted();   
@@ -18,6 +20,7 @@ public class WallAdminPanel : UdonSharpBehaviour
 
     public override void OnPlayerJoined(VRCPlayerApi player)
     {
+        if (AllowEveryoneLOL) return;
         if (player.isLocal)
         {
             buttonPanelObject.SetActive(accessControl._HasAccess(Networking.LocalPlayer));
@@ -34,6 +37,7 @@ public class WallAdminPanel : UdonSharpBehaviour
     {
         partsEnabled = true;
         ObjectToggleFunction();
+        if (AllowEveryoneLOL) return;
         RequestSerialization();
     }
 
@@ -41,11 +45,13 @@ public class WallAdminPanel : UdonSharpBehaviour
     {
         partsEnabled = false;
         ObjectToggleFunction();
+        if (AllowEveryoneLOL) return;
         RequestSerialization();
     }
     
     public override void OnDeserialization()
     {
+        if (AllowEveryoneLOL) return;
         ObjectToggleFunction();
     }
     
