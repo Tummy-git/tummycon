@@ -9,14 +9,14 @@ public class WallAdminPanel : UdonSharpBehaviour
 { 
     public AccessControl accessControl;
     public GameObject[] stageParts;
-    [UdonSynced] public bool partsEnabled;
+    [UdonSynced] public bool partsEnabled = false;
     public GameObject buttonPanelObject;
     public bool AllowEveryoneLOL = false;
 
-    // void Start()
-    // {
-    //     this.enabled = accessControl._LocalWhitelisted();   
-    // }
+    void Start()
+    {
+        ObjectToggleFunction();
+    }
 
     public override void OnPlayerJoined(VRCPlayerApi player)
     {
