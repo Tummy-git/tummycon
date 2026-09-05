@@ -1,5 +1,4 @@
-﻿
-using Texel;
+﻿using Texel;
 using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
@@ -11,57 +10,72 @@ public class WallAdminPanel : UdonSharpBehaviour
     public GameObject[] stageParts;
     [UdonSynced] public bool partsEnabled = false;
     public GameObject buttonPanelObject;
-    public bool AllowEveryoneLOL = false;
+    [SerializeField] private bool AllowEveryoneLOL = false;
 
     void Start()
     {
+        PermissionCheck();
         ObjectToggleFunction();
+        
+        SendCustomEventDelayedSeconds(nameof(PermissionCheck), 60);
     }
 
-    public override void OnPlayerJoined(VRCPlayerApi player)
+    public void PermissionCheck()
     {
-        if (AllowEveryoneLOL) return;
-        if (player.isLocal)
+        if (AllowEveryoneLOL)
+        {
+            buttonPanelObject.SetActive(true);
+        }
+        else
         {
             buttonPanelObject.SetActive(accessControl._HasAccess(Networking.LocalPlayer));
-            SendCustomEventDelayedSeconds(nameof(PermisisonCheck), 60);
         }
-    }
-
-    public void PermisisonCheck()
-    {
-            buttonPanelObject.SetActive(accessControl._HasAccess(Networking.LocalPlayer));
     }
     
     public void OnButton()
     {
+        // 1. Take ownership FIRST
+        if(!Networking.LocalPlayer.IsOwner(gameObject)) 
+        {
+            Networking.SetOwner(Networking.LocalPlayer, gameObject);
+        }
+        
+        // 2. Modify synced variables SECOND
         partsEnabled = true;
+        
+        // 3. Apply visuals and sync THIRD
         ObjectToggleFunction();
-        if (AllowEveryoneLOL) return;
-        RequestSerialization();
+        RequestSerialization(); 
     }
 
     public void OffButton()
     {
+        // 1. Take ownership FIRST
+        if(!Networking.LocalPlayer.IsOwner(gameObject)) 
+        {
+            Networking.SetOwner(Networking.LocalPlayer, gameObject);
+        }
+        
+        // 2. Modify synced variables SECOND
         partsEnabled = false;
+        
+        // 3. Apply visuals and sync THIRD
         ObjectToggleFunction();
-        if (AllowEveryoneLOL) return;
-        RequestSerialization();
+        RequestSerialization(); 
     }
     
     public override void OnDeserialization()
     {
-        if (AllowEveryoneLOL) return;
         ObjectToggleFunction();
     }
     
     public void ObjectToggleFunction()
     {
-        if(Networking.LocalPlayer.IsOwner(gameObject)) Networking.SetOwner(Networking.LocalPlayer, gameObject);
+        // This function now exclusively handles the physical objects. 
+        // No ownership checks belong here.
         foreach (GameObject stagePart in stageParts)
         {
             stagePart.SetActive(partsEnabled);
         }
     }
-    
 }

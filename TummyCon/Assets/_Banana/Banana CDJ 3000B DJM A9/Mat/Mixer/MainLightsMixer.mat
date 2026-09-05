@@ -49,7 +49,7 @@ Material:
     - _Red: 10
     - _Times: 1
     - _White: 1
-    - __dirty: 0
+    - __dirty: 1
     - _step: 1
     m_Colors:
     - _Vector0: {r: 1, g: 1, b: 1, a: 1}
