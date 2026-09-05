@@ -57,6 +57,7 @@ public class WallAdminPanel : UdonSharpBehaviour
     
     public void ObjectToggleFunction()
     {
+        if(Networking.LocalPlayer.IsOwner(gameObject)) Networking.SetOwner(Networking.LocalPlayer, gameObject);
         foreach (GameObject stagePart in stageParts)
         {
             stagePart.SetActive(partsEnabled);

@@ -6,6 +6,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "bobystarvrc.opennid": {
+      "version": "file:bobystarvrc.opennid",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.livedimensions.vrrefassist": {
       "version": "file:com.livedimensions.vrrefassist",
       "depth": 0,
